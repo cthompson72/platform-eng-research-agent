@@ -27,10 +27,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run digest
+        # --full-text adds ~1s per article for web fetching; --max-articles 50 caps total
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: python -m src.main --config config.yaml --seen-file data/seen_articles.json
+        run: python -m src.main --full-text --config config.yaml --seen-file data/seen_articles.json
 
       - name: Commit updated seen articles
         run: |
