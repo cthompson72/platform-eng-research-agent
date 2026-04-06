@@ -66,6 +66,7 @@ def main():
     parser.add_argument("--query-category", type=str, default=None, help="Limit search to a category")
     parser.add_argument("--query-top", type=int, default=10, help="Number of search results (default 10)")
     parser.add_argument("--competitive", action="store_true", help="Generate competitive intelligence report")
+    parser.add_argument("--backfill-orgs", action="store_true", help="Extract orgs_mentioned for articles missing it")
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
     parser.add_argument("--full-text", action="store_true", help="Fetch full article text for richer scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
@@ -218,6 +219,23 @@ def main():
             payload = format_competitive_intel(intel, len(by_org))
             if not post_to_slack(webhook_url, payload):
                 logger.error("Slack delivery of competitive intel failed.")
+        return
+
+    # Backfill orgs_mentioned for existing articles
+    if args.backfill_orgs:
+        from .backfill import backfill_orgs
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.error("ANTHROPIC_API_KEY not set. Required for backfill.")
+            sys.exit(1)
+
+        seen = backfill_orgs(seen, api_key, batch_size=batch_size, dry_run=args.dry_run)
+        if not args.dry_run:
+            save_seen(args.seen_file, seen)
+            logger.info("Backfill complete. Seen articles updated.")
+        else:
+            logger.info("Backfill dry-run complete. No changes written.")
         return
 
     # Fetch feeds
