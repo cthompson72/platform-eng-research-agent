@@ -224,6 +224,64 @@ def format_query_results(query_result: dict) -> dict:
     return {"blocks": blocks}
 
 
+def format_competitive_intel(intel: dict, org_count: int) -> dict:
+    blocks = [
+        {
+            "type": "header",
+            "text": {"type": "plain_text", "text": "Competitive Intelligence — Platform Engineering"},
+        },
+        {
+            "type": "context",
+            "elements": [{"type": "mrkdwn", "text": f"_{org_count} organizations tracked_"}],
+        },
+    ]
+
+    # Org profiles
+    landscape = intel.get("landscape", [])
+    if landscape:
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": "*Organization Profiles*"},
+        })
+        for org_info in landscape:
+            tech = ", ".join(org_info.get("key_technologies", []))
+            tech_line = f"\n_Tech: {tech}_" if tech else ""
+            blocks.append({
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": (
+                        f"*{org_info.get('org', '')}*\n"
+                        f"{org_info.get('summary', '')}\n"
+                        f"_For L'Oréal:_ {org_info.get('relevance_to_loreal', '')}{tech_line}"
+                    ),
+                },
+            })
+
+    # Cross-org patterns
+    patterns = intel.get("patterns", [])
+    if patterns:
+        blocks.append({"type": "divider"})
+        bullets = "\n".join(f"• {p}" for p in patterns)
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": f"*Cross-Org Patterns*\n{bullets}"},
+        })
+
+    # Recommendations
+    recs = intel.get("recommendations", [])
+    if recs:
+        blocks.append({"type": "divider"})
+        bullets = "\n".join(f"• {r}" for r in recs)
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": f"*Recommendations for L'Oréal*\n{bullets}"},
+        })
+
+    return {"blocks": blocks}
+
+
 def post_to_slack(webhook_url: str, payload: dict) -> bool:
     try:
         resp = requests.post(

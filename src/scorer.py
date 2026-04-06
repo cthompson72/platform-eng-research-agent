@@ -35,11 +35,14 @@ Response format (JSON array):
     "index": 1,
     "score": 8,
     "summary": "Two sentence summary of why this matters.",
-    "tags": ["ci-cd", "github"]
+    "tags": ["ci-cd", "github"],
+    "orgs_mentioned": ["Spotify", "Netflix"]
   }}
 ]
 
-Valid tags: security-advisory, vendor-update, ci-cd, observability, developer-experience, platform-engineering, ai-augmented-dev, testing, performance, org-design, kubernetes, servicenow, devsecops"""
+Valid tags: security-advisory, vendor-update, ci-cd, observability, developer-experience, platform-engineering, ai-augmented-dev, testing, performance, org-design, kubernetes, servicenow, devsecops, competitive-intel
+
+orgs_mentioned: List company/organization names when the article describes a specific org's platform engineering approach, migration, or case study. Empty list if no specific orgs are discussed."""
 
 
 def _format_articles_for_prompt(articles: list[dict]) -> str:
@@ -83,6 +86,7 @@ def _score_batch(client: anthropic.Anthropic, articles: list[dict]) -> list[dict
                     articles[idx]["score"] = result.get("score", 5)
                     articles[idx]["summary"] = result.get("summary", "")
                     articles[idx]["tags"] = result.get("tags", [])
+                    articles[idx]["orgs_mentioned"] = result.get("orgs_mentioned", [])
             return articles
 
         except (json.JSONDecodeError, ValueError, KeyError) as e:

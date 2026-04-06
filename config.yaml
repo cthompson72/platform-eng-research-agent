@@ -64,3 +64,8 @@ scrape_sources:
     url: "https://gatling.io/blog"
     category: "Performance"
     priority: low
+  - id: cncf_casestudies
+    url: "https://www.cncf.io/case-studies/"
+    category: "Competitive Intelligence"
+    priority: medium
+    max_per_source: 10

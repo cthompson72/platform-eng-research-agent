@@ -35,7 +35,7 @@ def is_new(url: str, seen: dict) -> bool:
 
 
 def mark_seen(url: str, metadata: dict, seen: dict) -> None:
-    seen[url] = {
+    entry = {
         "title": metadata.get("title", ""),
         "first_seen": datetime.now(timezone.utc).isoformat(),
         "category": metadata.get("category", ""),
@@ -43,3 +43,7 @@ def mark_seen(url: str, metadata: dict, seen: dict) -> None:
         "tags": metadata.get("tags", []),
         "summary": metadata.get("summary", ""),
     }
+    orgs = metadata.get("orgs_mentioned", [])
+    if orgs:
+        entry["orgs_mentioned"] = orgs
+    seen[url] = entry

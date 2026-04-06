@@ -65,6 +65,7 @@ def main():
     parser.add_argument("--query-days", type=int, default=None, help="Limit search to last N days")
     parser.add_argument("--query-category", type=str, default=None, help="Limit search to a category")
     parser.add_argument("--query-top", type=int, default=10, help="Number of search results (default 10)")
+    parser.add_argument("--competitive", action="store_true", help="Generate competitive intelligence report")
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
     parser.add_argument("--full-text", action="store_true", help="Fetch full article text for richer scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
@@ -171,6 +172,52 @@ def main():
             payload = format_query_results(result)
             if not post_to_slack(webhook_url, payload):
                 logger.error("Slack delivery of query results failed.")
+        return
+
+    # Competitive intelligence mode
+    if args.competitive:
+        from .competitive import get_competitive_articles, analyze_competitive_landscape
+        from .notifier import format_competitive_intel
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.error("ANTHROPIC_API_KEY not set. Required for competitive intel.")
+            sys.exit(1)
+
+        by_org = get_competitive_articles(seen)
+        logger.info("Found %d organizations mentioned across article history.", len(by_org))
+
+        intel = analyze_competitive_landscape(by_org, api_key)
+
+        if args.dry_run:
+            print(f"\n{'='*60}")
+            print("Competitive Intelligence — Platform Engineering")
+            print(f"{len(by_org)} organizations tracked")
+            print(f"{'='*60}")
+            for org_info in intel.get("landscape", []):
+                tech = ", ".join(org_info.get("key_technologies", []))
+                print(f"\n  {org_info.get('org', '')}")
+                print(f"  {org_info.get('summary', '')}")
+                print(f"  For L'Oreal: {org_info.get('relevance_to_loreal', '')}")
+                if tech:
+                    print(f"  Tech: {tech}")
+            if intel.get("patterns"):
+                print("\nCross-Org Patterns:")
+                for p in intel["patterns"]:
+                    print(f"  - {p}")
+            if intel.get("recommendations"):
+                print("\nRecommendations:")
+                for r in intel["recommendations"]:
+                    print(f"  - {r}")
+            print(f"\n{'='*60}\n")
+        else:
+            webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+            if not webhook_url:
+                logger.error("SLACK_WEBHOOK_URL not set.")
+                sys.exit(1)
+            payload = format_competitive_intel(intel, len(by_org))
+            if not post_to_slack(webhook_url, payload):
+                logger.error("Slack delivery of competitive intel failed.")
         return
 
     # Fetch feeds

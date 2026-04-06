@@ -176,6 +176,54 @@ def scrape_gatling(config: dict) -> list[dict]:
     return articles
 
 
+def scrape_cncf_casestudies(config: dict) -> list[dict]:
+    """Scrape CNCF case studies page."""
+    soup = _get_soup("https://www.cncf.io/case-studies/")
+    if not soup:
+        return []
+
+    articles = []
+    seen_hrefs = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        text = a.get_text(strip=True)
+
+        if "/case-studies/" not in href or len(text) < 10:
+            continue
+        if href.rstrip("/") in ("https://www.cncf.io/case-studies", "/case-studies"):
+            continue
+        if not href.startswith("http"):
+            href = f"https://www.cncf.io{href}"
+        if href in seen_hrefs:
+            continue
+        seen_hrefs.add(href)
+
+        # Fetch title, description, and date from case study page
+        description = ""
+        published = datetime.now(timezone.utc).isoformat()
+        title = text
+        case_soup = _get_soup(href)
+        if case_soup:
+            og_title = case_soup.find("meta", attrs={"property": "og:title"})
+            if og_title and og_title.get("content"):
+                title = og_title["content"]
+            desc_meta = case_soup.find("meta", attrs={"name": "description"})
+            if desc_meta:
+                description = desc_meta.get("content", "")[:500]
+            date_meta = case_soup.find("meta", attrs={"property": "article:published_time"})
+            if date_meta:
+                published = date_meta.get("content", published)
+
+        articles.append({
+            "title": f"CNCF Case Study: {title[:180]}",
+            "url": href,
+            "published": published,
+            "description": description,
+        })
+
+    return articles
+
+
 # --- Dispatcher ---
 
 SCRAPERS = {
@@ -183,6 +231,7 @@ SCRAPERS = {
     "k6": scrape_k6,
     "ministryoftesting": scrape_ministryoftesting,
     "gatling": scrape_gatling,
+    "cncf_casestudies": scrape_cncf_casestudies,
 }
 
 
