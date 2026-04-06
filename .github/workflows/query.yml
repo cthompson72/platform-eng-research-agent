@@ -1,0 +1,49 @@
+name: Search Article History
+
+on:
+  workflow_dispatch:
+    inputs:
+      query:
+        description: 'Search query (e.g. "kubernetes security")'
+        required: true
+        type: string
+      days:
+        description: 'Limit to last N days (blank = all history)'
+        required: false
+        type: string
+      category:
+        description: 'Filter by category (blank = all)'
+        required: false
+        type: string
+
+concurrency:
+  group: query
+  cancel-in-progress: true
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run search
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          ARGS="--query \"${{ inputs.query }}\""
+          if [ -n "${{ inputs.days }}" ]; then
+            ARGS="$ARGS --query-days ${{ inputs.days }}"
+          fi
+          if [ -n "${{ inputs.category }}" ]; then
+            ARGS="$ARGS --query-category \"${{ inputs.category }}\""
+          fi
+          eval python -m src.main $ARGS

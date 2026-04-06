@@ -61,6 +61,10 @@ def main():
     parser = argparse.ArgumentParser(description="Platform Engineering Research Digest")
     parser.add_argument("--dry-run", action="store_true", help="Print digest to stdout, skip Slack")
     parser.add_argument("--weekly-trends", action="store_true", help="Run weekly trend synthesis instead of daily digest")
+    parser.add_argument("--query", type=str, default=None, help="Search article history (e.g. 'kubernetes security')")
+    parser.add_argument("--query-days", type=int, default=None, help="Limit search to last N days")
+    parser.add_argument("--query-category", type=str, default=None, help="Limit search to a category")
+    parser.add_argument("--query-top", type=int, default=10, help="Number of search results (default 10)")
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
     parser.add_argument("--full-text", action="store_true", help="Fetch full article text for richer scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
@@ -126,6 +130,47 @@ def main():
             payload = format_weekly_trends(trends, len(weekly_articles))
             if not post_to_slack(webhook_url, payload):
                 logger.error("Slack delivery of weekly trends failed.")
+        return
+
+    # Query mode — search article history
+    if args.query:
+        from .query import run_query
+        from .notifier import format_query_results
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.error("ANTHROPIC_API_KEY not set. Required for search.")
+            sys.exit(1)
+
+        result = run_query(
+            query=args.query,
+            seen=seen,
+            api_key=api_key,
+            date_range=args.query_days,
+            category=args.query_category,
+            top_k=args.query_top,
+        )
+
+        if args.dry_run:
+            print(f"\n{'='*60}")
+            print(f"Search: {result['query']}")
+            print(f"{len(result['results'])} results from {result['total_searched']} articles")
+            print(f"{'='*60}")
+            for i, r in enumerate(result["results"], 1):
+                print(f"\n  {i}. [{r.get('score','?')}/10] {r.get('title','')}")
+                print(f"     {r['url']}")
+                print(f"     {r.get('relevance', '')}")
+                if r.get("tags"):
+                    print(f"     Tags: {', '.join(r['tags'])}")
+            print(f"\n{'='*60}\n")
+        else:
+            webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+            if not webhook_url:
+                logger.error("SLACK_WEBHOOK_URL not set. Use --dry-run to print to stdout.")
+                sys.exit(1)
+            payload = format_query_results(result)
+            if not post_to_slack(webhook_url, payload):
+                logger.error("Slack delivery of query results failed.")
         return
 
     # Fetch feeds

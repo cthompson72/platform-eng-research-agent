@@ -181,6 +181,49 @@ def format_weekly_trends(trends: dict, article_count: int) -> dict:
     return {"blocks": blocks}
 
 
+def format_query_results(query_result: dict) -> dict:
+    query = query_result.get("query", "")
+    results = query_result.get("results", [])
+    total = query_result.get("total_searched", 0)
+
+    blocks = [
+        {
+            "type": "header",
+            "text": {"type": "plain_text", "text": f"Search: {query[:140]}"},
+        },
+        {
+            "type": "context",
+            "elements": [{"type": "mrkdwn", "text": f"_{len(results)} results from {total} articles searched_"}],
+        },
+    ]
+
+    for i, r in enumerate(results, 1):
+        tags = ", ".join(r.get("tags", []))
+        tag_line = f"\n_{tags}_" if tags else ""
+        date = r.get("first_seen", "")[:10]
+        link = _slack_link(r["url"], f"*{r.get('title', '')}*")
+
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": (
+                    f"{i}. {link} (score: {r.get('score', '?')}/10, {date})\n"
+                    f"{r.get('relevance', '')}{tag_line}"
+                ),
+            },
+        })
+
+    if not results:
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": "_No relevant articles found for this query._"},
+        })
+
+    return {"blocks": blocks}
+
+
 def post_to_slack(webhook_url: str, payload: dict) -> bool:
     try:
         resp = requests.post(
