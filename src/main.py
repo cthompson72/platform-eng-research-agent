@@ -63,6 +63,8 @@ def main():
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
     parser.add_argument("--full-text", action="store_true", help="Fetch full article text for richer scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
+    parser.add_argument("--no-scrape", action="store_true", help="Skip web scraping sources")
+    parser.add_argument("--single-scraper", type=str, default=None, help="Run only this scraper ID (for debugging)")
     parser.add_argument("--max-articles", type=int, default=50, help="Max articles sent to scorer (default 50)")
     parser.add_argument("--config", default="config.yaml", help="Path to config file")
     parser.add_argument("--seen-file", default="data/seen_articles.json", help="Path to seen articles JSON")
@@ -87,6 +89,18 @@ def main():
     max_per_feed = settings.get("max_per_feed", 20)
     new_articles = fetch_all_feeds(feeds_config, seen, max_per_feed=max_per_feed)
     feeds_scanned = len(feeds_config)
+
+    # Scrape web sources
+    if (not args.no_scrape or args.single_scraper) and not args.single_feed:
+        from .scraper import scrape_all_sources
+        if args.single_scraper:
+            scrape_configs = [{"id": args.single_scraper, "category": "Debug", "priority": "high"}]
+        else:
+            scrape_configs = config.get("scrape_sources", [])
+        if scrape_configs:
+            scraped = scrape_all_sources(scrape_configs, seen, max_per_source=max_per_feed)
+            new_articles.extend(scraped)
+            feeds_scanned += len(scrape_configs)
 
     # Sort by priority and truncate to --max-articles before scoring
     priority_order = {"high": 0, "medium": 1, "low": 2}

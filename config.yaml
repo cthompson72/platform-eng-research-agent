@@ -19,31 +19,48 @@ feeds:
   - url: "https://snyk.io/blog/feed/"
     category: "DevSecOps"
     priority: high
-  # CISA: RSS blocked (403), revisit in Phase 2 with web scraping
-  # tldrsec: newsletter-only, no working RSS feed found
-  # ministryoftesting: no working RSS feed found
+  # CISA: all endpoints return 403, defer to Phase 3
   - url: "https://testing.googleblog.com/feeds/posts/default?alt=rss"
     category: "QA & Testing"
     priority: medium
   - url: "https://applitools.com/blog/feed/"
     category: "QA & Testing"
     priority: medium
-  # launchableinc: no working RSS feed found
+  - url: "https://www.cloudbees.com/blog/feed"
+    category: "QA & Testing"
+    priority: medium
   - url: "https://www.mabl.com/blog/rss.xml"
     category: "QA & Testing"
     priority: low
-  # k6: RSS returns malformed XML, revisit in Phase 2
+  # k6: RSS malformed, covered by scraper below
   - url: "https://grafana.com/blog/index.xml"
     category: "Performance"
     priority: medium
   - url: "https://www.brendangregg.com/blog/rss.xml"
     category: "Performance"
     priority: medium
-  # gatling: no working RSS feed found
-  # servicenow developer blog: RSS returns malformed XML, revisit in Phase 2
+  # servicenow developer blog: dead since 2023, skip
   - url: "https://www.infoq.com/feed/"
     category: "Engineering Leadership"
     priority: high
   - url: "https://leaddev.com/rss.xml"
     category: "Engineering Leadership"
     priority: high
+
+scrape_sources:
+  - id: tldrsec
+    url: "https://tldrsec.com/t/Newsletter"
+    category: "DevSecOps"
+    priority: high
+  - id: k6
+    url: "https://grafana.com/tags/k6/"
+    category: "Performance"
+    priority: high
+  - id: ministryoftesting
+    url: "https://www.ministryoftesting.com/articles"
+    category: "QA & Testing"
+    priority: medium
+  - id: gatling
+    url: "https://gatling.io/blog"
+    category: "Performance"
+    priority: low
