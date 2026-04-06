@@ -1,1 +1,569 @@
-{}
+{
+  "https://platformengineering.org/blog/accelerate-teams-with-platform-engineering-and-policy-as-code": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722520+00:00",
+    "score": 8,
+    "summary": "Covers the transition from DevOps to platform engineering with golden paths and policy-as-code, directly relevant to organizational maturity progression. The focus on platform thinking and rising demand for platform engineers aligns with current strategic priorities.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "ci-cd"
+    ],
+    "title": "Accelerate teams with platform engineering and policy-as-code"
+  },
+  "https://platformengineering.org/blog/aura-building-open-agentic-harness-for-production-AI": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722531+00:00",
+    "score": 6,
+    "summary": "AURA introduces an open-source framework for production AI infrastructure with observability features that could be relevant for AI-augmented development initiatives. While interesting for future AI integration, it's not directly applicable to current foundational platform engineering needs at L'Or\u00e9al.",
+    "tags": [
+      "ai-augmented-dev",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "Introducing AURA: Building an Open Agentic harness for production AI"
+  },
+  "https://platformengineering.org/blog/building-your-golden-path-lessons-from-the-trenches": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722528+00:00",
+    "score": 8,
+    "summary": "Offers practical implementation lessons for golden paths, moving beyond theory to address real-world challenges in platform engineering rollouts. The focus on implementation pitfalls and lessons learned is valuable for early-stage platform engineering initiatives.",
+    "tags": [
+      "platform-engineering",
+      "developer-experience",
+      "ci-cd"
+    ],
+    "title": "Building your golden path: Lessons from the trenches"
+  },
+  "https://platformengineering.org/blog/five-key-recommendations-for-platform-teams-in-2026": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722538+00:00",
+    "score": 8,
+    "summary": "These recommendations provide actionable guidance for platform teams to maximize ROI and drive adoption, directly relevant to early-stage platform engineering initiatives. The focus on scalable strategies and AI integration aligns with L'Or\u00e9al's strategic priorities for platform engineering organizational development.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "ai-augmented-dev"
+    ],
+    "title": "Five key recommendations for platform teams in 2026"
+  },
+  "https://platformengineering.org/blog/how-niit-helped-kyndryl-certify-more-than-100-platform-engineers": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722563+00:00",
+    "score": 8,
+    "summary": "This case study demonstrates how to scale platform engineering capabilities through certification programs and organizational transformation strategies. The team-based approach and shared language development are highly relevant for building platform engineering competencies at L'Or\u00e9al's early-stage maturity level.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "How NIIT helped Kyndryl certify more than 100 platform engineers"
+  },
+  "https://platformengineering.org/blog/how-platform-engineering-plus-vms-eases-modernization": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722543+00:00",
+    "score": 7,
+    "summary": "This article discusses container orchestration strategies using VMs within platform engineering contexts, relevant to Kubernetes implementation decisions. While the VM-focused approach may not directly align with current Kubernetes strategy, it provides valuable perspective on security and isolation considerations for platform architecture.",
+    "tags": [
+      "platform-engineering",
+      "kubernetes"
+    ],
+    "title": "How platform engineering plus VMs ease modernization"
+  },
+  "https://platformengineering.org/blog/how-to-scale-gitops-in-the-enterprise": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722551+00:00",
+    "score": 7,
+    "summary": "GitOps scaling patterns are highly relevant for L'Or\u00e9al's Kubernetes and Terraform infrastructure as they mature their platform capabilities. The enterprise-focused approach to multi-cluster management and secrets/policy governance addresses key challenges in scaling platform operations.",
+    "tags": [
+      "kubernetes",
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "How to scale GitOps in the enterprise: From single cluster to fleet management"
+  },
+  "https://platformengineering.org/blog/how-to-winning-executive-buy-in-for-your-idp": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722558+00:00",
+    "score": 8,
+    "summary": "Executive buy-in frameworks are critical for early-stage platform engineering organizations to secure sponsorship and resources. This article provides tactical approaches to translate technical platform benefits into business outcomes and handle common executive objections.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "How to win executive buy-in for your Internal Developer Platform"
+  },
+  "https://platformengineering.org/blog/job-interview-platform-engineering-role": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722525+00:00",
+    "score": 6,
+    "summary": "Focuses on platform engineering hiring and interview practices, which supports org design considerations for building platform teams. While useful for talent acquisition, it's less directly applicable to immediate technical implementation needs.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Platform engineering interview guide: What you need to know to land your next role"
+  },
+  "https://platformengineering.org/blog/metrics-that-matter-measuring-platform-success-and-maturity": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722553+00:00",
+    "score": 8,
+    "summary": "DORA, SPACE, and MVP metrics frameworks provide essential measurement approaches for demonstrating platform engineering success and maturity. For an early-stage platform organization, establishing proper metrics from the start is crucial for tracking progress and justifying continued investment.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Metrics that matter: Measuring platform success and maturity"
+  },
+  "https://platformengineering.org/blog/observability-isnt-enough-to-tell-if-your-platform-is-healthy": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722516+00:00",
+    "score": 8,
+    "summary": "Directly addresses platform health measurement beyond traditional uptime metrics, focusing on adoption and developer experience which are key strategic priorities. This holistic approach to platform evaluation is highly relevant for early-stage DevOps maturity organizations.",
+    "tags": [
+      "platform-engineering",
+      "observability",
+      "developer-experience"
+    ],
+    "title": "Observability isn't enough to tell if your platform is healthy"
+  },
+  "https://platformengineering.org/blog/platform-engineering-makes-a-difference-here-s-how-to-prove-it": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722546+00:00",
+    "score": 8,
+    "summary": "This article provides essential frameworks for proving platform engineering value to executives through concrete metrics like velocity, AI impact, and developer sentiment. For an early-stage platform engineering organization at L'Or\u00e9al, demonstrating ROI and business impact will be crucial for securing continued investment and resources.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Platform engineering makes a difference. Here's how to prove it"
+  },
+  "https://platformengineering.org/blog/the-agent-reliability-score-what-your-ai-platform-must-guarantee-before-agents-go-live": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722498+00:00",
+    "score": 7,
+    "summary": "Provides a structured 28-test framework for evaluating AI platform reliability, which is directly relevant to AI-augmented development initiatives. The reliability contracts and guardrails approach aligns well with platform engineering best practices for managing AI workloads.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev"
+    ],
+    "title": "The agent reliability score: What your AI platform must guarantee before agents go live"
+  },
+  "https://platformengineering.org/blog/the-biggest-challenges-platform-engineering-teams-are-facing-in-2026": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722541+00:00",
+    "score": 9,
+    "summary": "This article identifies cultural and organizational barriers as the primary challenges in platform engineering, which is extremely relevant for early-stage initiatives at L'Or\u00e9al. The focus on developer adoption, MVP building, executive buy-in, and ROI measurement provides essential insights for foundational platform engineering transformation.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "developer-experience"
+    ],
+    "title": "The biggest challenges platform engineering teams are facing in 2026"
+  },
+  "https://platformengineering.org/blog/the-empathy-gap-why-your-platform-needs-ux-not-just-apis": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722533+00:00",
+    "score": 8,
+    "summary": "This article addresses a critical challenge for early-stage platform engineering teams - developer adoption through better user experience design rather than just technical APIs. The focus on reducing cognitive friction and treating platforms as products directly supports developer experience improvement and platform adoption strategies.",
+    "tags": [
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "The empathy gap: Why your platform needs UX, not just APIs"
+  },
+  "https://platformengineering.org/blog/the-platform-engineering-reality-check": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722561+00:00",
+    "score": 9,
+    "summary": "This article provides critical benchmarks and measurement frameworks for assessing platform engineering initiative success, directly addressing early-stage maturity concerns. It offers practical guidance on investment, adoption metrics, and cultural transformation essential for L'Or\u00e9al's foundational platform engineering journey.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "The platform engineering reality check: Is your initiative on track?"
+  },
+  "https://platformengineering.org/blog/the-platform-scorecard-a-practical-way-to-provevalue-and-what-to-measure-first": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722523+00:00",
+    "score": 9,
+    "summary": "Provides a practical framework for measuring and proving platform engineering value through adoption, health metrics, and DORA metrics. This scorecard approach is essential for demonstrating ROI and progress in early-stage DevOps transformation initiatives.",
+    "tags": [
+      "platform-engineering",
+      "observability",
+      "performance"
+    ],
+    "title": "The platform scorecard: A practical way to prove value (and what to measure first)"
+  },
+  "https://platformengineering.org/blog/the-rise-of-agentic-platforms-scaling-beyond-automation": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722556+00:00",
+    "score": 8,
+    "summary": "Agentic platforms represent the next evolution of platform engineering, moving from static automation to AI-driven, context-aware systems that reduce cognitive load. This directly aligns with L'Or\u00e9al's strategic priority around AI-augmented development and provides a forward-looking vision for platform evolution.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "The rise of agentic platforms: Scaling beyond automation"
+  },
+  "https://platformengineering.org/blog/vulnerability-management-core-capabilities-every-platform-should-have": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722548+00:00",
+    "score": 9,
+    "summary": "Core vulnerability management capabilities are essential for any enterprise platform, especially given L'Or\u00e9al's use of security tools like Snyk and SonarQube. This article outlines fundamental platform security patterns like hardened images, policy-as-code, and automated scanning that align directly with building a secure foundation.",
+    "tags": [
+      "devsecops",
+      "platform-engineering"
+    ],
+    "title": "Vulnerability management core capabilities every platform should have"
+  },
+  "https://platformengineering.org/blog/why-installing-argo-cd-didnt-fix-your-deployments": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722535+00:00",
+    "score": 9,
+    "summary": "This article directly addresses organizational challenges in GitOps implementation, which is highly relevant for CI/CD standardization efforts at L'Or\u00e9al. It emphasizes that organizational design and clear ownership boundaries are prerequisites for successful GitOps adoption, making it essential reading for early-stage DevOps transformation.",
+    "tags": [
+      "ci-cd",
+      "org-design",
+      "platform-engineering"
+    ],
+    "title": "Why installing Argo CD didn't fix your deployments"
+  },
+  "https://snyk.io/blog/5-principles-of-snyk-developer-experience/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-06T17:42:15.722826+00:00",
+    "score": 9,
+    "summary": "Directly relevant vendor content from Snyk (actively used security tool) focusing on developer experience principles and AI-driven security workflows. Provides actionable insights for improving security integration within existing development processes without disrupting productivity.",
+    "tags": [
+      "vendor-update",
+      "developer-experience",
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "The 5 Principles of Snyk\u2019s Developer Experience"
+  },
+  "https://snyk.io/blog/axios-npm-package-compromised-supply-chain-attack-delivers-cross-platform/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-06T17:42:15.722648+00:00",
+    "score": 10,
+    "summary": "Critical supply chain security advisory affecting the widely-used Axios npm package, which likely impacts JavaScript-based applications in L'Or\u00e9al's development ecosystem. This represents a significant security threat requiring immediate attention to check exposure and update dependencies.",
+    "tags": [
+      "security-advisory",
+      "devsecops"
+    ],
+    "title": "Axios npm Package Compromised: Supply Chain Attack Delivers Cross-Platform RAT"
+  },
+  "https://snyk.io/blog/building-ai-security-with-our-customers/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-06T17:42:15.722645+00:00",
+    "score": 9,
+    "summary": "This article shares lessons from Snyk's design partner program focused on AI security governance, directly relevant since Snyk is in L'Or\u00e9al's active toolchain. The insights on AI discovery, risk intelligence, and policy automation provide actionable guidance for securing AI-augmented development practices.",
+    "tags": [
+      "vendor-update",
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "Building AI Security with Our Customers: 5 Lessons from Evo\u2019s Design Partner Program"
+  },
+  "https://snyk.io/blog/defense-ai-red-teaming/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-06T17:42:15.722829+00:00",
+    "score": 6,
+    "summary": "Advanced AI security testing methodology that extends beyond current AI-SPM practices to include red teaming approaches. While relevant to AI-augmented development strategy, this is more advanced than current early-stage DevOps maturity level.",
+    "tags": [
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "From Discovery to Defense: Why AI Red Teaming Is the Next Step After AI-SPM"
+  },
+  "https://snyk.io/blog/litellm-ai-blast-radius/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-06T17:42:15.722640+00:00",
+    "score": 10,
+    "summary": "This discusses a security compromise in LiteLLM and provides guidance on managing AI security blast radius, which is critical for any organization using AI tools. The security implications and risk mapping approaches are highly relevant for platform teams securing AI-augmented development workflows.",
+    "tags": [
+      "security-advisory",
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "You Patched LiteLLM, But Do You Know Your AI Blast Radius?"
+  },
+  "https://thenewstack.io/agentic-ai-junior-developer-crisis/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722593+00:00",
+    "score": 6,
+    "summary": "Microsoft executives warn that over-reliance on agentic AI tools may be preventing junior developers from gaining essential experience and skills. This has implications for platform engineering teams considering AI adoption strategies and maintaining talent development pipelines.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "Microsoft execs warn agentic AI is hollowing out the junior developer pipeline"
+  },
+  "https://thenewstack.io/ai-coding-tools-reckoning/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722580+00:00",
+    "score": 7,
+    "summary": "Article explores the impact of AI programming tools on developer skills and coding abilities, which directly relates to L'Or\u00e9al's strategic priority of AI-augmented development. This is highly relevant for understanding the human side of implementing AI tools in developer workflows and maintaining team capabilities.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "org-design"
+    ],
+    "title": "\u201cI started to lose my ability to code\u201d: Developers grapple with the real cost of AI programming tools"
+  },
+  "https://thenewstack.io/anthropic-claude-code-leak/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722590+00:00",
+    "score": 9,
+    "summary": "Article covers significant security incidents at Anthropic including leaked models and exposed source code, with implications for GitHub security practices. This is highly relevant for L'Or\u00e9al's GitHub usage and demonstrates critical security considerations for AI development workflows and source code protection.",
+    "tags": [
+      "security-advisory",
+      "developer-experience",
+      "ai-augmented-dev"
+    ],
+    "title": "Anthropic\u2019s rough week: leaked models, exposed source code, and a botched GitHub takedown"
+  },
+  "https://thenewstack.io/beyond-magic-scaling-myth/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722610+00:00",
+    "score": 5,
+    "summary": "This is general architecture content from a well-known book about data-intensive applications and scaling patterns. While valuable for system design knowledge, it doesn't directly address platform engineering tooling or organizational challenges specific to L'Or\u00e9al's current priorities.",
+    "tags": [
+      "platform-engineering"
+    ],
+    "title": "Moving beyond the \u201cmagic scaling sauce\u201d myth"
+  },
+  "https://thenewstack.io/broadcom-donates-velero-cncf/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722602+00:00",
+    "score": 8,
+    "summary": "Broadcom transferred Velero to CNCF Sandbox, affecting Kubernetes backup and data protection capabilities. This vendor update is relevant for L'Or\u00e9al's Kubernetes operations and disaster recovery planning.",
+    "tags": [
+      "vendor-update",
+      "kubernetes"
+    ],
+    "title": "Why Broadcom gave Velero to the CNCF Sandbox \u2014 and what it means for Kubernetes data protection"
+  },
+  "https://thenewstack.io/cicd-pipeline-front-line/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722598+00:00",
+    "score": 10,
+    "summary": "The TeamPCP supply chain attacks highlight critical security vulnerabilities in CI/CD pipelines, making them a primary attack vector. This is highly relevant given L'Or\u00e9al's early-stage DevOps maturity and need for CI/CD standardization with proper security controls.",
+    "tags": [
+      "security-advisory",
+      "ci-cd",
+      "devsecops"
+    ],
+    "title": "The TeamPCP attacks are a warning: Your CI/CD pipeline is the new front line"
+  },
+  "https://thenewstack.io/coding-agents-cicd-fix/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722600+00:00",
+    "score": 8,
+    "summary": "Article explains how AI coding agents can break existing CI/CD pipelines through increased commit frequency and different code patterns. Provides practical guidance on adapting CI/CD systems for AI-augmented development workflows, directly relevant to L'Or\u00e9al's strategic priorities.",
+    "tags": [
+      "ci-cd",
+      "ai-augmented-dev"
+    ],
+    "title": "Why coding agents will break your CI/CD pipeline (and how to fix it)"
+  },
+  "https://thenewstack.io/cursor-3-demotes-ide/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722572+00:00",
+    "score": 7,
+    "summary": "This article explores AI-augmented development tools and their impact on traditional IDEs, aligning with L'Or\u00e9al's strategic priority in AI-augmented development. The shift from IDEs to AI-first development environments could significantly impact developer experience strategies.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Cursor\u2019s $2 billion bet: The IDE is now a fallback, not the default"
+  },
+  "https://thenewstack.io/digital-experience-monitoring-workflow/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722582+00:00",
+    "score": 8,
+    "summary": "Article focuses on integrating digital experience monitoring into developer workflows, which aligns perfectly with L'Or\u00e9al's observability priorities and developer experience improvements. This type of frontend monitoring integration would be valuable for their platform engineering strategy and complements their existing Grafana observability stack.",
+    "tags": [
+      "observability",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Digital Experience Monitoring belongs in the modern developer workflow"
+  },
+  "https://thenewstack.io/hidden-agentic-technical-debt/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722614+00:00",
+    "score": 7,
+    "summary": "This addresses technical debt considerations when implementing AI agents, which is directly relevant for teams exploring AI-augmented development workflows. The focus on hidden costs and maintenance overhead provides important planning considerations for platform engineering adoption strategies.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "The hidden technical debt of agentic engineering"
+  },
+  "https://thenewstack.io/hidden-tax-ai-code/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722607+00:00",
+    "score": 8,
+    "summary": "This article directly addresses the impact of AI coding tools on code review processes, which is highly relevant for teams adopting AI-augmented development. The focus on review queue bottlenecks and senior engineer pressure provides actionable insights for platform teams managing developer experience with AI tools.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "ci-cd"
+    ],
+    "title": "There\u2019s a hidden tax on every AI-generated merge request"
+  },
+  "https://thenewstack.io/is-observability-still-an-operations-problem-at-your-organization/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722569+00:00",
+    "score": 8,
+    "summary": "This article directly addresses a key challenge in platform engineering - shifting observability from operations to developers. Given L'Or\u00e9al's observability strategic priority and use of Grafana, this developer-centric approach to telemetry and debugging is highly relevant.",
+    "tags": [
+      "observability",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Is observability still an operations problem at your organization?"
+  },
+  "https://thenewstack.io/mcp-maintainers-enterprise-roadmap/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722566+00:00",
+    "score": 4,
+    "summary": "While this discusses AI security roadmaps from major tech companies, it focuses on Model Context Protocol rather than platform engineering practices. The content is too early-stage and vendor-specific to provide actionable insights for L'Or\u00e9al's current platform engineering priorities.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "MCP maintainers from Anthropic, AWS, Microsoft, and OpenAI lay out enterprise security roadmap at Dev Summit"
+  },
+  "https://thenewstack.io/persistent-ai-agents-compared/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722605+00:00",
+    "score": 5,
+    "summary": "Compares OpenClaw and Hermes Agent as AI assistants with persistent memory capabilities for development workflows. While touching on AI-augmented development, it's more focused on specific tool comparison rather than platform engineering implementation strategies.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "OpenClaw vs. Hermes Agent: The race to build AI assistants that never forget"
+  },
+  "https://thenewstack.io/pgedge-mcp-postgres-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722595+00:00",
+    "score": 5,
+    "summary": "Article discusses how pgEdge proposes using Model Context Protocol (MCP) instead of APIs for AI agents to interact with PostgreSQL databases. While relevant to AI-augmented development, it focuses on a database technology not currently in L'Or\u00e9al's active toolchain.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Why pgEdge thinks MCP (not an API) is the right way for AI agents to talk to databases"
+  },
+  "https://thenewstack.io/programming-ai-proving-ground/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722612+00:00",
+    "score": 6,
+    "summary": "This article explores why AI has been particularly successful in software engineering contexts, providing strategic context for AI adoption decisions. The insights could inform platform engineering teams considering AI-augmented development approaches and tool selection.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Why programming became the proving ground for AI"
+  },
+  "https://thenewstack.io/rag-pipeline-hybrid-search/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722587+00:00",
+    "score": 3,
+    "summary": "Article describes a specific technical incident with a RAG pipeline and hybrid search solutions. While it demonstrates troubleshooting methodology, it's focused on a very specific use case that doesn't align closely with L'Or\u00e9al's current toolchain or immediate platform engineering needs.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "The laptop return that broke a RAG pipeline"
+  },
+  "https://thenewstack.io/vultr-nvidia-ai-infrastructure/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722577+00:00",
+    "score": 4,
+    "summary": "Article discusses Vultr's cost-effective AI infrastructure using Nvidia GPUs and automation agents for developer workflows. While it touches on AI-augmented development, it's primarily about a specific cloud provider's pricing rather than actionable platform engineering insights for L'Or\u00e9al's current stack.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Vultr says its Nvidia-powered AI infrastructure costs 50% to 90% less than hyperscalers"
+  },
+  "https://thenewstack.io/vultr-suse-rancher-ai/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722574+00:00",
+    "score": 6,
+    "summary": "This discusses AI infrastructure alternatives to hyperscalers using Kubernetes, which aligns with L'Or\u00e9al's Kubernetes usage. However, it's more focused on AI infrastructure scaling rather than core platform engineering practices, making it moderately relevant to current priorities.",
+    "tags": [
+      "kubernetes",
+      "ai-augmented-dev"
+    ],
+    "title": "SUSE Rancher and Vultr want to break AI infrastructure free from the hyperscalers"
+  },
+  "https://thenewstack.io/why-ai-feels-sluggish/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-06T17:42:15.722585+00:00",
+    "score": 5,
+    "summary": "Article discusses data platform performance issues affecting AI workloads, focusing on infrastructure bottlenecks in AI systems. While tangentially related to AI-augmented development, it's more about data platform architecture than actionable insights for L'Or\u00e9al's current platform engineering priorities.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "The hidden reason your AI assistant feels so sluggish"
+  },
+  "https://www.infoq.com/articles/alternative-reduce-test-suite-size/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-06T17:42:15.722837+00:00",
+    "score": 7,
+    "summary": "Innovative approach to CI regression testing that addresses test suite optimization without simply reducing coverage. This stochastic methodology could improve CI/CD efficiency while maintaining quality, directly supporting standardization efforts.",
+    "tags": [
+      "ci-cd",
+      "testing"
+    ],
+    "title": "Article: A Better Alternative to Reducing CI Regression Test Suite Sizes"
+  },
+  "https://www.infoq.com/news/2026/04/ai-coding-language-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-06T17:42:15.722842+00:00",
+    "score": 5,
+    "summary": "This benchmark study of Claude Code across 13 programming languages provides insights into AI code generation costs and performance characteristics. While interesting for AI-augmented development strategy, it's more of a research finding than actionable platform engineering guidance.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "Dynamic Languages Faster and Cheaper in 13-Language Claude Code Benchmark"
+  },
+  "https://www.infoq.com/news/2026/04/pinterest-spark-oom-reduction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-06T17:42:15.722832+00:00",
+    "score": 7,
+    "summary": "Pinterest's case study demonstrates sophisticated observability and performance optimization practices for data pipeline stability. The approach to proactive memory management and operational overhead reduction aligns well with observability strategic priorities.",
+    "tags": [
+      "observability",
+      "performance"
+    ],
+    "title": "Pinterest Reduces Spark OOM Failures by 96% Through Auto Memory Retries"
+  },
+  "https://www.infoq.com/podcasts/context-engineering-large-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-06T17:42:15.722840+00:00",
+    "score": 6,
+    "summary": "This podcast discusses context engineering for AI systems, which is relevant to L'Or\u00e9al's AI-augmented development strategic priority. The focus on stateful AI interactions could inform how AI tools are integrated into the development platform.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Podcast: Context Engineering with Adi Polak"
+  },
+  "https://www.infoq.com/presentations/duolingo-eks-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-06T17:42:15.722835+00:00",
+    "score": 8,
+    "summary": "Highly relevant Kubernetes migration case study covering GitOps with Argo CD, infrastructure transitions, and developer trust management during platform shifts. The organizational and technical challenges addressed directly align with L'Or\u00e9al's Kubernetes usage and platform engineering initiatives.",
+    "tags": [
+      "kubernetes",
+      "platform-engineering",
+      "ci-cd",
+      "org-design"
+    ],
+    "title": "Presentation: Duolingo's Kubernetes Leap"
+  }
+}
