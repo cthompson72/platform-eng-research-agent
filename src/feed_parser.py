@@ -60,15 +60,22 @@ def fetch_feed(url: str, timeout: int = 30) -> list[dict]:
         return []
 
 
-def fetch_all_feeds(feeds_config: list[dict], seen: dict) -> list[dict]:
+def fetch_all_feeds(feeds_config: list[dict], seen: dict, max_per_feed: int = 20) -> list[dict]:
     new_articles = []
     for feed_cfg in feeds_config:
         url = feed_cfg["url"]
         category = feed_cfg.get("category", "Uncategorized")
         priority = feed_cfg.get("priority", "medium")
+        feed_limit = feed_cfg.get("max_per_feed", max_per_feed)
 
         articles = fetch_feed(url)
         logger.info("Fetched %d articles from %s", len(articles), url)
+
+        # Keep only the most recent articles per feed
+        articles.sort(key=lambda a: a.get("published", ""), reverse=True)
+        if len(articles) > feed_limit:
+            logger.info("Capping %s from %d to %d articles", url, len(articles), feed_limit)
+            articles = articles[:feed_limit]
 
         for article in articles:
             if is_new(article["url"], seen):

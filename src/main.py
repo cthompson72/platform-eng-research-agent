@@ -62,6 +62,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Print digest to stdout, skip Slack")
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
+    parser.add_argument("--max-articles", type=int, default=50, help="Max articles sent to scorer (default 50)")
     parser.add_argument("--config", default="config.yaml", help="Path to config file")
     parser.add_argument("--seen-file", default="data/seen_articles.json", help="Path to seen articles JSON")
     args = parser.parse_args()
@@ -82,8 +83,20 @@ def main():
     else:
         feeds_config = config.get("feeds", [])
 
-    new_articles = fetch_all_feeds(feeds_config, seen)
+    max_per_feed = settings.get("max_per_feed", 20)
+    new_articles = fetch_all_feeds(feeds_config, seen, max_per_feed=max_per_feed)
     feeds_scanned = len(feeds_config)
+
+    # Sort by priority and truncate to --max-articles before scoring
+    priority_order = {"high": 0, "medium": 1, "low": 2}
+    new_articles.sort(key=lambda a: priority_order.get(a.get("priority", "medium"), 1))
+    if len(new_articles) > args.max_articles:
+        total = len(new_articles)
+        new_articles = new_articles[:args.max_articles]
+        logger.warning(
+            "Truncated %d articles to %d (use --max-articles to adjust).",
+            total, args.max_articles,
+        )
 
     if not new_articles:
         logger.info("No new articles found. Nothing to do.")
