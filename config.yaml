@@ -1,0 +1,60 @@
+settings:
+  relevance_threshold: 6
+  max_articles_per_digest: 25
+  batch_size: 6
+
+feeds:
+  - url: "https://platformengineering.org/feed"
+    category: "Platform Engineering"
+    priority: high
+  - url: "https://thenewstack.io/feed/"
+    category: "Platform Engineering"
+    priority: high
+  - url: "https://humanitec.com/blog/rss.xml"
+    category: "Platform Engineering"
+    priority: medium
+  - url: "https://snyk.io/blog/feed/"
+    category: "DevSecOps"
+    priority: high
+  - url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    category: "DevSecOps"
+    priority: high
+  - url: "https://tldrsec.com/feed"
+    category: "DevSecOps"
+    priority: high
+  - url: "https://www.ministryoftesting.com/feed"
+    category: "QA & Testing"
+    priority: medium
+  - url: "https://testing.googleblog.com/feeds/posts/default?alt=rss"
+    category: "QA & Testing"
+    priority: medium
+  - url: "https://applitools.com/blog/feed/"
+    category: "QA & Testing"
+    priority: medium
+  - url: "https://www.launchableinc.com/blog/rss.xml"
+    category: "QA & Testing"
+    priority: medium
+  - url: "https://www.mabl.com/blog/rss.xml"
+    category: "QA & Testing"
+    priority: low
+  - url: "https://k6.io/blog/index.xml"
+    category: "Performance"
+    priority: high
+  - url: "https://grafana.com/blog/index.xml"
+    category: "Performance"
+    priority: medium
+  - url: "https://www.brendangregg.com/blog/rss.xml"
+    category: "Performance"
+    priority: medium
+  - url: "https://gatling.io/blog/feed/"
+    category: "Performance"
+    priority: low
+  - url: "https://developer.servicenow.com/blog.do?p=/post/rss/"
+    category: "Ticketing & ITSM"
+    priority: high
+  - url: "https://www.infoq.com/feed/"
+    category: "Engineering Leadership"
+    priority: high
+  - url: "https://leaddev.com/rss.xml"
+    category: "Engineering Leadership"
+    priority: high
