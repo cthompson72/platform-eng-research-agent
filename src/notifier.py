@@ -11,6 +11,13 @@ MAX_ARTICLES = 20
 SLACK_PAYLOAD_LIMIT = 39_000  # Leave margin under 40KB limit
 
 
+def _slack_link(url: str, text: str) -> str:
+    """Format a URL as a Slack mrkdwn link, ensuring the scheme is present."""
+    if url and not url.startswith(("http://", "https://")):
+        url = f"https://{url}"
+    return f"<{url}|{text}>"
+
+
 def format_digest(articles: list[dict], stats: dict) -> dict:
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
@@ -44,8 +51,9 @@ def format_digest(articles: list[dict], stats: dict) -> dict:
             tags = ", ".join(article.get("tags", []))
             tag_line = f"\n_{tags}_" if tags else ""
 
+            link = _slack_link(article["url"], f"*{article['title']}*")
             text = (
-                f"<{article['url']}|*{article['title']}*> (score: {score}/10)\n"
+                f"{link} (score: {score}/10)\n"
                 f"{summary}{tag_line}"
             )
             blocks.append({
@@ -156,7 +164,7 @@ def format_weekly_trends(trends: dict, article_count: int) -> dict:
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"<{item.get('url', '')}|*{item.get('title', '')}*>\n{item.get('why', '')}",
+                    "text": f"{_slack_link(item.get('url', ''), '*' + item.get('title', '') + '*')}\n{item.get('why', '')}",
                 },
             })
 
