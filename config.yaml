@@ -2,6 +2,9 @@ settings:
   relevance_threshold: 6
   max_articles_per_digest: 25
   batch_size: 6
+  tag_filters:
+    boost: [security-advisory, vendor-update]
+    suppress: []
 
 feeds:
   - url: "https://platformengineering.org/blog/rss.xml"

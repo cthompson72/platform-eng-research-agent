@@ -40,4 +40,6 @@ def mark_seen(url: str, metadata: dict, seen: dict) -> None:
         "first_seen": datetime.now(timezone.utc).isoformat(),
         "category": metadata.get("category", ""),
         "score": metadata.get("score", 0),
+        "tags": metadata.get("tags", []),
+        "summary": metadata.get("summary", ""),
     }

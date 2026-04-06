@@ -61,6 +61,7 @@ def main():
     parser = argparse.ArgumentParser(description="Platform Engineering Research Digest")
     parser.add_argument("--dry-run", action="store_true", help="Print digest to stdout, skip Slack")
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
+    parser.add_argument("--full-text", action="store_true", help="Fetch full article text for richer scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
     parser.add_argument("--max-articles", type=int, default=50, help="Max articles sent to scorer (default 50)")
     parser.add_argument("--config", default="config.yaml", help="Path to config file")
@@ -103,6 +104,12 @@ def main():
         save_seen(args.seen_file, seen)
         return
 
+    # Fetch full article text if requested
+    if args.full_text:
+        from .content_fetcher import fetch_full_texts
+        logger.info("Fetching full text for %d articles...", len(new_articles))
+        new_articles = fetch_full_texts(new_articles)
+
     # Score articles
     if args.no_score:
         logger.info("Skipping scoring (--no-score). Assigning default score of 5.")
@@ -123,6 +130,17 @@ def main():
                 article.setdefault("score", 5)
                 article.setdefault("summary", "")
                 article.setdefault("tags", [])
+
+    # Apply tag-based score adjustments
+    tag_filters = settings.get("tag_filters", {})
+    boost_tags = set(tag_filters.get("boost", []))
+    suppress_tags = set(tag_filters.get("suppress", []))
+    for article in new_articles:
+        tags = set(article.get("tags", []))
+        if tags & boost_tags:
+            article["score"] = article.get("score", 0) + 1
+        if tags & suppress_tags:
+            article["score"] = article.get("score", 0) - 2
 
     # Filter and sort
     above_threshold = [a for a in new_articles if a.get("score", 0) >= threshold]

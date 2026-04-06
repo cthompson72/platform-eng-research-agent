@@ -45,10 +45,12 @@ Valid tags: security-advisory, vendor-update, ci-cd, observability, developer-ex
 def _format_articles_for_prompt(articles: list[dict]) -> str:
     lines = []
     for i, article in enumerate(articles, 1):
+        content = article.get("full_text") or article.get("description", "No description available.")
+        content = content[:3000]
         lines.append(
             f"{i}. [{article.get('category', 'Unknown')}] "
             f"{article['title']}\n"
-            f"   {article.get('description', 'No description available.')[:500]}"
+            f"   {content}"
         )
     return "\n\n".join(lines)
 

@@ -53,6 +53,20 @@ def format_digest(articles: list[dict], stats: dict) -> dict:
                 "text": {"type": "mrkdwn", "text": text},
             })
 
+    # Tag summary
+    tag_counts = defaultdict(int)
+    for article in articles[:MAX_ARTICLES]:
+        for tag in article.get("tags", []):
+            tag_counts[tag] += 1
+    if tag_counts:
+        top_tags = sorted(tag_counts.items(), key=lambda t: t[1], reverse=True)
+        tag_text = ", ".join(f"{count}\u00d7 {tag}" for tag, count in top_tags)
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "context",
+            "elements": [{"type": "mrkdwn", "text": f"*Tags:* {tag_text}"}],
+        })
+
     # Footer
     blocks.append({"type": "divider"})
     blocks.append({
