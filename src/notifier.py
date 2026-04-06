@@ -95,6 +95,84 @@ def format_digest(articles: list[dict], stats: dict) -> dict:
     return payload
 
 
+def format_weekly_trends(trends: dict, article_count: int) -> dict:
+    today = datetime.now(timezone.utc).strftime("%B %d, %Y")
+
+    blocks = [
+        {
+            "type": "header",
+            "text": {"type": "plain_text", "text": f"Weekly Trends — {today}"},
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": f"_Analysis of {article_count} articles from the past 7 days_",
+            },
+        },
+    ]
+
+    # Executive summary
+    exec_summary = trends.get("executive_summary", "")
+    if exec_summary:
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": f"*Executive Summary*\n{exec_summary}"},
+        })
+
+    # Themes
+    themes = trends.get("themes", [])
+    if themes:
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": "*Cross-Cutting Themes*"},
+        })
+        for theme in themes:
+            sources = ", ".join(theme.get("sources", []))
+            blocks.append({
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": (
+                        f"*{theme.get('theme', '')}* "
+                        f"({theme.get('article_count', 0)} articles from {sources})\n"
+                        f"{theme.get('summary', '')}"
+                    ),
+                },
+            })
+
+    # Top 3
+    top_3 = trends.get("top_3", [])
+    if top_3:
+        blocks.append({"type": "divider"})
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": "*Top 3 Action Items*"},
+        })
+        for item in top_3:
+            blocks.append({
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": f"<{item.get('url', '')}|*{item.get('title', '')}*>\n{item.get('why', '')}",
+                },
+            })
+
+    # Emerging patterns
+    emerging = trends.get("emerging", [])
+    if emerging:
+        blocks.append({"type": "divider"})
+        bullets = "\n".join(f"• {e}" for e in emerging)
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": f"*Emerging Patterns*\n{bullets}"},
+        })
+
+    return {"blocks": blocks}
+
+
 def post_to_slack(webhook_url: str, payload: dict) -> bool:
     try:
         resp = requests.post(

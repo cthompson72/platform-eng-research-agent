@@ -1,0 +1,30 @@
+name: Weekly Trend Synthesis
+
+on:
+  schedule:
+    - cron: '0 15 * * 5'  # Friday 15:00 UTC = 10:00 AM EST
+  workflow_dispatch:
+
+concurrency:
+  group: weekly-trends
+  cancel-in-progress: true
+
+jobs:
+  trends:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run weekly trends
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python -m src.main --weekly-trends

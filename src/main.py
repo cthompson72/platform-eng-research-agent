@@ -60,6 +60,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Platform Engineering Research Digest")
     parser.add_argument("--dry-run", action="store_true", help="Print digest to stdout, skip Slack")
+    parser.add_argument("--weekly-trends", action="store_true", help="Run weekly trend synthesis instead of daily digest")
     parser.add_argument("--no-score", action="store_true", help="Skip Claude API scoring")
     parser.add_argument("--full-text", action="store_true", help="Fetch full article text for richer scoring")
     parser.add_argument("--single-feed", type=str, default=None, help="Fetch only this feed URL (for debugging)")
@@ -79,6 +80,53 @@ def main():
 
     # Load dedup store
     seen = load_seen(args.seen_file)
+
+    # Weekly trends mode — separate pipeline
+    if args.weekly_trends:
+        from .trends import get_weekly_articles, synthesize_trends
+        from .notifier import format_weekly_trends
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        if not api_key:
+            logger.error("ANTHROPIC_API_KEY not set. Required for weekly trends.")
+            sys.exit(1)
+
+        weekly_articles = get_weekly_articles(seen)
+        logger.info("Found %d articles from the past 7 days for trend synthesis.", len(weekly_articles))
+
+        if not weekly_articles:
+            logger.info("No articles in the past 7 days. Skipping trends.")
+            return
+
+        trends = synthesize_trends(weekly_articles, api_key)
+
+        if args.dry_run:
+            print(f"\n{'='*60}")
+            print("Weekly Trends")
+            print(f"{'='*60}")
+            print(f"\nExecutive Summary:\n{trends.get('executive_summary', '')}\n")
+            for theme in trends.get("themes", []):
+                print(f"Theme: {theme.get('theme', '')} ({theme.get('article_count', 0)} articles)")
+                print(f"  Sources: {', '.join(theme.get('sources', []))}")
+                print(f"  {theme.get('summary', '')}\n")
+            print("Top 3 Action Items:")
+            for item in trends.get("top_3", []):
+                print(f"  - {item.get('title', '')}")
+                print(f"    {item.get('why', '')}")
+            if trends.get("emerging"):
+                print("\nEmerging Patterns:")
+                for e in trends["emerging"]:
+                    print(f"  - {e}")
+            print(f"\n{'='*60}\n")
+        else:
+            webhook_url = os.environ.get("SLACK_WEBHOOK_URL")
+            if not webhook_url:
+                logger.error("SLACK_WEBHOOK_URL not set.")
+                sys.exit(1)
+            payload = format_weekly_trends(trends, len(weekly_articles))
+            if not post_to_slack(webhook_url, payload):
+                logger.error("Slack delivery of weekly trends failed.")
+        return
 
     # Fetch feeds
     if args.single_feed:
