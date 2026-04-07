@@ -1,4 +1,326 @@
 {
+  "https://grafana.com/blog/api-load-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246930+00:00",
+    "score": 8,
+    "summary": "Comprehensive 19-minute guide on API load testing methodology using k6, covering the testing pyramid from isolated endpoints to end-to-end flows. Extremely relevant for establishing performance testing standards in your CI/CD pipeline with your existing k6 tooling.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "API load testing: A beginner\u2019s guide"
+  },
+  "https://grafana.com/blog/average-load-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246943+00:00",
+    "score": 7,
+    "summary": "This beginner's guide to average-load testing with Grafana k6 provides foundational knowledge directly applicable to L'Or\u00e9al's testing stack. The practical guidance on test configuration, ramp-up strategies, and performance assessment aligns well with early-stage DevOps maturity needs.",
+    "tags": [
+      "performance",
+      "testing"
+    ],
+    "title": "Average-load testing: A beginner\u2019s guide"
+  },
+  "https://grafana.com/blog/better-anomaly-detection-in-system-observability-and-performance-testing-with-grafana-k6/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246751+00:00",
+    "score": 10,
+    "summary": "Article about implementing automated anomaly detection in k6 performance testing through the xk6-anomaly extension to identify response delays, resource usage peaks, and other performance irregularities. This is highly relevant as k6 is in your active toolchain and automated performance testing analysis directly supports your observability and developer experience priorities.",
+    "tags": [
+      "performance",
+      "testing",
+      "observability",
+      "vendor-update"
+    ],
+    "title": "Better anomaly detection in system observability and performance testing with Grafana k6"
+  },
+  "https://grafana.com/blog/breakpoint-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246938+00:00",
+    "score": 8,
+    "summary": "Guide to breakpoint testing for finding system limits and capacity planning using k6, including important considerations for cloud environments. Highly relevant for understanding system capacity limits in your Kubernetes infrastructure and k6 testing strategy.",
+    "tags": [
+      "performance",
+      "testing",
+      "kubernetes"
+    ],
+    "title": "Breakpoint testing: A beginner\u2019s guide"
+  },
+  "https://grafana.com/blog/grafana-cloud-synthetic-monitoring-all-the-latest-features/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246953+00:00",
+    "score": 7,
+    "summary": "This article introduces new synthetic monitoring capabilities in Grafana Cloud powered by k6, enabling complex user journey simulation beyond basic protocol tests. While focused on Grafana Cloud rather than self-hosted k6, it demonstrates advanced observability patterns that could inform L'Or\u00e9al's monitoring strategy.",
+    "tags": [
+      "observability",
+      "performance",
+      "testing"
+    ],
+    "title": "Grafana Cloud Synthetic Monitoring: How to simulate user journeys to ensure the best possible end-user experience"
+  },
+  "https://grafana.com/blog/load-testing-tools-open-source-considerations-for-homegrown-solutions/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246940+00:00",
+    "orgs_mentioned": [
+      "Facebook",
+      "GitLab"
+    ],
+    "score": 8,
+    "summary": "This article discusses critical considerations for building vs buying load testing solutions using open source tools like Grafana k6, which is directly in L'Or\u00e9al's active toolchain. It provides strategic guidance on implementation approaches, cost-benefit analysis, and scaling challenges that would be highly valuable for platform engineering decisions at L'Or\u00e9al's maturity level.",
+    "tags": [
+      "performance",
+      "testing",
+      "platform-engineering"
+    ],
+    "title": "Load testing tools: Open source considerations for homegrown solutions"
+  },
+  "https://grafana.com/blog/load-testing-websites/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246935+00:00",
+    "score": 7,
+    "summary": "Comprehensive website load testing guide covering backend vs frontend performance testing approaches and when to use protocol-based vs browser-based testing. Relevant for establishing testing methodologies in your CI/CD pipeline, though less tool-specific than other k6 guides.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "How to load test a website: A comprehensive guide"
+  },
+  "https://grafana.com/blog/new-in-grafana-k6-the-latest-oss-features-in-v0-47-0-and-more-efficient-performance-testing-in-grafana-cloud-k6/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246753+00:00",
+    "score": 10,
+    "summary": "Grafana k6 v0.47.0 release notes covering new OSS features including gRPC binary metadata support, new authentication methods, ARM64 Docker images, and browser module improvements. This is a direct vendor update for k6 which is in your active toolchain, making it highly relevant for staying current with performance testing capabilities.",
+    "tags": [
+      "vendor-update",
+      "performance",
+      "testing"
+    ],
+    "title": "New in Grafana k6: The latest OSS features in v0.47.0 and more efficient performance testing in Grafana Cloud k6"
+  },
+  "https://grafana.com/blog/new-in-grafana-k6-the-latest-oss-features-in-v0-49-0-and-static-ips-in-grafana-cloud-k6/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246948+00:00",
+    "score": 9,
+    "summary": "This vendor update announces significant new features in Grafana k6 v0.49.0, including a built-in web dashboard and core gRPC streaming capabilities. As k6 is part of L'Or\u00e9al's active toolchain, these feature updates directly impact their testing and observability capabilities.",
+    "tags": [
+      "vendor-update",
+      "performance",
+      "testing",
+      "observability"
+    ],
+    "title": "New in Grafana k6: The latest OSS features in v0.49.0 and static IPs in Grafana Cloud k6"
+  },
+  "https://grafana.com/blog/organizing-your-grafana-k6-performance-testing-suite-best-practices-to-get-started/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246951+00:00",
+    "score": 8,
+    "summary": "This comprehensive guide provides best practices for organizing k6 performance testing suites, treating performance testing as part of the broader testing strategy. The guidance on starting simple and iterating aligns perfectly with L'Or\u00e9al's early-stage DevOps maturity and need for foundational improvements in testing practices.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "Organizing your Grafana k6 performance testing suite: Best practices to get started"
+  },
+  "https://grafana.com/blog/performance-testing-with-grafana-k6-and-github-actions/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246958+00:00",
+    "score": 8,
+    "summary": "Demonstrates integration of k6 performance testing into GitHub Actions CI/CD pipelines with step-by-step implementation guidance. Highly relevant for L'Or\u00e9al's CI/CD standardization efforts, showing how to automate performance testing within their existing GitHub workflow.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Performance testing with Grafana k6 and GitHub Actions"
+  },
+  "https://grafana.com/blog/setting-up-your-grafana-k6-performance-testing-suite-javascript-tools-shared-libraries-and-more/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246956+00:00",
+    "score": 8,
+    "summary": "Provides comprehensive guidance on organizing k6 performance testing suites with JavaScript tooling, shared libraries, and repository structures. Directly relevant for improving L'Or\u00e9al's k6 implementation with best practices for code quality, team collaboration, and test suite maintenance.",
+    "tags": [
+      "performance",
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Setting up your Grafana k6 performance testing suite: JavaScript tools, shared libraries, and more"
+  },
+  "https://grafana.com/blog/smoke-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246928+00:00",
+    "score": 8,
+    "summary": "Beginner's guide to smoke testing with k6, essential for validating test scripts and gathering baseline metrics in CI/CD pipelines. Directly applicable to your k6 toolchain and foundational testing practices needed for CI/CD standardization.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Smoke testing: A beginner\u2019s guide"
+  },
+  "https://grafana.com/blog/soak-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246924+00:00",
+    "score": 8,
+    "summary": "Comprehensive guide to soak testing using k6 (your active testing tool) for identifying performance degradation over extended periods. Highly relevant for establishing testing standards as part of your CI/CD pipeline maturity initiatives.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Soak testing: A beginner\u2019s guide"
+  },
+  "https://grafana.com/blog/spike-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246945+00:00",
+    "score": 7,
+    "summary": "This spike testing guide covers essential performance testing patterns for handling traffic surges using Grafana k6, a tool in L'Or\u00e9al's stack. The practical examples and considerations for sudden load scenarios would be valuable for building robust testing capabilities.",
+    "tags": [
+      "performance",
+      "testing"
+    ],
+    "title": "Spike testing: A beginner\u2019s guide"
+  },
+  "https://grafana.com/blog/stress-testing/": {
+    "category": "Performance",
+    "first_seen": "2026-04-07T11:47:48.246933+00:00",
+    "score": 8,
+    "summary": "Guide to stress testing with k6 for assessing system performance under higher-than-average loads during peak traffic scenarios. Valuable for your performance testing strategy using existing k6 infrastructure and CI/CD standardization efforts.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Stress testing: A beginner\u2019s guide"
+  },
+  "https://leaddev.com/ai/addictive-agentic-coding-has-developers-losing-sleep?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246715+00:00",
+    "orgs_mentioned": [
+      "Multitudes"
+    ],
+    "score": 7,
+    "summary": "Highlights concerning patterns of AI-driven coding addiction leading to developer burnout and cognitive overload. Highly relevant for developer experience strategy and managing AI-augmented development tools effectively.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "\u2018Addictive\u2019 agentic coding has developers losing sleep"
+  },
+  "https://leaddev.com/ai/axios-hack-exposes-ai-codings-dependency-problem?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246700+00:00",
+    "score": 10,
+    "summary": "Critical security advisory about supply chain attacks targeting AI-coding dependencies, with specific mention of Axios and npm compromises affecting thousands of projects. Directly relevant to your AI-augmented development priorities and highlights security risks in dependency management that could impact your development toolchain.",
+    "tags": [
+      "security-advisory",
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "Axios hack exposes AI-coding\u2019s dependency problem"
+  },
+  "https://leaddev.com/ai/choosing-a-new-ai-coding-tool-heres-what-to-look-for?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246718+00:00",
+    "orgs_mentioned": [
+      "Augment",
+      "Cursor",
+      "Sourcegraph",
+      "Tabnine"
+    ],
+    "score": 7,
+    "summary": "Provides decision framework for selecting AI coding tools with emphasis on codebase context, security, and workflow integration. Directly applicable to AI-augmented development strategy and developer toolchain decisions.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Choosing a new AI-coding tool? Here\u2019s what to look for"
+  },
+  "https://leaddev.com/ai/the-ai-skills-gap-is-real-but-its-not-what-you-think?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246695+00:00",
+    "score": 7,
+    "summary": "Discusses how AI transforms the skills gap from coding to architectural thinking and problem decomposition, directly relevant to AI-augmented development strategy. Emphasizes breaking large problems into testable chunks with fast feedback loops, which aligns with platform engineering principles for standardizing development practices.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "org-design"
+    ],
+    "title": "The AI skills gap is real (but it\u2019s not what you think)"
+  },
+  "https://leaddev.com/ai/why-ai-isnt-writing-most-of-your-code-yet?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246705+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Spotify",
+      "Harness"
+    ],
+    "score": 7,
+    "summary": "Data-driven analysis showing most teams currently use AI for \u226425% of code generation, with startups adopting faster than enterprises. Provides concrete benchmarks for AI-augmented development adoption that can inform your strategic planning and expectations setting.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Why AI isn\u2019t writing most of your code (yet)"
+  },
+  "https://leaddev.com/career-development/software-engineering-leaders-need-a-shopkeeper-mentality?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246703+00:00",
+    "score": 6,
+    "summary": "Leadership methodology focused on maintaining awareness across people, processes, and signals rather than just tactical execution. Relevant to platform engineering org design as it addresses how senior leaders can balance strategic oversight with operational awareness in complex technical environments.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "Software engineering leaders need a shopkeeper mentality"
+  },
+  "https://leaddev.com/career-development/the-reality-of-being-a-distinguished-engineer?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246713+00:00",
+    "orgs_mentioned": [
+      "Honeycomb"
+    ],
+    "score": 5,
+    "summary": "Explores the self-directed nature of distinguished engineer roles and their impact on organizational systems design. Offers insights on technical leadership but limited direct application to platform engineering org structure.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "The reality of being a distinguished engineer"
+  },
+  "https://leaddev.com/hiring/3-ways-to-bounce-back-from-sudden-team-cuts?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246710+00:00",
+    "score": 6,
+    "summary": "Provides actionable strategies for engineering managers dealing with sudden team reductions, focusing on knowledge capture and capacity reassessment. Relevant for org design challenges but not specific to platform engineering practices.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "3 ways to bounce back from sudden team cuts"
+  },
+  "https://leaddev.com/leadership/being-tech-lead-doesnt-mean-having-all-answers?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246698+00:00",
+    "score": 5,
+    "summary": "General leadership advice about tech leads not needing to know everything and focusing on unblocking rather than being the smartest person. Provides mindset guidance that could apply to platform engineering leadership but lacks specific technical or organizational design insights.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "The reality of being a tech lead"
+  },
+  "https://leaddev.com/leadership/tech-leads-are-overwhelmed-heres-how-to-take-back-control?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246708+00:00",
+    "score": 6,
+    "summary": "Practical guidance for tech leads on prioritization, delegation, and capacity management to handle overwhelming workloads. Relevant to platform engineering org design as it addresses scalability challenges leaders face when balancing technical implementation with team development.",
+    "tags": [
+      "org-design",
+      "developer-experience"
+    ],
+    "title": "Tech leads are overwhelmed. Here\u2019s how to take back control"
+  },
   "https://platformengineering.org/blog/accelerate-teams-with-platform-engineering-and-policy-as-code": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722520+00:00",
@@ -322,6 +644,20 @@
     ],
     "title": "Anthropic\u2019s rough week: leaked models, exposed source code, and a botched GitHub takedown"
   },
+  "https://thenewstack.io/anthropic-claude-harness-restrictions/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-07T11:47:48.246643+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 6,
+    "summary": "Anthropic changes Claude subscription model to charge separately for third-party harnesses, potentially impacting AI-augmented development workflows. Developers express concerns about workflow fragmentation and increased costs for AI tooling integration.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Anthropic\u2019s harness shakeup \u201cjust fragments workflows,\u201d developers warn"
+  },
   "https://thenewstack.io/beyond-magic-scaling-myth/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722610+00:00",
@@ -342,6 +678,20 @@
       "kubernetes"
     ],
     "title": "Why Broadcom gave Velero to the CNCF Sandbox \u2014 and what it means for Kubernetes data protection"
+  },
+  "https://thenewstack.io/build-mcp-server-tutorial/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-07T11:47:48.246661+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 7,
+    "summary": "MCP servers enable direct integration of enterprise data with Claude, providing a technical approach for AI-augmented development in platform engineering contexts. The article includes practical implementation guidance for TypeScript-based MCP server development.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "MCP servers turn Claude into a reasoning engine for your data"
   },
   "https://thenewstack.io/cicd-pipeline-front-line/": {
     "category": "Platform Engineering",
@@ -509,6 +859,191 @@
     ],
     "title": "The hidden reason your AI assistant feels so sluggish"
   },
+  "https://tldrsec.com/p/tldr-sec-311": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246748+00:00",
+    "orgs_mentioned": [
+      "Slack",
+      "Trail of Bits"
+    ],
+    "score": 7,
+    "summary": "Security newsletter featuring Slack's AI agent system for optimizing security alert investigations, cloud-native detection engineering approaches, and Trail of Bits' Claude Skills for security research. The Slack AI agent system and cloud-native detection engineering content provides relevant insights for security automation and observability in platform engineering contexts.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev",
+      "observability"
+    ],
+    "title": "[tl;dr sec] #311 - Slack's Security Agents, Cloud-Native Detection Engineering, Trail of Bits' Claude SkillsSlack's AI agent system to optimize security alert investigations, deep dive into cloud-nati"
+  },
+  "https://tldrsec.com/p/tldr-sec-312": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246746+00:00",
+    "score": 6,
+    "summary": "Security newsletter covering AI-generated exploit creation, macOS EDR evasion techniques, and AWS Console supply chain vulnerabilities. While containing general security content, the AWS supply chain vulnerability discussion provides some insights relevant to cloud platform security considerations.",
+    "tags": [
+      "devsecops"
+    ],
+    "title": "[tl;dr sec] #312 - The Industrialization of Exploit Generation, macOS EDR Evasion, Hacking the AWS ConsoleGenerating 0-day exploits with Opus 4.5 and GPT-5.2, blind spots for EDRs on macOS, supply cha"
+  },
+  "https://tldrsec.com/p/tldr-sec-313": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246743+00:00",
+    "orgs_mentioned": [
+      "Plaid",
+      "Datadog"
+    ],
+    "score": 8,
+    "summary": "Security newsletter featuring MCP servers for offensive security tools, Datadog's IDE extension to protect against malicious extensions, and Plaid's approach to security pipeline as code. Plaid's security pipeline implementation is highly relevant as it shows how to scale security scanning across hundreds of services using infrastructure as code principles.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "[tl;dr sec] #313 - MCP Security Hub, IDE-Shepherd, Plaid's Security Pipeline as CodeMCP servers for offensive security tools, Datadog's IDE extension to protect against malicious IDE extensions, how P"
+  },
+  "https://tldrsec.com/p/tldr-sec-314": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246741+00:00",
+    "orgs_mentioned": [
+      "Chime",
+      "Netflix",
+      "GitHub",
+      "Atlassian"
+    ],
+    "score": 7,
+    "summary": "Security newsletter covering ClawdBot vulnerabilities, security scorecards for tracking application security posture, and a threat framework mapping 70+ attack techniques across the SDLC. The security scorecards section is particularly relevant as it discusses centralized dashboards and leaderboards used by major companies to track security metrics and gamify improvements.",
+    "tags": [
+      "devsecops",
+      "observability"
+    ],
+    "title": "[tl;dr sec] #314 - ClawdBot Security, Security Scorecards, Threat Framework for SDLC InfrastructureClawdBot vulns, tools, and Skill scanners; measuring security with scorecards; new open-source framew"
+  },
+  "https://tldrsec.com/p/tldr-sec-315": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246739+00:00",
+    "score": 7,
+    "summary": "Security newsletter featuring GitHub Action for flagging vulnerability fixes before CVE assignment, useful for proactive security monitoring. Discusses web application security techniques and AI-assisted vulnerability discovery methods.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "github",
+      "ai-augmented-dev"
+    ],
+    "title": "[tl;dr sec] #315 - Securing OpenClaw, Top 10 Web Hacking Techniques of 2025, Discovering Negative-Days with LLMsMinimal OpenClaw alternatives, scanning tools, and hardening guidance, PortSwigger's cur"
+  },
+  "https://tldrsec.com/p/tldr-sec-316": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246736+00:00",
+    "orgs_mentioned": [
+      "Trail of Bits",
+      "Mercari"
+    ],
+    "score": 6,
+    "summary": "Security newsletter discussing Claude Code usage for security engineering and GitHub threat intelligence tracking. Covers AI-powered pentesting tools and authentication security improvements relevant to developer workflows.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev",
+      "github"
+    ],
+    "title": "[tl;dr sec] #316 - How Trail of Bits uses Claude Code, GitHub Threat Intel, Open Source AI Pentesting ToolsExtensive guide on being a Claude Code power user, tracking threat actors on GitHub, open sou"
+  },
+  "https://tldrsec.com/p/tldr-sec-317": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246733+00:00",
+    "orgs_mentioned": [
+      "Samsung"
+    ],
+    "score": 8,
+    "summary": "Security newsletter covering secret scanning tools and benchmarks, crucial for protecting credentials in CI/CD pipelines. Features open-source tools for detecting leaked credentials across code repositories and binary files.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "security-advisory"
+    ],
+    "title": "[tl;dr sec] #317 - 100+ Kernel Bugs in 30 Days, Secret Scanning, Threat Actors Stealing Your PoC$600 finds more 0-days in Windows kernel drivers that you can shake a stick at, secret scanners, benchma"
+  },
+  "https://tldrsec.com/p/tldr-sec-318": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246731+00:00",
+    "orgs_mentioned": [
+      "Netflix"
+    ],
+    "score": 9,
+    "summary": "Security newsletter featuring AI bot autonomously hacking GitHub Actions, highlighting critical CI/CD pipeline security risks. Includes practical security rules and skills for protecting automated development workflows.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "github",
+      "ai-augmented-dev",
+      "security-advisory"
+    ],
+    "title": "[tl;dr sec] #318 - Unprompted Talk Summaries, AI Bot Hacking GitHub Actions, AI Skills & Semgrep RulesSlides + notes for the CodeMender and AI for Shai-Hulud response talks, an AI bot was autonomously"
+  },
+  "https://tldrsec.com/p/tldr-sec-319": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246728+00:00",
+    "orgs_mentioned": [
+      "1Password"
+    ],
+    "score": 8,
+    "summary": "Security newsletter discussing AI's impact on security engineering and development workflows, including automated vulnerability detection. Covers emerging threats and defensive strategies relevant to platform security posture.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev",
+      "security-advisory"
+    ],
+    "title": "[tl;dr sec] #319 - AI is Eating Security, BSidesSF & RSA, Claude Finds Firefox 0-daysWhat does security look like in 5 years? Let's hang out in San Francisco and avoid badge scans, Opus 4.6 finds 22 v"
+  },
+  "https://tldrsec.com/p/tldr-sec-320": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246726+00:00",
+    "orgs_mentioned": [
+      "Ramp",
+      "Datadog"
+    ],
+    "score": 9,
+    "summary": "Security-focused newsletter covering GitHub supply chain attack detection and mitigation, directly relevant to securing CI/CD pipelines. Includes practical guidance on fixing security issues at scale and protecting development infrastructure.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "github",
+      "security-advisory"
+    ],
+    "title": "[tl;dr sec] #320 - Ramp's Security Agents, How Datadog Caught Malicious OSS Contributions, Obliterating Model RefusalsHow Ramp fixed ~100 security issues in 6 days, detecting and mitigating GitHub sup"
+  },
+  "https://tldrsec.com/p/tldr-sec-321": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246723+00:00",
+    "orgs_mentioned": [
+      "NVIDIA",
+      "AWS"
+    ],
+    "score": 9,
+    "summary": "Reports Trivy security scanner compromise and AWS Security Agent vulnerabilities, plus AI agent sandboxing approaches. Important security advisories affecting DevSecOps toolchain and emerging AI security practices.",
+    "tags": [
+      "security-advisory",
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "[tl;dr sec] #321 - Sandboxing AI Agents, Trivy Compromised, Pentesting AWS' AI PentesterSandbox approaches by NVIDIA and Niel Provos, moar supply chain compromises, vulnerabilities in AWS Security Age"
+  },
+  "https://tldrsec.com/p/tldr-sec-322": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-07T11:47:48.246721+00:00",
+    "orgs_mentioned": [
+      "GitHub",
+      "Portswigger"
+    ],
+    "score": 10,
+    "summary": "GitHub announces supply chain security roadmap and hardening plans for GitHub Actions, with vulnerability management automation insights. Critical security advisory content for existing GitHub-based CI/CD infrastructure.",
+    "tags": [
+      "security-advisory",
+      "vendor-update",
+      "ci-cd",
+      "devsecops"
+    ],
+    "title": "[tl;dr sec] #322 - GitHub's Supply Chain Roadmap, Scaling Vulnerability Management with AI, Finding Vulnerabilities Across ReposGitHub's plan to harden GitHub Actions and supply chain security, automa"
+  },
   "https://www.infoq.com/articles/alternative-reduce-test-suite-size/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722837+00:00",
@@ -519,6 +1054,16 @@
       "testing"
     ],
     "title": "Article: A Better Alternative to Reducing CI Regression Test Suite Sizes"
+  },
+  "https://www.infoq.com/articles/bloom-filters-practice-go-recommender/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246666+00:00",
+    "score": 5,
+    "summary": "Detailed technical article on implementing Bloom filters in Go for high-performance membership testing, reducing unnecessary database lookups in recommendation systems. While not directly platform engineering focused, it demonstrates valuable performance optimization patterns for high-scale systems.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Article: Bloom Filters: Theory, Engineering Trade\u2011offs, and Implementation in Go"
   },
   "https://www.infoq.com/news/2026/04/ai-coding-language-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -531,6 +1076,75 @@
     ],
     "title": "Dynamic Languages Faster and Cheaper in 13-Language Claude Code Benchmark"
   },
+  "https://www.infoq.com/news/2026/04/anthropic-three-agent-harness-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246679+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 7,
+    "summary": "Anthropic has developed a three-agent framework for long-running AI development sessions, addressing context loss and premature task termination through structured handoffs and separate evaluation agents. This multi-hour autonomous coding approach could significantly enhance AI-augmented development workflows and developer productivity at L'Or\u00e9al.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Anthropic  Designs Three-Agent Harness Supports Long-Running Full-Stack AI Development"
+  },
+  "https://www.infoq.com/news/2026/04/claude-code-source-leak/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246671+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 9,
+    "summary": "Anthropic accidentally exposed Claude Code CLI source code via npm package source maps, revealing system prompts and agent architecture. This highlights critical CI/CD packaging security practices and the importance of proper build artifact management in development workflows.",
+    "tags": [
+      "security-advisory",
+      "ci-cd",
+      "devsecops"
+    ],
+    "title": "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File"
+  },
+  "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246674+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Google open sources Scion, an experimental multi-agent orchestration platform that manages concurrent AI agents in containers across compute environments. The platform demonstrates advanced approaches to AI-augmented development infrastructure and agent lifecycle management.",
+    "tags": [
+      "ai-augmented-dev",
+      "kubernetes",
+      "platform-engineering"
+    ],
+    "title": "Google Open Sources Experimental Multi-Agent Orchestration Testbed Scion"
+  },
+  "https://www.infoq.com/news/2026/04/java-news-roundup-mar30-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246676+00:00",
+    "score": 4,
+    "summary": "Java ecosystem news roundup covering various library and framework updates including TornadoVM, Grails, Tomcat, and Log4j releases. Limited relevance to platform engineering priorities as it focuses on general Java ecosystem updates rather than platform-specific tooling or practices.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Java News Roundup: TornadoVM 4.0, Google ADK for Java 1.0, Grails, Tomcat, Log4j, Gradle"
+  },
+  "https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246690+00:00",
+    "orgs_mentioned": [
+      "ByteDance",
+      "Dunelm Technology"
+    ],
+    "score": 6,
+    "summary": "Module Federation 2.0 reaches stable release with support beyond webpack, including dynamic TypeScript types and Node.js runtime support for micro-frontend architectures. While not directly applicable to L'Or\u00e9al's current stack, this represents an important evolution in distributed frontend architecture patterns that could inform future platform engineering decisions.",
+    "tags": [
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "Module Federation 2.0 Reaches Stable Release with Wider Support outside of Webpack"
+  },
   "https://www.infoq.com/news/2026/04/pinterest-spark-oom-reduction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722832+00:00",
@@ -541,6 +1155,46 @@
       "performance"
     ],
     "title": "Pinterest Reduces Spark OOM Failures by 96% Through Auto Memory Retries"
+  },
+  "https://www.infoq.com/news/2026/04/swift-6-3-android-c-interop/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246684+00:00",
+    "score": 3,
+    "summary": "Swift 6.3 introduces Android SDK support, improved C interoperability, and embedded programming features for mobile development. This update is not relevant to L'Or\u00e9al's Java-based Spring Boot stack and platform engineering focus areas.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Swift 6.3 Stabilizes Android SDK, Extends C Interop, and More"
+  },
+  "https://www.infoq.com/news/2026/04/tigerfs-postgresql-filesystem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246682+00:00",
+    "orgs_mentioned": [
+      "TigerData",
+      "MongoDB",
+      "Oracle"
+    ],
+    "score": 4,
+    "summary": "TigerFS is an experimental filesystem that mounts PostgreSQL databases as directories, allowing developers and AI agents to interact with database data using standard Unix tools. While innovative for database interaction patterns, this experimental tool is not directly relevant to L'Or\u00e9al's current platform engineering priorities.",
+    "tags": [
+      "developer-experience"
+    ],
+    "title": "TigerFS Mounts PostgreSQL Databases as a Filesystem for Developers and AI Agents"
+  },
+  "https://www.infoq.com/news/2026/04/trivy-supply-chain-attack/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246687+00:00",
+    "orgs_mentioned": [
+      "Aqua Security"
+    ],
+    "score": 11,
+    "summary": "The popular open source security scanner Trivy was hit by a supply chain attack where attackers published a malicious version (v0.69.4) that could exfiltrate credentials and execute malicious code. This critical security advisory affects organizations using Trivy in CI/CD pipelines and requires immediate action to check for compromised versions and rotate secrets.",
+    "tags": [
+      "security-advisory",
+      "devsecops",
+      "ci-cd"
+    ],
+    "title": "Open Source Security Tool Trivy Hit by Supply Chain Attack, Prompting Urgent Industry Response"
   },
   "https://www.infoq.com/podcasts/context-engineering-large-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -565,5 +1219,22 @@
       "org-design"
     ],
     "title": "Presentation: Duolingo's Kubernetes Leap"
+  },
+  "https://www.infoq.com/presentations/panel-complexity-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-07T11:47:48.246692+00:00",
+    "orgs_mentioned": [
+      "Thoughtworks",
+      "Syntasso",
+      "Accenture",
+      "Capgemini"
+    ],
+    "score": 8,
+    "summary": "QCon London panel discussion on the evolving practice of architecture in 2025, covering communication of technical debt to stakeholders and decentralized decision-making through ADRs. This directly addresses platform engineering organizational design challenges and provides practical insights for scaling architecture practices across teams.",
+    "tags": [
+      "org-design",
+      "platform-engineering"
+    ],
+    "title": "Presentation: Panel: Taking Architecture out of the Echo Chamber"
   }
 }
