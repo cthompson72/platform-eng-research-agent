@@ -1,4 +1,108 @@
 {
+  "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395634+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Don't DRY Your Code Prematurely"
+  },
+  "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395630+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "In Praise of Small Pull Requests"
+  },
+  "http://testing.googleblog.com/2024/08/less-is-more-principles-for-simple.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395626+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Less Is More: Principles for Simple Comments"
+  },
+  "http://testing.googleblog.com/2024/09/write-change-resilient-code-with-domain.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395622+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Write Change-Resilient Code With Domain Objects"
+  },
+  "http://testing.googleblog.com/2024/10/smurf-beyond-test-pyramid.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395618+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "SMURF: Beyond the Test Pyramid"
+  },
+  "http://testing.googleblog.com/2024/12/tech-on-toilet-driving-software.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395614+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Tech on the Toilet: Driving Software Excellence, One Bathroom Break at a Time"
+  },
+  "http://testing.googleblog.com/2025/01/arrange-your-code-to-communicate-data.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395610+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Arrange Your Code to Communicate Data Flow"
+  },
+  "http://testing.googleblog.com/2025/09/sort-lines-in-source-code.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395606+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Sort Lines in Source Code"
+  },
+  "http://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395602+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Simplify Your Code: Functional Core, Imperative Shell"
+  },
+  "http://testing.googleblog.com/2026/03/set-safe-defaults-for-flags.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395598+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Set Safe Defaults for Flags"
+  },
+  "http://testing.googleblog.com/2026/03/the-way-of-tdd.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-08T11:46:15.395594+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "The Way of TDD"
+  },
+  "https://grafana.com/blog/5-tips-to-write-better-browser-tests-for-performance-testing-and-synthetic-monitoring/": {
+    "category": "Performance",
+    "first_seen": "2026-04-08T11:46:15.395505+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "5 tips to write better browser tests for performance testing and synthetic monitoring"
+  },
+  "https://grafana.com/blog/an-open-source-app-for-easily-building-performance-tests-grafana-k6-studio-is-generally-available/": {
+    "category": "Performance",
+    "first_seen": "2026-04-08T11:46:15.395513+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "An open source app for easily building performance tests: Grafana k6 Studio is generally available"
+  },
   "https://grafana.com/blog/api-load-testing/": {
     "category": "Performance",
     "first_seen": "2026-04-07T11:47:48.246930+00:00",
@@ -59,6 +163,14 @@
     ],
     "title": "Grafana Cloud Synthetic Monitoring: How to simulate user journeys to ensure the best possible end-user experience"
   },
+  "https://grafana.com/blog/how-to-integrate-performance-testing-and-continuous-profiling-for-deeper-application-insights/": {
+    "category": "Performance",
+    "first_seen": "2026-04-08T11:46:15.395509+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "How to integrate performance testing and continuous profiling for deeper application insights"
+  },
   "https://grafana.com/blog/load-testing-tools-open-source-considerations-for-homegrown-solutions/": {
     "category": "Performance",
     "first_seen": "2026-04-07T11:47:48.246940+00:00",
@@ -86,6 +198,14 @@
       "ci-cd"
     ],
     "title": "How to load test a website: A comprehensive guide"
+  },
+  "https://grafana.com/blog/new-grafana-k6-features-typescript-support-async-apis-for-browser-and-more/": {
+    "category": "Performance",
+    "first_seen": "2026-04-08T11:46:15.395501+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "New Grafana k6 features: TypeScript support, async APIs for browser, and more"
   },
   "https://grafana.com/blog/new-in-grafana-k6-the-latest-oss-features-in-v0-47-0-and-more-efficient-performance-testing-in-grafana-cloud-k6/": {
     "category": "Performance",
@@ -195,6 +315,166 @@
       "ci-cd"
     ],
     "title": "Stress testing: A beginner\u2019s guide"
+  },
+  "https://humanitec.com/blog/aiven-humanitec-tech-alliance": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395563+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Our Tech Alliance With Aiven.  | Humanitec"
+  },
+  "https://humanitec.com/blog/build-your-internal-developer-platform-with-humanitec-cortex": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395586+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Build your Internal Developer Platform with Humanitec & Cortex  | Humanitec"
+  },
+  "https://humanitec.com/blog/container-driver": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395567+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Feature announcement: the Container Driver  | Humanitec"
+  },
+  "https://humanitec.com/blog/feature-announcement-catalog-of-resource-classes": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395571+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Feature announcement: Catalog of Resource Classes  | Humanitec"
+  },
+  "https://humanitec.com/blog/feature-announcement-humanitec-deployment-pipelines": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395540+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Feature announcement: Humanitec Deployment Pipelines   | Humanitec"
+  },
+  "https://humanitec.com/blog/feature-announcement-mcp-knowledge-server": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395555+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Humanitec keeps being cutting edge with MCP support   | Humanitec"
+  },
+  "https://humanitec.com/blog/feature-announcement-new-service-user-ui": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395532+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Feature Announcement: New Service User UI  | Humanitec"
+  },
+  "https://humanitec.com/blog/feature-announcement-the-humanitec-agent": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395536+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Feature announcement: The Humanitec Agent   | Humanitec"
+  },
+  "https://humanitec.com/blog/generate-a-complex-resource-estate-from-three-lines-of-code": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395559+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Generate a complex resource estate from three lines of code  | Humanitec"
+  },
+  "https://humanitec.com/blog/how-to-design-backends-for-internal-developer-platforms": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395590+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "How to design backends for Internal Developer Platforms\n  | Humanitec"
+  },
+  "https://humanitec.com/blog/humanitec-gartner-hype-cycles": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395575+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Humanitec mentioned in 9 Gartner Hype Cycles  | Humanitec"
+  },
+  "https://humanitec.com/blog/humanitec-vs-backstage-friends-or-foes": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395528+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Humanitec vs. Backstage: friends or foes?  | Humanitec"
+  },
+  "https://humanitec.com/blog/humanitec-vs-port-how-can-they-work-together": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395521+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Humanitec vs Port: how can they work together  | Humanitec"
+  },
+  "https://humanitec.com/blog/platform-as-a-product-the-evolution-of-devops-and-platform-engineering": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395583+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Platform as a product: The evolution of DevOps & platform engineering  | Humanitec"
+  },
+  "https://humanitec.com/blog/resource-graph-visualisation-through-humanitec-portal": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395578+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Resource Graph visualisation through Humanitec Portal  | Humanitec"
+  },
+  "https://humanitec.com/blog/running-the-platform-orchestrator-self-hosted": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395551+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Self-hosted Platform Orchestrator  | Humanitec"
+  },
+  "https://humanitec.com/blog/simplify-change-promotion-with-our-new-cloning-ui": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395525+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Simplify change promotion with our new cloning UI  | Humanitec"
+  },
+  "https://humanitec.com/blog/the-all-new-platform-orchestrator": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395548+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "The all new Platform Orchestrator  | Humanitec"
+  },
+  "https://humanitec.com/blog/the-base-env-is-your-friend": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395544+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Tip of the month: The base-env is your friend  | Humanitec"
+  },
+  "https://humanitec.com/blog/why-zalando-builds-an-own-developer-platform": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395517+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Why Zalando Built Their Internal Developer Platform\u200d  | Humanitec"
   },
   "https://leaddev.com/ai/addictive-agentic-coding-has-developers-losing-sleep?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
@@ -320,6 +600,14 @@
       "developer-experience"
     ],
     "title": "Tech leads are overwhelmed. Here\u2019s how to take back control"
+  },
+  "https://leaddev.com/technical-direction/we-ditched-our-vendor-and-built-our-own-destiny?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395497+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "We ditched our vendor and built our own destiny"
   },
   "https://platformengineering.org/blog/accelerate-teams-with-platform-engineering-and-policy-as-code": {
     "category": "Platform Engineering",
@@ -609,6 +897,14 @@
     ],
     "title": "You Patched LiteLLM, But Do You Know Your AI Blast Radius?"
   },
+  "https://snyk.io/blog/scale-container-security-effortlessly/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-08T11:46:15.395470+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Secure What Matters: Scaling Effortless Container Security for the AI Era"
+  },
   "https://thenewstack.io/agentic-ai-junior-developer-crisis/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722593+00:00",
@@ -631,6 +927,14 @@
       "org-design"
     ],
     "title": "\u201cI started to lose my ability to code\u201d: Developers grapple with the real cost of AI programming tools"
+  },
+  "https://thenewstack.io/altman-openai-ai-safety/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395442+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Sam Altman promised billions for AI safety. Here\u2019s what OpenAI actually spent."
   },
   "https://thenewstack.io/anthropic-claude-code-leak/": {
     "category": "Platform Engineering",
@@ -657,6 +961,30 @@
       "developer-experience"
     ],
     "title": "Anthropic\u2019s harness shakeup \u201cjust fragments workflows,\u201d developers warn"
+  },
+  "https://thenewstack.io/anthropic-claude-mythos-cybersecurity/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395453+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Anthropic\u2019s Claude Mythos is now available, but not for you"
+  },
+  "https://thenewstack.io/aria-networks-ai-network/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395466+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Model Flop Utilization is the metric Aria Networks says will define the AI infrastructure era"
+  },
+  "https://thenewstack.io/aws-s3-files-filesystem/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395449+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Amazon S3 Files gives the world\u2019s biggest object store a file system"
   },
   "https://thenewstack.io/beyond-magic-scaling-myth/": {
     "category": "Platform Engineering",
@@ -739,6 +1067,14 @@
     ],
     "title": "Digital Experience Monitoring belongs in the modern developer workflow"
   },
+  "https://thenewstack.io/eks-auto-mode-kubernetes/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395457+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Amazon EKS Auto Mode wants to end Kubernetes toil \u2014 one node at a time"
+  },
   "https://thenewstack.io/hidden-agentic-technical-debt/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722614+00:00",
@@ -784,6 +1120,14 @@
     ],
     "title": "MCP maintainers from Anthropic, AWS, Microsoft, and OpenAI lay out enterprise security roadmap at Dev Summit"
   },
+  "https://thenewstack.io/meta-open-source-models/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395427+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Open-source leaders question whether Meta\u2019s Alexandr Wang will truly give away its AI models"
+  },
   "https://thenewstack.io/persistent-ai-agents-compared/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722605+00:00",
@@ -825,6 +1169,14 @@
       "ai-augmented-dev"
     ],
     "title": "The laptop return that broke a RAG pipeline"
+  },
+  "https://thenewstack.io/sovereign-postgresql-kubernetes-portability/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-08T11:46:15.395461+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "True enterprise sovereignty is more approachable than ever, thanks to K8s-powered cloud-neutral PostgreSQL"
   },
   "https://thenewstack.io/vultr-nvidia-ai-infrastructure/": {
     "category": "Platform Engineering",
@@ -1044,6 +1396,14 @@
     ],
     "title": "[tl;dr sec] #322 - GitHub's Supply Chain Roadmap, Scaling Vulnerability Management with AI, Finding Vulnerabilities Across ReposGitHub's plan to harden GitHub Actions and supply chain security, automa"
   },
+  "https://www.infoq.com/articles/ai-agent-transport-layer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395478+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Article: Stateful Continuation for AI Agents: Why Transport Layers Now Matter"
+  },
   "https://www.infoq.com/articles/alternative-reduce-test-suite-size/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722837+00:00",
@@ -1120,6 +1480,14 @@
     ],
     "title": "Google Open Sources Experimental Multi-Agent Orchestration Testbed Scion"
   },
+  "https://www.infoq.com/news/2026/04/istio-ai-multicluster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395493+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Istio Evolves for the AI Era with Multicluster, Ambient Mode, and Inference Capabilities"
+  },
   "https://www.infoq.com/news/2026/04/java-news-roundup-mar30-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246676+00:00",
@@ -1155,6 +1523,14 @@
       "performance"
     ],
     "title": "Pinterest Reduces Spark OOM Failures by 96% Through Auto Memory Retries"
+  },
+  "https://www.infoq.com/news/2026/04/spotify-wrapped-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395486+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Inside Spotify\u2019s 2025 Wrapped Archive: AI Narratives at Scale and the Privacy Trade\u2011Off"
   },
   "https://www.infoq.com/news/2026/04/swift-6-3-android-c-interop/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -1207,6 +1583,14 @@
     ],
     "title": "Podcast: Context Engineering with Adi Polak"
   },
+  "https://www.infoq.com/presentations/ai-coding-assistants/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395482+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Presentation: State of Play: AI Coding Assistants"
+  },
   "https://www.infoq.com/presentations/duolingo-eks-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722835+00:00",
@@ -1219,6 +1603,22 @@
       "org-design"
     ],
     "title": "Presentation: Duolingo's Kubernetes Leap"
+  },
+  "https://www.infoq.com/presentations/hashtable-modern-hardware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395490+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Presentation: When Every Bit Counts: How Valkey Rebuilt Its Hashtable for Modern Hardware"
+  },
+  "https://www.infoq.com/presentations/local-first-build-software/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-08T11:46:15.395474+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Presentation: Local First \u2013 How To Build Software Which Still Works After the Acquihire"
   },
   "https://www.infoq.com/presentations/panel-complexity-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
