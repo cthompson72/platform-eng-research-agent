@@ -1,4 +1,115 @@
 {
+  "http://testing.googleblog.com/2023/12/exceptional-exception-handling.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347984+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 5,
+    "summary": "Google's best practices for exception handling in Java and similar languages, focusing on specific exception catching and meaningful error messages. Foundational coding practice that supports better debugging and developer experience in platform services.",
+    "tags": [
+      "developer-experience"
+    ],
+    "title": "Exceptional Exception Handling"
+  },
+  "http://testing.googleblog.com/2023/12/let-code-speak-for-itself.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347784+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 4,
+    "summary": "Google's guidelines on writing effective code comments that explain 'why' rather than 'what' and letting code be self-documenting. General code quality advice that supports developer experience but not specifically platform engineering focused.",
+    "tags": [
+      "developer-experience"
+    ],
+    "title": "Let Code Speak for Itself"
+  },
+  "http://testing.googleblog.com/2024/02/increase-test-fidelity-by-avoiding-mocks.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347781+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Google's testing philosophy advocating for real implementations and fakes over mocks to increase test fidelity and catch more bugs. Relevant for improving CI/CD pipeline quality and testing standards as part of foundational DevOps improvements.",
+    "tags": [
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Increase Test Fidelity By Avoiding Mocks"
+  },
+  "http://testing.googleblog.com/2024/03/whats-in-name.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347779+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 5,
+    "summary": "Google's guidance on naming conventions and identifier clarity for code readability and maintainability. While general coding practices, good naming is foundational for developer experience and code health in any platform engineering initiative.",
+    "tags": [
+      "developer-experience"
+    ],
+    "title": "What\u2019s in a Name?"
+  },
+  "http://testing.googleblog.com/2024/04/how-i-learned-to-stop-writing-brittle.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347774+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Discusses using expressive test APIs to reduce test brittleness and implementation-detail dependency. Relevant for developer experience as brittle tests slow down CI/CD pipelines and create maintenance overhead for development teams.",
+    "tags": [
+      "testing",
+      "developer-experience",
+      "ci-cd"
+    ],
+    "title": "How I Learned To Stop Writing Brittle Tests and Love Expressive APIs"
+  },
+  "http://testing.googleblog.com/2024/04/isbooleantoolongandcomplex.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347772+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 5,
+    "summary": "Google's guidance on simplifying complex boolean expressions through meaningful variable names and method extraction. Moderately relevant for developer experience as it improves code readability and maintainability.",
+    "tags": [
+      "developer-experience",
+      "testing"
+    ],
+    "title": "isBooleanTooLongAndComplex"
+  },
+  "http://testing.googleblog.com/2024/04/prefer-narrow-assertions-in-unit-tests.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347776+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Advocates for narrow assertions in unit tests to avoid brittleness when system components change. Relevant for CI/CD stability and developer experience as it reduces false positive test failures that slow development velocity.",
+    "tags": [
+      "testing",
+      "developer-experience",
+      "ci-cd"
+    ],
+    "title": "Prefer Narrow Assertions in Unit Tests"
+  },
+  "http://testing.googleblog.com/2024/05/avoid-long-parameter-list.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347767+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 5,
+    "summary": "Google's coding best practices for avoiding long parameter lists by using value objects and builder patterns. Moderately relevant as clean code practices support developer experience, though this is basic programming guidance rather than platform engineering specific.",
+    "tags": [
+      "developer-experience",
+      "testing"
+    ],
+    "title": "Avoid the Long Parameter List"
+  },
   "http://testing.googleblog.com/2024/05/dont-dry-your-code-prematurely.html": {
     "category": "QA & Testing",
     "first_seen": "2026-04-08T11:46:15.395634+00:00",
@@ -6,6 +117,21 @@
     "summary": "",
     "tags": [],
     "title": "Don't DRY Your Code Prematurely"
+  },
+  "http://testing.googleblog.com/2024/05/test-failures-should-be-actionable.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347769+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Emphasizes making test failures actionable with clear error messages and proper assertion frameworks. Relevant to developer experience as it reduces debugging time and aligns with CI/CD best practices for faster feedback loops.",
+    "tags": [
+      "testing",
+      "developer-experience",
+      "ci-cd"
+    ],
+    "title": "Test Failures Should Be Actionable"
   },
   "http://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html": {
     "category": "QA & Testing",
@@ -87,6 +213,183 @@
     "tags": [],
     "title": "The Way of TDD"
   },
+  "https://app14743.cloudwayssites.com/blog/agentic-automation-ai-augmented-testing/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348009+00:00",
+    "score": 6,
+    "summary": "Discusses the evolution from scripted test automation to AI-augmented agentic testing systems that adapt and learn. Relevant for AI-augmented development strategy but focuses on QA transformation rather than platform engineering fundamentals.",
+    "tags": [
+      "ai-augmented-dev",
+      "testing"
+    ],
+    "title": "Agentic Automation: Preparing QA Leaders for the Next Leap in Testing"
+  },
+  "https://app14743.cloudwayssites.com/blog/ai-testing-for-regulated-environments/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348004+00:00",
+    "score": 5,
+    "summary": "Addresses testing challenges in regulated environments, advocating for intent-driven authoring with deterministic execution over brittle code-based automation. Somewhat relevant for organizations with compliance requirements but limited direct platform engineering application.",
+    "tags": [
+      "testing",
+      "ai-augmented-dev"
+    ],
+    "title": "AI Testing in Regulated Environments: Smarter Testing Starts With Stability, Not More Code"
+  },
+  "https://app14743.cloudwayssites.com/blog/ai-testing-strategy-in-2026/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347999+00:00",
+    "orgs_mentioned": [
+      "Applitools"
+    ],
+    "score": 7,
+    "summary": "Analyzes how AI-assisted development increases code volume and testing complexity, creating signal-to-noise challenges for QA teams. Highly relevant for understanding impact of AI-augmented development on platform engineering and developer experience priorities.",
+    "tags": [
+      "testing",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "AI Testing in 2026: Why Signal, Trust, and Intentional Choices Matter More Than Ever"
+  },
+  "https://app14743.cloudwayssites.com/blog/applitools-customer-success-blueprint/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347989+00:00",
+    "orgs_mentioned": [
+      "Applitools"
+    ],
+    "score": 3,
+    "summary": "Applitools customer success methodology focusing on outcome-based partnerships and success metrics for visual testing adoption. Commercial content about customer success practices rather than technical platform engineering guidance.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "The Applitools Customer Success Blueprint: Focused on Outcomes Through Strategic Partnership"
+  },
+  "https://app14743.cloudwayssites.com/blog/applitools-forrester-wave-autonomous-testing-q4-2025/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348001+00:00",
+    "orgs_mentioned": [
+      "Applitools",
+      "Forrester"
+    ],
+    "score": 4,
+    "summary": "Forrester report positioning Applitools as autonomous testing platform with Visual AI capabilities for UI validation across web and mobile. Primarily vendor marketing content with limited platform engineering insights beyond testing automation trends.",
+    "tags": [
+      "testing",
+      "competitive-intel"
+    ],
+    "title": "Applitools Named a Strong Performer in The Forrester Wave\u2122: Autonomous Testing Platforms Report, Q4 2025"
+  },
+  "https://app14743.cloudwayssites.com/blog/buyers-checklist-autonomous-testing-regulated-industries/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348006+00:00",
+    "orgs_mentioned": [
+      "Forrester"
+    ],
+    "score": 5,
+    "summary": "Buyer's checklist for autonomous testing platforms in regulated environments, emphasizing traceability, auditability, and governance controls. Moderately relevant for platform engineering teams considering testing tool evaluation criteria and compliance requirements.",
+    "tags": [
+      "testing",
+      "competitive-intel"
+    ],
+    "title": "Buyer\u2019s Checklist for Autonomous Testing in Regulated Environments"
+  },
+  "https://app14743.cloudwayssites.com/blog/figma-design-testing-applitools-plugin/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348015+00:00",
+    "score": 4,
+    "summary": "Describes Figma plugin for design-to-code validation to reduce visual drift between design and implementation. Addresses design-dev collaboration but limited to UI testing rather than broader platform engineering concerns.",
+    "tags": [
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Validate Your Figma Designs Before Code Ships with the Applitools Eyes Plugin"
+  },
+  "https://app14743.cloudwayssites.com/blog/introducing-autonomous-2-2/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348023+00:00",
+    "score": 6,
+    "summary": "Introduces AI-driven test creation using natural language and automated API testing capabilities. Strong alignment with AI-augmented development goals and could improve developer productivity in testing workflows.",
+    "tags": [
+      "ai-augmented-dev",
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Applitools Autonomous 2.2: AI-Driven Testing That Thinks Like You"
+  },
+  "https://app14743.cloudwayssites.com/blog/new-chapter-customer-success-applitools/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347995+00:00",
+    "orgs_mentioned": [
+      "Applitools"
+    ],
+    "score": 3,
+    "summary": "Article focuses on Applitools' customer success program evolution with joint planning and proactive engagement strategies. Content is primarily about customer relationship management rather than technical platform engineering practices.",
+    "tags": [
+      "testing"
+    ],
+    "title": "A New Chapter in Customer Success at Applitools"
+  },
+  "https://app14743.cloudwayssites.com/blog/playwright-visual-testing-strategy/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347992+00:00",
+    "orgs_mentioned": [
+      "Applitools"
+    ],
+    "score": 6,
+    "summary": "Technical deep-dive on integrating Applitools visual testing with Playwright, addressing the three-state problem (pass/fail/unresolved) in visual regression testing. Relevant for improving CI/CD testing capabilities and developer experience with automated visual testing workflows.",
+    "tags": [
+      "testing",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "Engineering a Playwright-Native Developer Experience: One Flag, Three Strategies"
+  },
+  "https://app14743.cloudwayssites.com/blog/test-execution-generative-ai/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.347997+00:00",
+    "score": 6,
+    "summary": "Discusses limitations of generative AI in test execution, emphasizing need for deterministic, repeatable testing over probabilistic AI behavior. Relevant for AI-augmented development strategy but focused on testing execution patterns rather than platform engineering foundations.",
+    "tags": [
+      "testing",
+      "ai-augmented-dev"
+    ],
+    "title": "What Test Execution Demands That Generative AI Can\u2019t Guarantee"
+  },
+  "https://app14743.cloudwayssites.com/blog/test-maintenance-at-scale-visual-ai/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348011+00:00",
+    "orgs_mentioned": [
+      "Peloton"
+    ],
+    "score": 5,
+    "summary": "Details Visual AI approach to reduce test maintenance overhead through automated UI validation and parallel execution. Addresses developer experience pain points in testing but is vendor-specific and not core platform engineering.",
+    "tags": [
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Test Maintenance at Scale: How Visual AI Cuts Review Time and Flakiness"
+  },
+  "https://app14743.cloudwayssites.com/blog/test-your-components-where-you-build-with-the-applitools-storybook-addon/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348013+00:00",
+    "score": 4,
+    "summary": "Introduces Storybook integration for visual testing during local development to catch UI regressions early. Supports shift-left testing principles but is specific to frontend development workflows rather than platform-wide improvements.",
+    "tags": [
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Test Your Components Where You Build with the Applitools Storybook Addon"
+  },
+  "https://app14743.cloudwayssites.com/blog/visual-testing-for-storybook-and-figma/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348019+00:00",
+    "score": 5,
+    "summary": "Announces new release combining Storybook and Figma integrations with dashboard improvements for visual testing. Supports shift-left testing and developer experience but remains focused on visual testing tools rather than platform fundamentals.",
+    "tags": [
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Test Where You Build with Eyes 10.22: Visual AI for Storybook & Figma"
+  },
   "https://grafana.com/blog/5-tips-to-write-better-browser-tests-for-performance-testing-and-synthetic-monitoring/": {
     "category": "Performance",
     "first_seen": "2026-04-08T11:46:15.395505+00:00",
@@ -94,6 +397,49 @@
     "summary": "",
     "tags": [],
     "title": "5 tips to write better browser tests for performance testing and synthetic monitoring"
+  },
+  "https://grafana.com/blog/ai-observability-MCP-servers/": {
+    "category": "Performance",
+    "first_seen": "2026-04-09T11:47:49.348050+00:00",
+    "orgs_mentioned": [
+      "Grafana"
+    ],
+    "score": 8,
+    "summary": "Demonstrates Grafana Cloud integration for AI application observability, directly relevant to L'Or\u00e9al's Grafana stack and AI-augmented development priorities. The OpenLIT SDK approach provides practical implementation guidance for monitoring AI-powered development tools.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Monitor Model Context Protocol (MCP) servers with OpenLIT and Grafana Cloud"
+  },
+  "https://grafana.com/blog/ai-observability-ai-agents/": {
+    "category": "Performance",
+    "first_seen": "2026-04-09T11:47:49.348053+00:00",
+    "orgs_mentioned": [
+      "Grafana"
+    ],
+    "score": 8,
+    "summary": "Extends Grafana Cloud observability capabilities to AI agents with end-to-end tracing, complementing L'Or\u00e9al's observability stack and AI development initiatives. The focus on cost tracking and behavioral troubleshooting for AI agents provides valuable operational insights.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Observe your AI agents: End\u2011to\u2011end tracing with OpenLIT and Grafana Cloud"
+  },
+  "https://grafana.com/blog/ai-observability-zero-code/": {
+    "category": "Performance",
+    "first_seen": "2026-04-09T11:47:49.348055+00:00",
+    "score": 8,
+    "summary": "OpenLIT Operator enables zero-code observability for AI workloads on Kubernetes by automatically injecting OpenTelemetry instrumentation without requiring code changes or image rebuilds. This directly addresses L'Or\u00e9al's observability strategic priority while leveraging their existing Kubernetes and Grafana infrastructure for AI-augmented development initiatives.",
+    "tags": [
+      "observability",
+      "kubernetes",
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "Instrument zero\u2011code observability for LLMs and agents on Kubernetes"
   },
   "https://grafana.com/blog/an-open-source-app-for-easily-building-performance-tests-grafana-k6-studio-is-generally-available/": {
     "category": "Performance",
@@ -162,6 +508,21 @@
       "testing"
     ],
     "title": "Grafana Cloud Synthetic Monitoring: How to simulate user journeys to ensure the best possible end-user experience"
+  },
+  "https://grafana.com/blog/how-openrouter-and-grafana-cloud-bring-observability-to-llm-powered-applications/": {
+    "category": "Performance",
+    "first_seen": "2026-04-09T11:47:49.348057+00:00",
+    "orgs_mentioned": [
+      "OpenRouter"
+    ],
+    "score": 7,
+    "summary": "OpenRouter's Broadcast feature automatically sends LLM traces to Grafana Cloud without additional instrumentation, addressing the unique observability challenges of AI applications like token usage, model variability, and non-deterministic failures. This solution aligns with L'Or\u00e9al's observability priorities and AI-augmented development strategy using their existing Grafana stack.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "How OpenRouter and Grafana Cloud bring observability to LLM-powered applications"
   },
   "https://grafana.com/blog/how-to-integrate-performance-testing-and-continuous-profiling-for-deeper-application-insights/": {
     "category": "Performance",
@@ -519,6 +880,23 @@
     ],
     "title": "Choosing a new AI-coding tool? Here\u2019s what to look for"
   },
+  "https://leaddev.com/ai/shipping-faster-thinking-less-the-ai-code-verification-trap?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347762+00:00",
+    "orgs_mentioned": [
+      "Honeycomb",
+      "Google",
+      "Microsoft"
+    ],
+    "score": 7,
+    "summary": "Analysis of how AI code generation shifts developer work from creation to verification, potentially causing burnout and role identity issues. Highly relevant to AI-augmented development strategy and developer experience considerations.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "org-design"
+    ],
+    "title": "Shipping faster, thinking less? The AI code verification trap"
+  },
   "https://leaddev.com/ai/the-ai-skills-gap-is-real-but-its-not-what-you-think?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246695+00:00",
@@ -600,6 +978,20 @@
       "developer-experience"
     ],
     "title": "Tech leads are overwhelmed. Here\u2019s how to take back control"
+  },
+  "https://leaddev.com/management/ai-has-us-asking-does-team-size-still-matter?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347765+00:00",
+    "orgs_mentioned": [
+      "Just Eat Takeaway.com"
+    ],
+    "score": 7,
+    "summary": "Discusses how AI-powered agents are reshaping engineering team structures, moving from traditional hierarchies to small \"swarms\" of 1-2 people plus AI agents. Highly relevant for platform engineering org design as it challenges traditional team topologies and coordination models that L'Or\u00e9al may need to consider.",
+    "tags": [
+      "org-design",
+      "ai-augmented-dev"
+    ],
+    "title": "AI has us asking, does (team) size still matter?"
   },
   "https://leaddev.com/technical-direction/we-ditched-our-vendor-and-built-our-own-destiny?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
@@ -1098,6 +1490,17 @@
     ],
     "title": "There\u2019s a hidden tax on every AI-generated merge request"
   },
+  "https://thenewstack.io/in-the-ai-age-java-is-more-relevant-than-ever/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-09T11:47:49.347735+00:00",
+    "score": 6,
+    "summary": "Article advocates for Java as a strong choice for enterprise AI applications, highlighting JVM efficiency and new frameworks like LangChain4j and Spring AI. Moderately relevant given L'Or\u00e9al's Spring Boot usage and AI-augmented development priorities.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "In the AI Age, Java is More Relevant Than Ever"
+  },
   "https://thenewstack.io/is-observability-still-an-operations-problem-at-your-organization/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722569+00:00",
@@ -1127,6 +1530,34 @@
     "summary": "",
     "tags": [],
     "title": "Open-source leaders question whether Meta\u2019s Alexandr Wang will truly give away its AI models"
+  },
+  "https://thenewstack.io/microsoft-wants-to-make-service-mesh-invisible/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-09T11:47:49.347743+00:00",
+    "orgs_mentioned": [
+      "Microsoft"
+    ],
+    "score": 8,
+    "summary": "Microsoft discusses making service mesh invisible through Azure Kubernetes Application Network built on Istio ambient mode, addressing day-two operations challenges. Highly relevant for Kubernetes platform engineering and improving developer experience with service mesh complexity.",
+    "tags": [
+      "kubernetes",
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "Microsoft wants to make service mesh invisible"
+  },
+  "https://thenewstack.io/niantic-spatial-scaniverse-world-models/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-09T11:47:49.347723+00:00",
+    "orgs_mentioned": [
+      "Niantic Spatial"
+    ],
+    "score": 3,
+    "summary": "Niantic Spatial is developing large geospatial models to create AI systems that understand physical environments rather than just text/images. While interesting for AI development broadly, this spatial intelligence technology is not directly relevant to platform engineering practices or the current toolchain.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Niantic Spatial wants to map the 80% of the economy AI can\u2019t see"
   },
   "https://thenewstack.io/persistent-ai-agents-compared/": {
     "category": "Platform Engineering",
@@ -1210,6 +1641,20 @@
       "performance"
     ],
     "title": "The hidden reason your AI assistant feels so sluggish"
+  },
+  "https://thenewstack.io/with-claude-managed-agents-anthropic-wants-to-run-your-ai-agents-for-you/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-09T11:47:49.347740+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 5,
+    "summary": "Anthropic launched Claude Managed Agents, a cloud service for deploying AI agents with managed infrastructure including sandboxing, authentication, and tool execution. Has some relevance to AI-augmented development strategy but doesn't directly address current platform engineering challenges.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "With Claude Managed Agents, Anthropic wants to run your AI agents for you"
   },
   "https://tldrsec.com/p/tldr-sec-311": {
     "category": "DevSecOps",
@@ -1396,6 +1841,141 @@
     ],
     "title": "[tl;dr sec] #322 - GitHub's Supply Chain Roadmap, Scaling Vulnerability Management with AI, Finding Vulnerabilities Across ReposGitHub's plan to harden GitHub Actions and supply chain security, automa"
   },
+  "https://www.cloudbees.com/blog/bee-giving-strengthening-our-culture-by-serving-our-communities": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348035+00:00",
+    "orgs_mentioned": [
+      "Zappos"
+    ],
+    "score": 3,
+    "summary": "CloudBees culture manager discusses employee volunteering program and company culture initiatives. While touching on remote-first organization aspects, this is primarily HR/culture content with minimal platform engineering relevance.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "Bee Giving: Strengthening Our Culture by Serving Our Communities"
+  },
+  "https://www.cloudbees.com/blog/cloudbees-appoints-philippe-van-hove-chief-revenue-officer": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348039+00:00",
+    "orgs_mentioned": [
+      "Shippeo",
+      "Zuora",
+      "Lacework",
+      "Workday",
+      "BladeLogic",
+      "BMC Software",
+      "PTC"
+    ],
+    "score": 4,
+    "summary": "CloudBees announces new Chief Revenue Officer appointment as part of scaling go-to-market for their AI-powered DevOps solutions. Standard corporate executive announcement with limited platform engineering insights beyond general company growth context.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "CloudBees Appoints Philippe Van Hove as Chief Revenue Officer to Accelerate Growth as Company Scales its AI-powered DevOps Solution"
+  },
+  "https://www.cloudbees.com/blog/cloudbees-unify-wins-gold-2026-cybersecurity-excellence-awards": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348033+00:00",
+    "score": 6,
+    "summary": "CloudBees Unify wins cybersecurity award for DevSecOps, positioning as control plane for governance across fragmented toolchains. The solution addresses security governance challenges when AI generates significant portions of codebases and toolchains span multiple platforms.",
+    "tags": [
+      "devsecops",
+      "platform-engineering",
+      "competitive-intel"
+    ],
+    "title": "CloudBees Unify Wins Gold in the 2026 Cybersecurity Excellence Awards, DevSecOps"
+  },
+  "https://www.cloudbees.com/blog/five-ci-tools-one-control-plane": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348048+00:00",
+    "orgs_mentioned": [
+      "CloudBees"
+    ],
+    "score": 9,
+    "summary": "Addresses multi-CI tool governance challenges directly relevant to L'Or\u00e9al's GitHub and CI/CD standardization priorities. CloudBees Unify's unified control plane approach offers practical solutions for visibility and policy enforcement across existing tools.",
+    "tags": [
+      "vendor-update",
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "Five CI Tools, One Control Plane: Finally Answer \u201cWhat\u2019s Going On?\u201d"
+  },
+  "https://www.cloudbees.com/blog/hidden-costs-platform-migration": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348046+00:00",
+    "score": 6,
+    "summary": "Provides data-driven insights on platform migration ROI and hidden costs, valuable for platform engineering leaders evaluating toolchain consolidation. The research findings on migration budget overruns and value realization challenges inform strategic decision-making.",
+    "tags": [
+      "platform-engineering",
+      "competitive-intel"
+    ],
+    "title": "The Broken Business Case For Migration"
+  },
+  "https://www.cloudbees.com/blog/introducing-the-cloudbees-unify-ai-assistant-context-aware-ai-for-the-modern": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348026+00:00",
+    "score": 8,
+    "summary": "CloudBees introduces AI assistant embedded directly into their Unify platform, providing context-aware guidance for SDLC without leaving the workflow. This represents the evolution from basic AI copilots to environment-aware assistants that understand pipeline state, policies, and delivery history.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "Introducing the CloudBees Unify AI Assistant: Context-Aware AI for the Modern SDLC"
+  },
+  "https://www.cloudbees.com/blog/openclaw-is-a-preview-of-why-governance-matters-more-than-ever": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348037+00:00",
+    "orgs_mentioned": [
+      "Microsoft",
+      "Apple",
+      "Zapier"
+    ],
+    "score": 9,
+    "summary": "Analysis of OpenClaw agentic AI project that autonomously commits code and executes deployments, representing shift from AI assistance to AI execution. Critical governance implications as these tools can directly modify repositories and trigger deployment pipelines without human approval.",
+    "tags": [
+      "ai-augmented-dev",
+      "devsecops",
+      "platform-engineering"
+    ],
+    "title": "OpenClaw Is a Preview of Why Governance Matters More Than Ever"
+  },
+  "https://www.cloudbees.com/blog/the-flaky-test-confession-ignoring-test-failures": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348031+00:00",
+    "score": 7,
+    "summary": "Deep analysis of flaky test economics showing they cost 2.5% of developer time and create compound problems in CI/CD reliability. Provides concrete data on costs ($5.67 per manual investigation vs $0.02 for rerun) and strategic guidance for addressing technical debt in testing pipelines.",
+    "tags": [
+      "testing",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "The Flaky Test Confession: \u201cWe All Know We\u2019re Ignoring Test Failures\u201d"
+  },
+  "https://www.cloudbees.com/blog/the-shadow-factory": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348042+00:00",
+    "score": 7,
+    "summary": "Addresses critical CI/CD security governance challenges with emphasis on pipeline sprawl and secret management - highly relevant for early-stage DevOps maturity organizations. The piece on AI-accelerated pipeline creation and need for governance layers directly applies to L'Or\u00e9al's CI/CD standardization priorities.",
+    "tags": [
+      "ci-cd",
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "The Shadow Factory: Why Your CI/CD Sprawl is About to Move Faster Than You Can Think"
+  },
+  "https://www.cloudbees.com/blog/why-releasing-software-as-an-application-beats-deploying-components": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-09T11:47:49.348044+00:00",
+    "score": 6,
+    "summary": "Discusses application-level release strategies versus component deployments, relevant for organizations with microservices and complex CI/CD pipelines. The focus on release coordination and environment drift management applies to CI/CD standardization efforts.",
+    "tags": [
+      "ci-cd",
+      "testing",
+      "platform-engineering"
+    ],
+    "title": "Why Releasing Software as an Application Beats Deploying Components"
+  },
   "https://www.infoq.com/articles/ai-agent-transport-layer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-08T11:46:15.395478+00:00",
@@ -1425,6 +2005,16 @@
     ],
     "title": "Article: Bloom Filters: Theory, Engineering Trade\u2011offs, and Implementation in Go"
   },
+  "https://www.infoq.com/articles/building-hierarchical-agentic-rag-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347748+00:00",
+    "score": 5,
+    "summary": "Technical deep-dive on building hierarchical agentic RAG systems that can handle both structured SQL data and unstructured documents simultaneously. Some relevance to AI-augmented development but focuses more on AI architecture patterns than platform engineering practices.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Article: Building Hierarchical Agentic RAG Systems: Multi-Modal Reasoning with Autonomous Error Recovery"
+  },
   "https://www.infoq.com/news/2026/04/ai-coding-language-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722842+00:00",
@@ -1450,6 +2040,20 @@
     ],
     "title": "Anthropic  Designs Three-Agent Harness Supports Long-Running Full-Stack AI Development"
   },
+  "https://www.infoq.com/news/2026/04/aspire-13-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347750+00:00",
+    "orgs_mentioned": [
+      "Microsoft"
+    ],
+    "score": 4,
+    "summary": "Microsoft Aspire 13.2 expands CLI capabilities and adds TypeScript AppHost support for cloud-native development. Not directly relevant to L'Or\u00e9al's current stack but demonstrates platform engineering patterns for application orchestration.",
+    "tags": [
+      "platform-engineering",
+      "vendor-update"
+    ],
+    "title": "Aspire 13.2 Released with Expanded CLI, TypeScript AppHost Preview, and Dashboard Improvements"
+  },
   "https://www.infoq.com/news/2026/04/claude-code-source-leak/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246671+00:00",
@@ -1464,6 +2068,51 @@
       "devsecops"
     ],
     "title": "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File"
+  },
+  "https://www.infoq.com/news/2026/04/cloudflare-ai-caching-strategies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347758+00:00",
+    "orgs_mentioned": [
+      "Cloudflare",
+      "ETH Zurich"
+    ],
+    "score": 6,
+    "summary": "Cloudflare and ETH Zurich research AI-driven cache optimization challenges as AI bot traffic disrupts traditional caching strategies. Relevant to observability and performance optimization as AI workloads impact infrastructure patterns.",
+    "tags": [
+      "observability",
+      "performance",
+      "ai-augmented-dev"
+    ],
+    "title": "Cloudflare and ETH Zurich Outline Approaches for AI-Driven Cache Optimization"
+  },
+  "https://www.infoq.com/news/2026/04/colab-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347753+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Google introduces Colab MCP Server enabling AI agents to execute code in cloud environments through standardized protocols. Relevant to AI-augmented development strategies but not directly applicable to current toolchain.",
+    "tags": [
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Google Brings MCP Support to Colab, Enabling Cloud Execution for AI Agents"
+  },
+  "https://www.infoq.com/news/2026/04/github-actions-custom-runners/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347760+00:00",
+    "orgs_mentioned": [
+      "GitHub"
+    ],
+    "score": 9,
+    "summary": "GitHub Actions custom runner images reach GA, enabling teams to pre-bake dependencies and tooling into VM images for faster CI/CD execution. Highly relevant for CI/CD standardization efforts and directly applicable to GitHub-based workflows.",
+    "tags": [
+      "ci-cd",
+      "vendor-update",
+      "github"
+    ],
+    "title": "GitHub Actions Custom Runner Images Reach General Availability"
   },
   "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -1497,6 +2146,16 @@
       "vendor-update"
     ],
     "title": "Java News Roundup: TornadoVM 4.0, Google ADK for Java 1.0, Grails, Tomcat, Log4j, Gradle"
+  },
+  "https://www.infoq.com/news/2026/04/leadership-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347746+00:00",
+    "score": 7,
+    "summary": "Sophie Weston discusses developing leadership skills for principal engineering roles, emphasizing influence, communication, and bringing diverse life experiences to work. Directly relevant to platform engineering org design and leadership development priorities.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "Developing Your Leadership Skills toward Principal Engineering"
   },
   "https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -1541,6 +2200,16 @@
       "vendor-update"
     ],
     "title": "Swift 6.3 Stabilizes Android SDK, Extends C Interop, and More"
+  },
+  "https://www.infoq.com/news/2026/04/tailwind-css-4-2-webpack/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-09T11:47:49.347755+00:00",
+    "score": 3,
+    "summary": "Tailwind CSS 4.2 adds webpack plugin and new color palettes with performance improvements. Frontend-focused update not relevant to L'Or\u00e9al's platform engineering priorities or current backend-heavy stack.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Tailwind CSS 4.2 Ships Webpack Plugin, New Palettes and Logical Property Utilities"
   },
   "https://www.infoq.com/news/2026/04/tigerfs-postgresql-filesystem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
