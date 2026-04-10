@@ -213,6 +213,144 @@
     "tags": [],
     "title": "The Way of TDD"
   },
+  "http://www.brendangregg.com/blog//2024-07-22/no-more-blue-fridays.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458714+00:00",
+    "orgs_mentioned": [
+      "Meta",
+      "Google",
+      "Cisco"
+    ],
+    "score": 8,
+    "summary": "Analysis of the CrowdStrike outage highlighting eBPF as a safer alternative to kernel drivers for security software, preventing system crashes. Directly relevant to platform engineering security and stability, especially given the widespread impact on enterprise systems and the need for safer deployment practices.",
+    "tags": [
+      "devsecops",
+      "platform-engineering",
+      "observability"
+    ],
+    "title": "No More Blue Fridays"
+  },
+  "http://www.brendangregg.com/blog//2024-10-29/ai-flame-graphs.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458712+00:00",
+    "orgs_mentioned": [
+      "Intel"
+    ],
+    "score": 7,
+    "summary": "Introduction of AI Flame Graphs tool for visualizing AI accelerator performance with full software stack analysis, offering new observability capabilities for AI workloads. Highly relevant given the strategic focus on AI-augmented development and the potential for significant cost optimization in AI infrastructure.",
+    "tags": [
+      "ai-augmented-dev",
+      "observability",
+      "performance"
+    ],
+    "title": "AI Flame Graphs"
+  },
+  "http://www.brendangregg.com/blog//2025-05-01/doom-gpu-flame-graphs.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458710+00:00",
+    "score": 4,
+    "summary": "Technical deep dive into GPU performance analysis using flame graphs for gaming applications, demonstrating advanced observability techniques. While showcasing sophisticated performance tooling, it's focused on gaming rather than enterprise platform engineering use cases.",
+    "tags": [
+      "performance",
+      "observability"
+    ],
+    "title": "Doom GPU Flame Graphs"
+  },
+  "http://www.brendangregg.com/blog//2025-05-22/3-years-of-extremely-remote-work.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458707+00:00",
+    "orgs_mentioned": [
+      "Intel"
+    ],
+    "score": 3,
+    "summary": "Personal anecdote about working remotely across time zones with practical tips for remote work setup and meeting management. Limited relevance to platform engineering beyond general remote work considerations.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "3 Years of Extremely Remote Work"
+  },
+  "http://www.brendangregg.com/blog//2025-08-04/when-to-hire-a-computer-performance-engineering-team-2025-part1.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458704+00:00",
+    "orgs_mentioned": [
+      "Netflix",
+      "Intel"
+    ],
+    "score": 6,
+    "summary": "Detailed guide on when and how to hire performance engineering teams, with ROI calculations showing potential 5-10% annual cost savings. Particularly relevant for organizations spending >$1M annually on backend compute, offering concrete metrics for justifying team formation and sizing.",
+    "tags": [
+      "performance",
+      "org-design",
+      "platform-engineering"
+    ],
+    "title": "When to Hire a Computer Performance Engineering Team (2025) part 1 of 2"
+  },
+  "http://www.brendangregg.com/blog//2025-11-17/third-stage-engineering.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458702+00:00",
+    "orgs_mentioned": [
+      "Intel"
+    ],
+    "score": 5,
+    "summary": "Framework for understanding performance optimization as a three-stage process: hardware, software, and tuning, with emphasis on the often-overlooked tuning stage. Provides useful mental model for performance engineering but limited direct platform engineering application.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Third Stage Engineering"
+  },
+  "http://www.brendangregg.com/blog//2025-11-22/intel-is-listening.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458699+00:00",
+    "orgs_mentioned": [
+      "Intel"
+    ],
+    "score": 3,
+    "summary": "Commentary on providing effective feedback to hardware vendors, particularly Intel's new leadership approach to customer input. General advice on vendor relationships with limited platform engineering relevance.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "Intel is listening, don't waste your shot"
+  },
+  "http://www.brendangregg.com/blog//2025-11-28/ai-virtual-brendans.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458697+00:00",
+    "score": 4,
+    "summary": "Discussion of AI agents trained on performance engineering expertise, including flame graph analysis and automated performance issue detection. Touches on AI-augmented development but focuses more on thought leadership than practical implementation guidance.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "On \"AI Brendans\" or \"Virtual Brendans\""
+  },
+  "http://www.brendangregg.com/blog//2025-12-05/leaving-intel.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458694+00:00",
+    "orgs_mentioned": [
+      "Intel",
+      "Netflix"
+    ],
+    "score": 2,
+    "summary": "Brendan Gregg's departure summary from Intel covering flame graphs, cloud strategy, and internal organizational work. Personal career transition with minimal actionable platform engineering insights for L'Or\u00e9al's context.",
+    "tags": [
+      "performance",
+      "competitive-intel"
+    ],
+    "title": "Leaving Intel"
+  },
+  "http://www.brendangregg.com/blog//2026-02-07/why-i-joined-openai.html": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458692+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Intel"
+    ],
+    "score": 3,
+    "summary": "Performance engineering expert Brendan Gregg joins OpenAI to optimize ChatGPT performance and AI datacenter efficiency. While interesting from a performance perspective, this is primarily career news with limited direct relevance to platform engineering practices.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Why I joined OpenAI"
+  },
   "https://app14743.cloudwayssites.com/blog/agentic-automation-ai-augmented-testing/": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348009+00:00",
@@ -497,6 +635,43 @@
     ],
     "title": "Breakpoint testing: A beginner\u2019s guide"
   },
+  "https://grafana.com/blog/business-metrics-in-grafana-cloud-get-an-ai-assist-to-help-securely-analyze-your-data/": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458689+00:00",
+    "orgs_mentioned": [
+      "Grafana"
+    ],
+    "score": 9,
+    "summary": "Grafana Cloud introduces AI-assisted analysis for business metrics through secure private data connections, directly relevant to L'Or\u00e9al's observability strategy. The integration of AI with Grafana dashboards aligns with both observability improvements and AI-augmented development priorities.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Business metrics in Grafana Cloud: Get an AI assist to help securely analyze your data"
+  },
+  "https://grafana.com/blog/deep-dive-into-how-the-opentelemetry-ebpf-profiler-symbolizes-go/": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458676+00:00",
+    "score": 5,
+    "summary": "Deep technical dive into OpenTelemetry eBPF profiler's symbolization process for Go applications, explaining how raw memory addresses get converted to readable function names. While technically interesting, this is primarily implementation detail rather than strategic platform engineering guidance.",
+    "tags": [
+      "observability",
+      "performance"
+    ],
+    "title": "From raw data to flame graphs: A deep dive into how the OpenTelemetry eBPF profiler symbolizes Go"
+  },
+  "https://grafana.com/blog/finding-performance-bottlenecks-with-pyroscope-and-alloy-an-example-using-ton-blockchain/": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458681+00:00",
+    "score": 6,
+    "summary": "Demonstrates continuous profiling with Alloy and Pyroscope using TON blockchain optimization as a case study, showing eBPF-based CPU profiling setup. Provides practical example of observability tooling but focuses on performance optimization rather than platform engineering strategy.",
+    "tags": [
+      "observability",
+      "performance"
+    ],
+    "title": "Finding performance bottlenecks with Pyroscope and Alloy: An example using TON blockchain"
+  },
   "https://grafana.com/blog/grafana-cloud-synthetic-monitoring-all-the-latest-features/": {
     "category": "Performance",
     "first_seen": "2026-04-07T11:47:48.246953+00:00",
@@ -508,6 +683,17 @@
       "testing"
     ],
     "title": "Grafana Cloud Synthetic Monitoring: How to simulate user journeys to ensure the best possible end-user experience"
+  },
+  "https://grafana.com/blog/grafana-security-release-critical-and-high-severity-security-fixes-for-cve-2026-27876-and-cve-2026-27880/": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458679+00:00",
+    "score": 11,
+    "summary": "Critical security advisory for Grafana with CVE-2026-27876 (CVSS 9.1) enabling remote code execution and CVE-2026-27880 (CVSS 7.5) denial-of-service vulnerability. This is a must-action security update for the Grafana stack in use at L'Or\u00e9al.",
+    "tags": [
+      "security-advisory",
+      "observability"
+    ],
+    "title": "Grafana security release: Critical and high severity security fixes for CVE-2026-27876 and CVE-2026-27880"
   },
   "https://grafana.com/blog/how-openrouter-and-grafana-cloud-bring-observability-to-llm-powered-applications/": {
     "category": "Performance",
@@ -593,6 +779,22 @@
     ],
     "title": "New in Grafana k6: The latest OSS features in v0.49.0 and static IPs in Grafana Cloud k6"
   },
+  "https://grafana.com/blog/observability-in-go-where-to-start-and-what-matters-most/": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458684+00:00",
+    "orgs_mentioned": [
+      "Grafana Labs",
+      "Isovalent",
+      "Cisco"
+    ],
+    "score": 7,
+    "summary": "Grafana podcast discussion covering Go observability best practices, including where to start with logs, context handling, and the progression from logs to metrics and traces. Provides practical guidance on observability strategy and tooling decisions that align with platform engineering priorities.",
+    "tags": [
+      "observability",
+      "developer-experience"
+    ],
+    "title": "Observability in Go: Where to start and what matters most"
+  },
   "https://grafana.com/blog/organizing-your-grafana-k6-performance-testing-suite-best-practices-to-get-started/": {
     "category": "Performance",
     "first_seen": "2026-04-07T11:47:48.246951+00:00",
@@ -617,6 +819,17 @@
       "ci-cd"
     ],
     "title": "Performance testing with Grafana k6 and GitHub Actions"
+  },
+  "https://grafana.com/blog/query-fair-usage-in-grafana-cloud-what-is-it-and-how-it-affects-your-logs-observability-practice/": {
+    "category": "Performance",
+    "first_seen": "2026-04-10T11:42:57.458687+00:00",
+    "score": 7,
+    "summary": "Explains Grafana Cloud's query fair usage policy and provides guidance on monitoring log query costs and usage ratios. Relevant for understanding observability costs and implementing governance policies around log usage.",
+    "tags": [
+      "observability",
+      "vendor-update"
+    ],
+    "title": "Query fair usage in Grafana Cloud: What it is and how it affects your logs observability practice"
   },
   "https://grafana.com/blog/setting-up-your-grafana-k6-performance-testing-suite-javascript-tools-shared-libraries-and-more/": {
     "category": "Performance",
@@ -1173,6 +1386,17 @@
     ],
     "title": "The empathy gap: Why your platform needs UX, not just APIs"
   },
+  "https://platformengineering.org/blog/the-ontology-imperative-defining-your-infrastructure-is-the-prerequisite-for-autonomous-cloud-operations": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458603+00:00",
+    "score": 7,
+    "summary": "This article discusses infrastructure ontology as a prerequisite for autonomous cloud operations, which aligns well with L'Or\u00e9al's early-stage DevOps maturity and need for foundational improvements. The focus on defining infrastructure for platform engineering operations is highly relevant to current platform engineering initiatives.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev"
+    ],
+    "title": "The ontology imperative: Why defining infrastructure is the prerequisite for autonomous cloud operations"
+  },
   "https://platformengineering.org/blog/the-platform-engineering-reality-check": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722561+00:00",
@@ -1320,6 +1544,22 @@
     ],
     "title": "\u201cI started to lose my ability to code\u201d: Developers grapple with the real cost of AI programming tools"
   },
+  "https://thenewstack.io/ai-generated-code-crisis/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458644+00:00",
+    "orgs_mentioned": [
+      "Jazzband",
+      "Agoda"
+    ],
+    "score": 7,
+    "summary": "Article warns about the growing problem of AI-generated code overwhelming maintainers and reviewers, creating throughput asymmetries in development workflows. This is directly relevant to L'Or\u00e9al's AI-augmented development initiatives and highlights critical considerations for implementing coding agents without breaking review processes.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Open source maintainers are drowning in AI-generated pull requests. Enterprise teams are next."
+  },
   "https://thenewstack.io/altman-openai-ai-safety/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395442+00:00",
@@ -1362,6 +1602,21 @@
     "tags": [],
     "title": "Anthropic\u2019s Claude Mythos is now available, but not for you"
   },
+  "https://thenewstack.io/anthropic-takes-claude-cowork-out-of-preview-and-straight-into-the-enterprise/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458635+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 6,
+    "summary": "Anthropic's Claude Cowork enterprise features, including role-based access controls and usage analytics, are relevant to L'Or\u00e9al's governance and developer experience needs. The enterprise-focused capabilities like OpenTelemetry support and identity provider integration align with platform engineering governance requirements.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "observability"
+    ],
+    "title": "Anthropic takes Claude Cowork out of preview and straight into the enterprise"
+  },
   "https://thenewstack.io/aria-networks-ai-network/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395466+00:00",
@@ -1377,6 +1632,22 @@
     "summary": "",
     "tags": [],
     "title": "Amazon S3 Files gives the world\u2019s biggest object store a file system"
+  },
+  "https://thenewstack.io/aws-wants-to-register-your-ai-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458638+00:00",
+    "orgs_mentioned": [
+      "AWS",
+      "OutSystems"
+    ],
+    "score": 7,
+    "summary": "AWS Agent Registry addresses AI agent governance and discovery challenges that L'Or\u00e9al will likely face as AI adoption increases across teams. The focus on centralized agent management, governance workflows, and enterprise controls directly supports platform engineering organizational design and AI governance strategies.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "AWS wants to register your AI agents"
   },
   "https://thenewstack.io/beyond-magic-scaling-myth/": {
     "category": "Platform Engineering",
@@ -1559,6 +1830,22 @@
     ],
     "title": "Niantic Spatial wants to map the 80% of the economy AI can\u2019t see"
   },
+  "https://thenewstack.io/openais-new-100-tier-targets-developers-hitting-codex-and-claude-code-limits/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458628+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "score": 6,
+    "summary": "OpenAI's new $100 ChatGPT Pro tier targeting developers using Codex relates to AI-augmented development workflows that could impact developer experience at L'Or\u00e9al. The competitive positioning against Claude Code and usage limit improvements are relevant for teams evaluating AI coding tools in their developer experience strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "competitive-intel"
+    ],
+    "title": "OpenAI\u2019s new $100 tier targets developers hitting Codex (and Claude Code) limits"
+  },
   "https://thenewstack.io/persistent-ai-agents-compared/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722605+00:00",
@@ -1591,6 +1878,22 @@
     ],
     "title": "Why programming became the proving ground for AI"
   },
+  "https://thenewstack.io/pytorch-ai-stack-expand/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458622+00:00",
+    "orgs_mentioned": [
+      "PyTorch Foundation",
+      "Hugging Face",
+      "Meta"
+    ],
+    "score": 4,
+    "summary": "The PyTorch Foundation's expansion with new AI projects like Safetensors provides general AI ecosystem updates but doesn't directly address L'Or\u00e9al's current platform engineering priorities. While the security aspects of Safetensors are noteworthy, this content is more about AI model infrastructure than platform engineering toolchain improvements.",
+    "tags": [
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "PyTorch Foundation Expands AI Stack with Safetensors, ExecuTorch, and Helion"
+  },
   "https://thenewstack.io/rag-pipeline-hybrid-search/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722587+00:00",
@@ -1601,6 +1904,38 @@
     ],
     "title": "The laptop return that broke a RAG pipeline"
   },
+  "https://thenewstack.io/ramp-ai-token-spend-management/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458650+00:00",
+    "orgs_mentioned": [
+      "Ramp",
+      "OpenAI",
+      "Anthropic",
+      "OpenRouter"
+    ],
+    "score": 6,
+    "summary": "Article discusses Ramp's solution for tracking volatile AI spending and costs, addressing visibility challenges in AI-driven development. This is relevant to L'Or\u00e9al's AI-augmented development strategy as it highlights the operational and financial management aspects of scaling AI usage in enterprise environments.",
+    "tags": [
+      "ai-augmented-dev",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "Ramp targets AI\u2019s fastest-growing cost: spend that\u2019s hard to track"
+  },
+  "https://thenewstack.io/replit-revenuecat-help-vibe-coders-monetize/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458632+00:00",
+    "orgs_mentioned": [
+      "Replit",
+      "RevenueCat"
+    ],
+    "score": 3,
+    "summary": "Replit's partnership with RevenueCat focuses on monetization features for AI-generated apps, which is outside L'Or\u00e9al's platform engineering scope. While it demonstrates AI-assisted development capabilities, the content is primarily about app monetization rather than internal platform engineering practices.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Replit taps RevenueCat to help vibe-coders make money"
+  },
   "https://thenewstack.io/sovereign-postgresql-kubernetes-portability/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395461+00:00",
@@ -1608,6 +1943,24 @@
     "summary": "",
     "tags": [],
     "title": "True enterprise sovereignty is more approachable than ever, thanks to K8s-powered cloud-neutral PostgreSQL"
+  },
+  "https://thenewstack.io/the-next-stages-of-ai-conformance-in-the-cloud-native-open-source-world/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458641+00:00",
+    "orgs_mentioned": [
+      "CNCF",
+      "Red Hat",
+      "Nvidia",
+      "OVHcloud"
+    ],
+    "score": 8,
+    "summary": "Article discusses CNCF's Kubernetes AI conformance program addressing standardization challenges for AI workloads running on Kubernetes, which is highly relevant given L'Or\u00e9al's use of Kubernetes. The focus on standardizing AI inference deployments and eliminating vendor lock-in aligns with platform engineering goals for consistent, portable infrastructure patterns.",
+    "tags": [
+      "kubernetes",
+      "platform-engineering",
+      "ai-augmented-dev"
+    ],
+    "title": "The next stages of AI conformance in the cloud-native, open-source world"
   },
   "https://thenewstack.io/vultr-nvidia-ai-infrastructure/": {
     "category": "Platform Engineering",
@@ -1655,6 +2008,23 @@
       "platform-engineering"
     ],
     "title": "With Claude Managed Agents, Anthropic wants to run your AI agents for you"
+  },
+  "https://thenewstack.io/zencoder-goes-beyond-coding/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-10T11:42:57.458647+00:00",
+    "orgs_mentioned": [
+      "Zencoder",
+      "Wrike",
+      "Vista Equity Partners",
+      "Citrix"
+    ],
+    "score": 5,
+    "summary": "Article covers Zencoder's expansion beyond coding to workflow automation for non-technical users, representing a general market trend in AI tooling. While tangentially related to developer experience and AI-augmented development, it's more focused on product expansion than platform engineering practices.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Zencoder goes beyond coding"
   },
   "https://tldrsec.com/p/tldr-sec-311": {
     "category": "DevSecOps",
@@ -1841,6 +2211,25 @@
     ],
     "title": "[tl;dr sec] #322 - GitHub's Supply Chain Roadmap, Scaling Vulnerability Management with AI, Finding Vulnerabilities Across ReposGitHub's plan to harden GitHub Actions and supply chain security, automa"
   },
+  "https://tldrsec.com/p/tldr-sec-323": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-10T11:42:57.458671+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Microsoft",
+      "Block",
+      "Push Security",
+      "Semgrep"
+    ],
+    "score": 10,
+    "summary": "Security newsletter covering new AI model that finds thousands of 0-days and writes exploits, plus vulnerability research democratization. Critical security intelligence for platform engineering security posture.",
+    "tags": [
+      "security-advisory",
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "[tl;dr sec] #323 - Anthropic Mythos, Security Program Politics, Vulnerability Research is CookedNew model finds thousands of 0-days and writes exploits, lessons and how to be influential from decades "
+  },
   "https://www.cloudbees.com/blog/bee-giving-strengthening-our-culture-by-serving-our-communities": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348035+00:00",
@@ -1922,6 +2311,19 @@
       "developer-experience"
     ],
     "title": "Introducing the CloudBees Unify AI Assistant: Context-Aware AI for the Modern SDLC"
+  },
+  "https://www.cloudbees.com/blog/no-youre-not-behind-but-the-stage-3-governance-window-is-closing": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458674+00:00",
+    "score": 7,
+    "summary": "Provides a framework for platform engineering leaders to navigate AI adoption stages in software delivery pipelines, with specific focus on governance controls and credential policies. The staged approach to AI integration and emphasis on building governance ahead of adoption is directly relevant to platform engineering organizational design.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev",
+      "org-design",
+      "ci-cd"
+    ],
+    "title": "No, You're Not Behind.  But the Stage 3 Governance Window Is Closing."
   },
   "https://www.cloudbees.com/blog/openclaw-is-a-preview-of-why-governance-matters-more-than-ever": {
     "category": "QA & Testing",
@@ -2015,6 +2417,25 @@
     ],
     "title": "Article: Building Hierarchical Agentic RAG Systems: Multi-Modal Reasoning with Autonomous Error Recovery"
   },
+  "https://www.infoq.com/news/2026/04/aaif-mcp-summit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458666+00:00",
+    "orgs_mentioned": [
+      "Amazon",
+      "Uber",
+      "Docker",
+      "Kong",
+      "Solo.io"
+    ],
+    "score": 7,
+    "summary": "MCP Dev Summit covers enterprise AI agent infrastructure patterns including gateway architectures and observability protocols. Relevant for AI-augmented development and platform engineering integration patterns.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "observability"
+    ],
+    "title": "AAIF's MCP Dev Summit: Gateways, gRPC, and Observability Signal Protocol Hardening"
+  },
   "https://www.infoq.com/news/2026/04/ai-coding-language-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722842+00:00",
@@ -2085,6 +2506,20 @@
     ],
     "title": "Cloudflare and ETH Zurich Outline Approaches for AI-Driven Cache Optimization"
   },
+  "https://www.infoq.com/news/2026/04/cloudflare-emdash-wordpress/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458661+00:00",
+    "orgs_mentioned": [
+      "Cloudflare",
+      "WordPress"
+    ],
+    "score": 3,
+    "summary": "Cloudflare announces EmDash CMS as WordPress successor built in TypeScript on serverless architecture. Limited relevance to platform engineering toolchain and practices at L'Or\u00e9al.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "Cloudflare Introduces EmDash: TypeScript CMS Positioned as WordPress Successor"
+  },
   "https://www.infoq.com/news/2026/04/colab-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-09T11:47:49.347753+00:00",
@@ -2128,6 +2563,19 @@
       "platform-engineering"
     ],
     "title": "Google Open Sources Experimental Multi-Agent Orchestration Testbed Scion"
+  },
+  "https://www.infoq.com/news/2026/04/google-cloud-postgresql/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458652+00:00",
+    "orgs_mentioned": [
+      "Google Cloud"
+    ],
+    "score": 4,
+    "summary": "Article covers Google Cloud's contributions to PostgreSQL core capabilities, focusing on logical replication and upgrade improvements. While technically solid, it's about PostgreSQL development rather than platform engineering practices, and L'Or\u00e9al doesn't appear to be using PostgreSQL in their mentioned stack.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Google Cloud Highlights Ongoing Work on PostgreSQL Core Capabilities"
   },
   "https://www.infoq.com/news/2026/04/istio-ai-multicluster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2182,6 +2630,19 @@
       "performance"
     ],
     "title": "Pinterest Reduces Spark OOM Failures by 96% Through Auto Memory Retries"
+  },
+  "https://www.infoq.com/news/2026/04/safari-scrollend-support/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458655+00:00",
+    "orgs_mentioned": [
+      "WebKit"
+    ],
+    "score": 3,
+    "summary": "Article reports on Safari adding scrollend event support to complete baseline browser coverage for web development. This is a frontend web development update that has minimal relevance to L'Or\u00e9al's platform engineering, infrastructure, and developer tooling focus areas.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Safari Adds scrollend Event Support, Completing Baseline Browser Coverage"
   },
   "https://www.infoq.com/news/2026/04/spotify-wrapped-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2241,6 +2702,20 @@
     ],
     "title": "Open Source Security Tool Trivy Hit by Supply Chain Attack, Prompting Urgent Industry Response"
   },
+  "https://www.infoq.com/news/2026/04/uber-hive-decentralized-data/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458663+00:00",
+    "orgs_mentioned": [
+      "Uber"
+    ],
+    "score": 8,
+    "summary": "Uber's Hive Federation demonstrates large-scale data platform decentralization with zero-downtime migration of 16K datasets. Highly relevant patterns for platform engineering architecture and operational practices.",
+    "tags": [
+      "platform-engineering",
+      "performance"
+    ],
+    "title": "Uber\u2019s Hive Federation Decentralizes 16K Datasets and 10+ PB for Zero-Downtime Analytics at Scale"
+  },
   "https://www.infoq.com/podcasts/context-engineering-large-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722840+00:00",
@@ -2251,6 +2726,36 @@
       "developer-experience"
     ],
     "title": "Podcast: Context Engineering with Adi Polak"
+  },
+  "https://www.infoq.com/podcasts/tiger-teams-evals-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458658+00:00",
+    "orgs_mentioned": [
+      "Mastra",
+      "Gatsby"
+    ],
+    "score": 6,
+    "summary": "Podcast discusses AI engineering discipline emergence and cross-functional Tiger Teams for shipping AI agents to production. Relevant for AI-augmented development strategy but limited direct platform engineering applicability.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "Podcast: Tiger Teams, Evals and Agents: The New AI Engineering Playbook"
+  },
+  "https://www.infoq.com/presentations/ai-coding-agents-copilot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-10T11:42:57.458668+00:00",
+    "orgs_mentioned": [
+      "Coinbase",
+      "UC Berkeley"
+    ],
+    "score": 6,
+    "summary": "Presentation on AI copilot selection and maximizing developer productivity with tools like Cursor and Claude Code. Moderately relevant for AI-augmented development strategy and developer experience improvement.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Presentation: Choosing Your AI Copilot: Maximizing Developer Productivity"
   },
   "https://www.infoq.com/presentations/ai-coding-assistants/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2305,5 +2810,170 @@
       "platform-engineering"
     ],
     "title": "Presentation: Panel: Taking Architecture out of the Echo Chamber"
+  },
+  "https://www.ministryoftesting.com/articles/6-leadership-mistakes-that-made-me-a-better-leader": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458722+00:00",
+    "score": 5,
+    "summary": "Leadership lessons from a QA manager covering common management mistakes and how to evolve as a leader in technical organizations. Provides general leadership guidance that could be relevant for platform engineering managers but lacks specific platform engineering or DevOps context.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "6 leadership mistakes that made me a better leader"
+  },
+  "https://www.ministryoftesting.com/articles/a-letter-to-the-hiring-manager-of-software-testers-10-years-later": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458717+00:00",
+    "score": 5,
+    "summary": "Updated perspective on hiring software testers in 2025, covering market conditions and the debate between certification vs experience. Provides useful context for platform engineering teams building testing capabilities, though more focused on traditional QA roles than modern platform testing approaches.",
+    "tags": [
+      "testing",
+      "org-design"
+    ],
+    "title": "A letter to the hiring manager of software testers: 10 years later"
+  },
+  "https://www.ministryoftesting.com/articles/back-to-the-basics-rethinking-how-we-use-ai-in-testing": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458734+00:00",
+    "score": 6,
+    "summary": "Article discusses the limitations of AI-driven testing tools and emphasizes the importance of human judgment and contextual understanding in testing practices. While relevant to AI-augmented development trends, it focuses more on testing philosophy than platform engineering implementation.",
+    "tags": [
+      "testing",
+      "ai-augmented-dev"
+    ],
+    "title": "Back to the basics: Rethinking how we use AI in testing"
+  },
+  "https://www.ministryoftesting.com/articles/beyond-data-generation-how-i-learned-to-trust-synthetic-data-in-performance-testing": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458739+00:00",
+    "score": 7,
+    "summary": "Provides a practical framework for validating synthetic data in performance testing environments using a four-dimension validation approach. Highly relevant for teams using k6 and establishing performance testing standards in CI/CD pipelines.",
+    "tags": [
+      "testing",
+      "performance",
+      "ci-cd"
+    ],
+    "title": "Beyond data generation: How I learned to trust synthetic data in performance testing"
+  },
+  "https://www.ministryoftesting.com/articles/does-ai-test-generation-actually-improve-velocity-solving-the-regression-bloat": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458747+00:00",
+    "score": 7,
+    "summary": "Addresses the challenge of managing AI-generated test suites that can slow down CI/CD pipelines due to regression bloat. Provides practical insights on test optimization strategies that directly impact developer velocity and CI/CD standardization efforts.",
+    "tags": [
+      "testing",
+      "ci-cd",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Does AI test generation actually improve velocity? Solving the regression bloat"
+  },
+  "https://www.ministryoftesting.com/articles/finding-software-testing-opportunities-early-with-the-requirements-review-model": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458732+00:00",
+    "score": 5,
+    "summary": "Introduces the Requirements Review Model for early-stage testing and quality assurance in the development lifecycle. Offers a structured approach to preventing defects before code development, which could complement platform engineering practices around quality gates and developer experience.",
+    "tags": [
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Finding software testing opportunities early with the Requirements Review Model"
+  },
+  "https://www.ministryoftesting.com/articles/getting-paid-what-you-are-worth-as-a-software-tester": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458725+00:00",
+    "score": 3,
+    "summary": "Career advice article focused on salary negotiation and compensation for software testers. While it touches on career progression, it's primarily about compensation rather than platform engineering practices or organizational design.",
+    "tags": [
+      "testing"
+    ],
+    "title": "Getting paid what you are worth as a software tester"
+  },
+  "https://www.ministryoftesting.com/articles/inclusive-development-teams-why-representation-matters": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458737+00:00",
+    "score": 4,
+    "summary": "Article covers the importance of diversity and representation in development teams and how different perspectives help identify bugs. General thought leadership about team composition rather than platform engineering practices or tooling.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "Inclusive development teams: Why representation matters"
+  },
+  "https://www.ministryoftesting.com/articles/managing-cognitive-load-for-better-software-testing": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458750+00:00",
+    "score": 6,
+    "summary": "Article explores managing cognitive load in testing by reducing extraneous mental effort from poor tooling and processes. While focused on testing rather than platform engineering specifically, the concepts of reducing cognitive overhead through better tooling and standardized processes align with developer experience improvements.",
+    "tags": [
+      "testing",
+      "developer-experience"
+    ],
+    "title": "Managing cognitive load for better software testing"
+  },
+  "https://www.ministryoftesting.com/articles/six-common-mistakes-in-test-automation-scripting": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458730+00:00",
+    "score": 5,
+    "summary": "Covers common test automation scripting mistakes and best practices for maintaining robust automated tests. While focused on testing rather than platform engineering, it provides insights into automation practices that could inform CI/CD pipeline quality.",
+    "tags": [
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Six common mistakes in test automation scripting"
+  },
+  "https://www.ministryoftesting.com/articles/the-future-of-testing-autonomous-agents-ethical-ai-and-human-oversight": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458744+00:00",
+    "score": 5,
+    "summary": "Explores the evolution of testing practices for AI-driven and self-adaptive systems, discussing probabilistic behavior and ethical considerations. More theoretical discussion about future testing approaches rather than current platform engineering implementation.",
+    "tags": [
+      "testing",
+      "ai-augmented-dev"
+    ],
+    "title": "The future of testing: Autonomous agents, ethical AI, and human oversight"
+  },
+  "https://www.ministryoftesting.com/articles/the-night-our-highly-available-system-went-dark-how-testers-can-drive-resiliency": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458742+00:00",
+    "score": 7,
+    "summary": "Focuses on resilience testing methodologies and how testers can collaborate with SREs to identify failure scenarios in distributed systems. Very relevant for early-stage DevOps maturity organizations building observability and reliability practices.",
+    "tags": [
+      "testing",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "The night our \u201chighly available\u201d system went dark: How testers can drive resiliency"
+  },
+  "https://www.ministryoftesting.com/articles/what-is-software-quality": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458753+00:00",
+    "score": 5,
+    "summary": "Discusses the definition of software quality from multiple stakeholder perspectives including product managers, users, and developers. Provides general thought leadership on quality concepts but lacks specific platform engineering or tooling insights relevant to L'Or\u00e9al's current priorities.",
+    "tags": [
+      "testing"
+    ],
+    "title": "What is software quality?"
+  },
+  "https://www.ministryoftesting.com/articles/when-hiring-software-testers-doesn-t-work-and-what-to-do-before-you-hire-them": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458719+00:00",
+    "score": 4,
+    "summary": "Article discusses the strategic challenges of hiring software testers and when dedicated QA roles add value versus when they might slow down development. While focused on testing strategy, it offers insights into team composition and quality organization design that could inform platform engineering team structure decisions.",
+    "tags": [
+      "testing",
+      "org-design"
+    ],
+    "title": "When hiring software testers doesn't work (and what to do BEFORE you hire them)"
+  },
+  "https://www.ministryoftesting.com/articles/writing-custom-cypress-plug-ins-that-solve-common-software-testing-problems": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-10T11:42:57.458727+00:00",
+    "score": 6,
+    "summary": "Technical guide on creating custom Cypress plugins to solve test automation challenges, particularly addressing flaky tests in CI/CD pipelines. Contains practical insights for improving test reliability and automation that could benefit CI/CD standardization efforts.",
+    "tags": [
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Writing custom Cypress plug-ins that solve common software testing problems"
   }
 }
