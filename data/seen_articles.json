@@ -441,6 +441,14 @@
     ],
     "title": "Validate Your Figma Designs Before Code Ships with the Applitools Eyes Plugin"
   },
+  "https://app14743.cloudwayssites.com/blog/give-me-cheap-fast-engineering-tradeoffs/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383024+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Give It To Me Cheap and Fast!\u2014A QE Leader\u2019s Perspective on Speed, Cost, and Quality"
+  },
   "https://app14743.cloudwayssites.com/blog/introducing-autonomous-2-2/": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348023+00:00",
@@ -527,6 +535,46 @@
       "developer-experience"
     ],
     "title": "Test Where You Build with Eyes 10.22: Visual AI for Storybook & Figma"
+  },
+  "https://gatling.io/blog/performance-testing-ci-cd": {
+    "category": "Performance",
+    "first_seen": "2026-04-13T12:00:09.383124+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Integrate performance testing into your CI/CD pipeline"
+  },
+  "https://gatling.io/blog/what-is-software-development-lifecycle": {
+    "category": "Performance",
+    "first_seen": "2026-04-13T12:00:09.383136+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "What is the software development lifecycle (SDLC)? Complete guide"
+  },
+  "https://gatling.io/blog/when-websites-and-applications-crash-5-examples-and-what-went-wrong": {
+    "category": "Performance",
+    "first_seen": "2026-04-13T12:00:09.383140+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "When website crashes happen: 10 high\u2011profile failures and what happened"
+  },
+  "https://gatling.io/blog/why-we-test-the-beginners-guide-to-why-load-testing-is-important": {
+    "category": "Performance",
+    "first_seen": "2026-04-13T12:00:09.383128+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Why we test: the beginners guide to why load testing is important"
+  },
+  "https://gatling.io/blog/workload-models-in-load-testing": {
+    "category": "Performance",
+    "first_seen": "2026-04-13T12:00:09.383132+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Understanding workload models for load tests"
   },
   "https://grafana.com/blog/5-tips-to-write-better-browser-tests-for-performance-testing-and-synthetic-monitoring/": {
     "category": "Performance",
@@ -1064,6 +1112,14 @@
     ],
     "title": "\u2018Addictive\u2019 agentic coding has developers losing sleep"
   },
+  "https://leaddev.com/ai/as-ai-helps-us-write-more-code-whos-catching-the-bugs?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.383016+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Use of AI has us creating more code than we can review"
+  },
   "https://leaddev.com/ai/axios-hack-exposes-ai-codings-dependency-problem?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246700+00:00",
@@ -1205,6 +1261,14 @@
       "ai-augmented-dev"
     ],
     "title": "AI has us asking, does (team) size still matter?"
+  },
+  "https://leaddev.com/technical-direction/ai-made-platform-engineering-strategic-again?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.383021+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "AI made platform engineering strategic again"
   },
   "https://leaddev.com/technical-direction/we-ditched-our-vendor-and-built-our-own-destiny?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
@@ -1442,6 +1506,14 @@
     ],
     "title": "Vulnerability management core capabilities every platform should have"
   },
+  "https://platformengineering.org/blog/why-defining-your-infrastructure-is-the-prerequisite-for-autonomous-cloud-operations": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382931+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Why defining infrastructure is the prerequisite for autonomous cloud operations"
+  },
   "https://platformengineering.org/blog/why-installing-argo-cd-didnt-fix-your-deployments": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722535+00:00",
@@ -1501,6 +1573,14 @@
     ],
     "title": "From Discovery to Defense: Why AI Red Teaming Is the Next Step After AI-SPM"
   },
+  "https://snyk.io/blog/from-discovery-to-control/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-13T12:00:09.382975+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Governing Security in the Age of Infinite Signal \u2013 From Discovery to Control"
+  },
   "https://snyk.io/blog/litellm-ai-blast-radius/": {
     "category": "DevSecOps",
     "first_seen": "2026-04-06T17:42:15.722640+00:00",
@@ -1531,6 +1611,14 @@
       "org-design"
     ],
     "title": "Microsoft execs warn agentic AI is hollowing out the junior developer pipeline"
+  },
+  "https://thenewstack.io/ai-coding-tool-stack/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382948+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Cursor, Claude Code, and Codex are merging into one AI coding stack nobody planned"
   },
   "https://thenewstack.io/ai-coding-tools-reckoning/": {
     "category": "Platform Engineering",
@@ -1684,6 +1772,14 @@
     ],
     "title": "MCP servers turn Claude into a reasoning engine for your data"
   },
+  "https://thenewstack.io/build-rag-document-search/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382967+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "How to build an AI-powered private document search app with RAG, ChromaDB, and memory"
+  },
   "https://thenewstack.io/cicd-pipeline-front-line/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722598+00:00",
@@ -1717,6 +1813,14 @@
       "developer-experience"
     ],
     "title": "Cursor\u2019s $2 billion bet: The IDE is now a fallback, not the default"
+  },
+  "https://thenewstack.io/data-governance-ai-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382970+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Why data governance is the secret to AI agent success"
   },
   "https://thenewstack.io/digital-experience-monitoring-workflow/": {
     "category": "Platform Engineering",
@@ -1761,6 +1865,14 @@
     ],
     "title": "There\u2019s a hidden tax on every AI-generated merge request"
   },
+  "https://thenewstack.io/hpa-managed-workloads-why-waste-stays/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382954+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "HPA-managed workloads: Why the obvious waste stays"
+  },
   "https://thenewstack.io/in-the-ai-age-java-is-more-relevant-than-ever/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-09T11:47:49.347735+00:00",
@@ -1783,6 +1895,14 @@
       "platform-engineering"
     ],
     "title": "Is observability still an operations problem at your organization?"
+  },
+  "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382959+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Karpathy says developers have \u2018AI Psychosis.\u2019 Everyone else is next."
   },
   "https://thenewstack.io/mcp-maintainers-enterprise-roadmap/": {
     "category": "Platform Engineering",
@@ -1935,6 +2055,14 @@
       "ai-augmented-dev"
     ],
     "title": "Replit taps RevenueCat to help vibe-coders make money"
+  },
+  "https://thenewstack.io/skiplabs-ai-guardrails-skipper/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-13T12:00:09.382963+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Where are the guardrails everyone promised for AI?"
   },
   "https://thenewstack.io/sovereign-postgresql-kubernetes-portability/": {
     "category": "Platform Engineering",
@@ -2378,6 +2506,86 @@
     ],
     "title": "Why Releasing Software as an Application Beats Deploying Components"
   },
+  "https://www.cncf.io/case-studies/cloudchipr/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383079+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: Cloudchipr client"
+  },
+  "https://www.cncf.io/case-studies/infosys-ltd-client-6/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383053+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: Infosys Ltd. Client"
+  },
+  "https://www.cncf.io/case-studies/infosys-ltd-client-7/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383049+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: Infosys Ltd. Client"
+  },
+  "https://www.cncf.io/case-studies/netstar/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383083+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: Netstar"
+  },
+  "https://www.cncf.io/case-studies/nio/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383064+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: NIO"
+  },
+  "https://www.cncf.io/case-studies/ovhcloud/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383076+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: OVHcloud"
+  },
+  "https://www.cncf.io/case-studies/saxo-bank/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383057+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: Saxo Bank"
+  },
+  "https://www.cncf.io/case-studies/sncf/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383060+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: SNCF"
+  },
+  "https://www.cncf.io/case-studies/xiaohongshu/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383068+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: XiaoHongShu"
+  },
+  "https://www.cncf.io/case-studies/zynga/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-04-13T12:00:09.383072+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF Case Study: Zynga"
+  },
   "https://www.infoq.com/articles/ai-agent-transport-layer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-08T11:46:15.395478+00:00",
@@ -2417,6 +2625,14 @@
     ],
     "title": "Article: Building Hierarchical Agentic RAG Systems: Multi-Modal Reasoning with Autonomous Error Recovery"
   },
+  "https://www.infoq.com/articles/spring-team-spring-7-boot-4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.382980+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Article: The Spring Team on Spring Framework 7 and Spring Boot 4"
+  },
   "https://www.infoq.com/news/2026/04/aaif-mcp-summit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-10T11:42:57.458666+00:00",
@@ -2447,6 +2663,14 @@
     ],
     "title": "Dynamic Languages Faster and Cheaper in 13-Language Claude Code Benchmark"
   },
+  "https://www.infoq.com/news/2026/04/anthropic-claude-mythos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.382992+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Anthropic Releases Claude Mythos Preview with Cybersecurity Capabilities but Withholds Public Access"
+  },
   "https://www.infoq.com/news/2026/04/anthropic-three-agent-harness-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246679+00:00",
@@ -2474,6 +2698,14 @@
       "vendor-update"
     ],
     "title": "Aspire 13.2 Released with Expanded CLI, TypeScript AppHost Preview, and Dashboard Improvements"
+  },
+  "https://www.infoq.com/news/2026/04/aws-sustainability-console/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.382988+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "AWS Launches Sustainability Console with API Access and Scope 1-3 Emissions Reporting"
   },
   "https://www.infoq.com/news/2026/04/claude-code-source-leak/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2520,6 +2752,14 @@
     ],
     "title": "Cloudflare Introduces EmDash: TypeScript CMS Positioned as WordPress Successor"
   },
+  "https://www.infoq.com/news/2026/04/cncf-kusari-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.383012+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "CNCF and Kusari Partner to Strengthen Software Supply Chain Security across Cloud-Native Projects"
+  },
   "https://www.infoq.com/news/2026/04/colab-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-09T11:47:49.347753+00:00",
@@ -2533,6 +2773,14 @@
       "vendor-update"
     ],
     "title": "Google Brings MCP Support to Colab, Enabling Cloud Execution for AI Agents"
+  },
+  "https://www.infoq.com/news/2026/04/etsy-vitess-sharding-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.383005+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Etsy Migrates 1000-Shard, 425 TB MySQL Sharding Architecture to Vitess"
   },
   "https://www.infoq.com/news/2026/04/github-actions-custom-runners/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2548,6 +2796,14 @@
       "github"
     ],
     "title": "GitHub Actions Custom Runner Images Reach General Availability"
+  },
+  "https://www.infoq.com/news/2026/04/github-copilot-cli-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.383000+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "GitHub Copilot CLI Reaches General Availability"
   },
   "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2584,6 +2840,14 @@
     "summary": "",
     "tags": [],
     "title": "Istio Evolves for the AI Era with Multicluster, Ambient Mode, and Inference Capabilities"
+  },
+  "https://www.infoq.com/news/2026/04/java-news-roundup-apr06-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.382996+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Java News Roundup: JDK 27 Release Schedule, Hibernate, LangChain4j, Keycloak, Helidon, Junie CLI"
   },
   "https://www.infoq.com/news/2026/04/java-news-roundup-mar30-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2727,6 +2991,14 @@
     ],
     "title": "Podcast: Context Engineering with Adi Polak"
   },
+  "https://www.infoq.com/podcasts/help-avoid-trivy-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.382984+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Podcast: How SBOMs and Engineering Discipline Can Help You Avoid Trivy\u2019s Compromise"
+  },
   "https://www.infoq.com/podcasts/tiger-teams-evals-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-10T11:42:57.458658+00:00",
@@ -2786,6 +3058,14 @@
     "tags": [],
     "title": "Presentation: When Every Bit Counts: How Valkey Rebuilt Its Hashtable for Modern Hardware"
   },
+  "https://www.infoq.com/presentations/latency-techniques/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-13T12:00:09.383008+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Presentation: Latency: the Race to Zero...Are We There Yet?"
+  },
   "https://www.infoq.com/presentations/local-first-build-software/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-08T11:46:15.395474+00:00",
@@ -2810,6 +3090,86 @@
       "platform-engineering"
     ],
     "title": "Presentation: Panel: Taking Architecture out of the Echo Chamber"
+  },
+  "https://www.mabl.com/blog/adaptive-ai-auto-heal-testing-continuous-learning": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383120+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Future of Auto-Heal Testing with Adaptive AI | Mabl"
+  },
+  "https://www.mabl.com/blog/ai-agent-frameworks-end-to-end-test-automation": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383116+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "AI Agent Frameworks for End-to-End Test Automation | Mabl"
+  },
+  "https://www.mabl.com/blog/ai-agents-cicd-pipelines-continuous-quality": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383113+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "AI Agents in CI/CD Pipelines for Continuous Quality | Mabl"
+  },
+  "https://www.mabl.com/blog/benchmarking-ai-agent-architectures-enterprise-test-automation": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383109+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Benchmarking AI Agent Architectures for Enterprise Test Automation | Mabl"
+  },
+  "https://www.mabl.com/blog/how-we-built-a-system-for-ai-agents-to-ship-real-code-across-75-repos": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383087+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "How We Built a System for AI Agents to Ship Real Code Across 75+ Repos [Part 1 of 2]"
+  },
+  "https://www.mabl.com/blog/rebuilding-an-ai-agent-the-right-way-measurement-not-guesswork": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383098+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Rebuilding an AI Agent the Right Way: Measurement, Not Guesswork | mabl"
+  },
+  "https://www.mabl.com/blog/the-most-exciting-moment-in-software-history": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383091+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "The Most Exciting Moment in Software History"
+  },
+  "https://www.mabl.com/blog/the-scaling-crisis-how-mabls-agentic-testing-solves-open-source-shortfalls": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383095+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "The Scaling Crisis: How mabl's Agentic Testing Solves Open Source Shortfalls"
+  },
+  "https://www.mabl.com/blog/visual-ai-context-aware-regression-detection": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383106+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "How Visual AI Enables Context-Aware Regression Detection | Mabl"
+  },
+  "https://www.mabl.com/blog/when-ai-writes-code-who-accountable-quality": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383102+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "When AI Writes Code, Who's Accountable for Quality? | mabl"
   },
   "https://www.ministryoftesting.com/articles/6-leadership-mistakes-that-made-me-a-better-leader": {
     "category": "QA & Testing",
@@ -2855,6 +3215,22 @@
     ],
     "title": "Beyond data generation: How I learned to trust synthetic data in performance testing"
   },
+  "https://www.ministryoftesting.com/articles/coaching-with-code-using-ai-to-learn-how-to-automate-tests": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383045+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Coaching with code: using AI to learn how to automate tests"
+  },
+  "https://www.ministryoftesting.com/articles/delivering-quality-and-deploying-on-time-when-your-team-is-small": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383029+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Delivering quality and deploying on time when your team is small"
+  },
   "https://www.ministryoftesting.com/articles/does-ai-test-generation-actually-improve-velocity-solving-the-regression-bloat": {
     "category": "QA & Testing",
     "first_seen": "2026-04-10T11:42:57.458747+00:00",
@@ -2867,6 +3243,14 @@
       "developer-experience"
     ],
     "title": "Does AI test generation actually improve velocity? Solving the regression bloat"
+  },
+  "https://www.ministryoftesting.com/articles/everyday-accessibility-7-ways-to-do-a-little-a11y-every-day": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383033+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Everyday accessibility: 7 ways to do a little a11y every day"
   },
   "https://www.ministryoftesting.com/articles/finding-software-testing-opportunities-early-with-the-requirements-review-model": {
     "category": "QA & Testing",
@@ -2910,6 +3294,14 @@
     ],
     "title": "Managing cognitive load for better software testing"
   },
+  "https://www.ministryoftesting.com/articles/product-minded-testing-choosing-what-matters-when-everything-feels-important": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383041+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Product-minded testing: choosing what matters when everything feels important"
+  },
   "https://www.ministryoftesting.com/articles/six-common-mistakes-in-test-automation-scripting": {
     "category": "QA & Testing",
     "first_seen": "2026-04-10T11:42:57.458730+00:00",
@@ -2920,6 +3312,14 @@
       "ci-cd"
     ],
     "title": "Six common mistakes in test automation scripting"
+  },
+  "https://www.ministryoftesting.com/articles/stop-delegating-your-thinking-using-5-whys-to-check-ai-documentation": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-13T12:00:09.383037+00:00",
+    "score": 5,
+    "summary": "",
+    "tags": [],
+    "title": "Stop delegating your thinking: Using 5 whys to check AI documentation"
   },
   "https://www.ministryoftesting.com/articles/the-future-of-testing-autonomous-agents-ethical-ai-and-human-oversight": {
     "category": "QA & Testing",
