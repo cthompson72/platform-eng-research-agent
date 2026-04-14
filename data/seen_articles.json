@@ -536,6 +536,172 @@
     ],
     "title": "Test Where You Build with Eyes 10.22: Visual AI for Storybook & Figma"
   },
+  "https://gatling.io/blog/5-load-testing-dos-and-donts": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897214+00:00",
+    "score": 7,
+    "summary": "Provides practical guidance on load testing best practices for continuous delivery pipelines. Directly relevant for improving CI/CD quality gates and performance validation processes.",
+    "tags": [
+      "testing",
+      "performance",
+      "ci-cd"
+    ],
+    "title": "Continuous delivery software testing: 5 load testing dos and don\u2019ts"
+  },
+  "https://gatling.io/blog/5-steps-to-help-build-your-load-testing-strategy": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897216+00:00",
+    "score": 7,
+    "summary": "Strategic framework for building comprehensive load testing strategies across development lifecycle. Essential for establishing foundational performance engineering practices in early-stage DevOps environments.",
+    "tags": [
+      "testing",
+      "performance",
+      "platform-engineering"
+    ],
+    "title": "5 Steps to help build your load testing strategy"
+  },
+  "https://gatling.io/blog/6-standout-benefits-of-private-locations": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897223+00:00",
+    "score": 5,
+    "summary": "Discusses benefits of private testing locations for performance monitoring. General performance testing concept but not specifically aligned with platform engineering or current toolchain priorities.",
+    "tags": [
+      "testing",
+      "performance"
+    ],
+    "title": "6 Standout benefits of private locations"
+  },
+  "https://gatling.io/blog/analyzing-grpc-performance-with-gatling-on-qdrant-free-tier": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897242+00:00",
+    "score": 4,
+    "summary": "Technical deep-dive into using Gatling for gRPC performance testing on Qdrant vector database. Specific use case that may not directly apply to current platform needs and stack.",
+    "tags": [
+      "performance",
+      "testing"
+    ],
+    "title": "Analyzing gRPC performance with Gatling on Qdrant free tier"
+  },
+  "https://gatling.io/blog/ci-cd-best-practices": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897229+00:00",
+    "score": 8,
+    "summary": "Comprehensive best practices guide for CI/CD implementation and optimization. Directly supports strategic priority of CI/CD standardization for improving DevOps maturity at foundational level.",
+    "tags": [
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "CI/CD best practices: Our top 15 tips"
+  },
+  "https://gatling.io/blog/configuration-as-code-gatling-blog": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897226+00:00",
+    "orgs_mentioned": [
+      "Gatling"
+    ],
+    "score": 9,
+    "summary": "Vendor update for Gatling Enterprise introducing Configuration as Code capabilities. Highly relevant for CI/CD standardization efforts and aligns with infrastructure-as-code practices using Terraform.",
+    "tags": [
+      "vendor-update",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Gatling releases Configuration as Code for Enterprise users"
+  },
+  "https://gatling.io/blog/devops-vs-devsecops": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897249+00:00",
+    "score": 7,
+    "summary": "Article explores how security integration transforms DevOps workflows and delivery practices, directly relevant to early-stage DevOps maturity. Covers foundational concepts for embedding security into CI/CD pipelines and development processes.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "DevOps vs DevSecOps: How security reshapes software delivery"
+  },
+  "https://gatling.io/blog/downtime-causes": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897244+00:00",
+    "score": 8,
+    "summary": "Analysis of website downtime causes and resolution strategies directly supports observability and reliability initiatives. Highly relevant for platform engineering teams building resilient systems with Kubernetes and monitoring tools.",
+    "tags": [
+      "observability",
+      "platform-engineering",
+      "performance"
+    ],
+    "title": "Website downtime causes: 10 causes and resolution strategies"
+  },
+  "https://gatling.io/blog/easily-load-test-your-grpc-application": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897219+00:00",
+    "score": 6,
+    "summary": "Focuses on performance testing for gRPC applications which may be relevant for microservices architectures. Useful for teams building distributed systems but not directly tied to current Spring Boot stack.",
+    "tags": [
+      "testing",
+      "performance"
+    ],
+    "title": "Ensuring your gRPC applications perform under pressure"
+  },
+  "https://gatling.io/blog/enhanced-no-code-testing": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897234+00:00",
+    "score": 6,
+    "summary": "Enhanced no-code capabilities for performance testing aim to improve developer experience by reducing technical barriers. This aligns with developer experience priorities but focuses on a tool not in the current stack.",
+    "tags": [
+      "developer-experience",
+      "performance",
+      "testing"
+    ],
+    "title": "Test faster with enhanced no-code test-building capabilities"
+  },
+  "https://gatling.io/blog/five-best-practices-to-optimize-your-load-tests": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897239+00:00",
+    "score": 7,
+    "summary": "Five best practices for optimizing load testing provide actionable guidance for performance testing strategies. Directly applicable to improving testing practices and could enhance k6 usage effectiveness.",
+    "tags": [
+      "performance",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Five best practices to optimize your load testing"
+  },
+  "https://gatling.io/blog/gatling-3-11-is-now-available": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897231+00:00",
+    "score": 8,
+    "summary": "Gatling 3.11 release includes new features and improvements for performance testing capabilities. This is a vendor update for a performance testing tool that could complement the existing k6 stack.",
+    "tags": [
+      "vendor-update",
+      "performance",
+      "testing"
+    ],
+    "title": "Gatling 3.11 is now available"
+  },
+  "https://gatling.io/blog/gatling-celebrates-the-release-of-java-21": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897237+00:00",
+    "score": 6,
+    "summary": "Gatling announces Java 21 support, keeping pace with modern Java versions. Relevant for Spring Boot applications but not directly impactful since k6 is the current performance testing tool.",
+    "tags": [
+      "vendor-update",
+      "performance"
+    ],
+    "title": "Gatling celebrates the release of Java 21"
+  },
+  "https://gatling.io/blog/gatling-doubles-its-availability-with-a-new-javascript-sdk": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897247+00:00",
+    "score": 7,
+    "summary": "Gatling introduces JavaScript SDK to complement existing Java/Scala tools, expanding language support for performance testing. This could provide additional options for teams already using k6 for load testing, though not directly impacting current toolchain.",
+    "tags": [
+      "vendor-update",
+      "performance",
+      "testing"
+    ],
+    "title": "Gatling doubles its availability with a new JavaScript SDK"
+  },
   "https://gatling.io/blog/performance-testing-ci-cd": {
     "category": "Performance",
     "first_seen": "2026-04-13T12:00:09.383124+00:00",
@@ -543,6 +709,17 @@
     "summary": "",
     "tags": [],
     "title": "Integrate performance testing into your CI/CD pipeline"
+  },
+  "https://gatling.io/blog/what-is-load-testing": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897211+00:00",
+    "score": 6,
+    "summary": "This appears to be a foundational article about load testing concepts and practices. While testing is relevant to platform engineering and you have k6 in your toolchain, without seeing the full content it's difficult to assess specific relevance to your strategic priorities.",
+    "tags": [
+      "testing",
+      "performance"
+    ],
+    "title": "What is load testing?"
   },
   "https://gatling.io/blog/what-is-software-development-lifecycle": {
     "category": "Performance",
@@ -583,6 +760,18 @@
     "summary": "",
     "tags": [],
     "title": "5 tips to write better browser tests for performance testing and synthetic monitoring"
+  },
+  "https://grafana.com/blog/a-faster-way-to-pinpoint-performance-bottlenecks-using-profiles-drilldown-with-grafana-cloud-knowledge-graph/": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897204+00:00",
+    "score": 9,
+    "summary": "This article introduces Profiles Drilldown integration with Grafana Cloud Knowledge Graph, enabling faster performance bottleneck identification without complex queries. This vendor update for Grafana enhances observability capabilities by connecting CPU profiling data directly into investigation workflows, supporting your observability strategic priority.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "performance"
+    ],
+    "title": "A faster way to pinpoint performance bottlenecks: Using Profiles Drilldown with Grafana Cloud Knowledge Graph"
   },
   "https://grafana.com/blog/ai-observability-MCP-servers/": {
     "category": "Performance",
@@ -765,6 +954,30 @@
     "summary": "",
     "tags": [],
     "title": "How to integrate performance testing and continuous profiling for deeper application insights"
+  },
+  "https://grafana.com/blog/how-to-manage-synthetic-monitoring-checks-as-code-with-terraform-and-grafana-cloud/": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897207+00:00",
+    "score": 9,
+    "summary": "This article explains how to manage Grafana Cloud Synthetic Monitoring checks as code using Terraform, addressing scalability and consistency challenges in monitoring configuration. It's highly relevant for your CI/CD standardization and observability priorities, providing Infrastructure as Code practices for your active Terraform and Grafana toolchain.",
+    "tags": [
+      "vendor-update",
+      "ci-cd",
+      "observability"
+    ],
+    "title": "How to manage synthetic monitoring checks as code with Terraform and Grafana Cloud"
+  },
+  "https://grafana.com/blog/kubernetes-monitoring-helm-chart-v4-biggest-update-ever-/": {
+    "category": "Performance",
+    "first_seen": "2026-04-14T11:52:28.897200+00:00",
+    "score": 10,
+    "summary": "This article details major updates to the Kubernetes Monitoring Helm chart v4, including significant improvements to destinations configuration, GitOps compatibility, and multi-cluster management. This is directly relevant as a vendor update for Kubernetes and Grafana in your active toolchain, addressing key pain points in monitoring deployment and management.",
+    "tags": [
+      "vendor-update",
+      "kubernetes",
+      "observability"
+    ],
+    "title": "Kubernetes Monitoring Helm chart v4: Biggest update ever!"
   },
   "https://grafana.com/blog/load-testing-tools-open-source-considerations-for-homegrown-solutions/": {
     "category": "Performance",
@@ -1177,6 +1390,18 @@
       "org-design"
     ],
     "title": "The AI skills gap is real (but it\u2019s not what you think)"
+  },
+  "https://leaddev.com/ai/the-architecture-gap-your-ai-agent-will-expose?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897198+00:00",
+    "score": 7,
+    "summary": "This article explores the architectural challenges that AI agents introduce to production systems, emphasizing the need for AgentOps (different from MLOps) and AI-writable boundaries. It's highly relevant for platform engineering leaders considering AI-augmented development and the architectural changes needed to support autonomous AI agents in production.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "The architecture gap your AI agent will expose"
   },
   "https://leaddev.com/ai/why-ai-isnt-writing-most-of-your-code-yet?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
@@ -2625,6 +2850,17 @@
     ],
     "title": "Article: Building Hierarchical Agentic RAG Systems: Multi-Modal Reasoning with Autonomous Error Recovery"
   },
+  "https://www.infoq.com/articles/enterprise-grade-observability-extension-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897181+00:00",
+    "score": 7,
+    "summary": "Docker observability extension design patterns address enterprise observability integration challenges and developer experience improvements. The article covers OpenTelemetry integration, governance policies, and bridging local development to centralized monitoring platforms, directly relevant to L'Or\u00e9al's observability strategic priorities.",
+    "tags": [
+      "observability",
+      "developer-experience"
+    ],
+    "title": "Article: Beyond One-Click: Designing an Enterprise-Grade Observability Extension for Docker"
+  },
   "https://www.infoq.com/articles/spring-team-spring-7-boot-4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.382980+00:00",
@@ -2663,6 +2899,20 @@
     ],
     "title": "Dynamic Languages Faster and Cheaper in 13-Language Claude Code Benchmark"
   },
+  "https://www.infoq.com/news/2026/04/airbnd-opentelemetry-vmagent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897185+00:00",
+    "orgs_mentioned": [
+      "Airbnb"
+    ],
+    "score": 8,
+    "summary": "Airbnb's migration from StatsD to OpenTelemetry for high-volume metrics processing (100M+ samples/sec) provides concrete technical guidance for observability pipeline modernization. The detailed implementation approach, performance improvements, and architectural decisions are highly relevant to L'Or\u00e9al's observability and platform engineering priorities.",
+    "tags": [
+      "observability",
+      "performance"
+    ],
+    "title": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry"
+  },
   "https://www.infoq.com/news/2026/04/anthropic-claude-mythos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.382992+00:00",
@@ -2670,6 +2920,19 @@
     "summary": "",
     "tags": [],
     "title": "Anthropic Releases Claude Mythos Preview with Cybersecurity Capabilities but Withholds Public Access"
+  },
+  "https://www.infoq.com/news/2026/04/anthropic-paper-llms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897155+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 3,
+    "summary": "Anthropic research on LLM internal emotion representations and behavioral impacts is primarily academic AI research. While relevant to AI-augmented development trends, it lacks direct applicability to current platform engineering priorities and toolchain improvements.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Anthropic Paper Examines Behavioral Impact of Emotion-Like Mechanisms in LLMs"
   },
   "https://www.infoq.com/news/2026/04/anthropic-three-agent-harness-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -2782,6 +3045,19 @@
     "tags": [],
     "title": "Etsy Migrates 1000-Shard, 425 TB MySQL Sharding Architecture to Vitess"
   },
+  "https://www.infoq.com/news/2026/04/gemma-4-android-ai-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897188+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 5,
+    "summary": "Google's Gemma 4 release focuses on local AI inference for Android development with improved performance and on-device capabilities. While relevant to AI-augmented development trends, the mobile-first focus has limited direct applicability to current platform engineering toolchain and priorities.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Google Released Gemma 4 with a Focus On Local-First, On-Device AI Inference"
+  },
   "https://www.infoq.com/news/2026/04/github-actions-custom-runners/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-09T11:47:49.347760+00:00",
@@ -2868,6 +3144,19 @@
       "org-design"
     ],
     "title": "Developing Your Leadership Skills toward Principal Engineering"
+  },
+  "https://www.infoq.com/news/2026/04/lyft-ai-localization-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897191+00:00",
+    "orgs_mentioned": [
+      "Lyft"
+    ],
+    "score": 4,
+    "summary": "Lyft's AI-driven localization system demonstrates AI integration in product workflows with human-in-the-loop review processes. The technical architecture patterns are interesting but the localization-specific use case has limited relevance to core platform engineering and developer experience priorities.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Lyft Scales Global Localization Using AI and Human-in-the-Loop Review"
   },
   "https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3050,6 +3339,21 @@
     ],
     "title": "Presentation: Duolingo's Kubernetes Leap"
   },
+  "https://www.infoq.com/presentations/graph-neural-networks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897194+00:00",
+    "orgs_mentioned": [
+      "Zalando",
+      "Intapp"
+    ],
+    "score": 4,
+    "summary": "This article discusses using Graph Neural Networks to improve Zalando's recommendation system by converting user logs into heterogeneous graphs and addressing technical challenges like data leakage and inference latency. While it covers advanced ML engineering practices, it's primarily focused on recommendation systems rather than platform engineering or developer experience.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "Presentation: Reimagining Platform Engagement with Graph Neural Networks"
+  },
   "https://www.infoq.com/presentations/hashtable-modern-hardware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-08T11:46:15.395490+00:00",
@@ -3090,6 +3394,21 @@
       "platform-engineering"
     ],
     "title": "Presentation: Panel: Taking Architecture out of the Echo Chamber"
+  },
+  "https://www.infoq.com/presentations/platform-engineering-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-14T11:52:28.897176+00:00",
+    "orgs_mentioned": [
+      "eBay"
+    ],
+    "score": 8,
+    "summary": "eBay's Velocity Initiative case study directly addresses platform engineering transformation, doubling engineering productivity and improving DORA metrics across 4,500 services. The presentation covers both technical execution and organizational challenges highly relevant to L'Or\u00e9al's early-stage DevOps maturity and platform engineering org design priorities.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "performance"
+    ],
+    "title": "Presentation: Platform Engineering: Lessons from the Rise and Fall of eBay Velocity"
   },
   "https://www.mabl.com/blog/adaptive-ai-auto-heal-testing-continuous-learning": {
     "category": "QA & Testing",
