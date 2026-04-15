@@ -536,6 +536,19 @@
     ],
     "title": "Test Where You Build with Eyes 10.22: Visual AI for Storybook & Figma"
   },
+  "https://app14743.cloudwayssites.com/blog/where-test-automation-university-goes-next/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-15T11:47:35.812904+00:00",
+    "orgs_mentioned": [
+      "Applitools"
+    ],
+    "score": 4,
+    "summary": "Test Automation University announces its revival with focus on evolving testing practices including AI integration and modern software delivery challenges. While testing is important for platform engineering, this is more about educational content and community building rather than specific platform engineering practices or toolchain improvements.",
+    "tags": [
+      "testing"
+    ],
+    "title": "Where Test Automation University Goes From Here"
+  },
   "https://gatling.io/blog/5-load-testing-dos-and-donts": {
     "category": "Performance",
     "first_seen": "2026-04-14T11:52:28.897214+00:00",
@@ -909,6 +922,17 @@
     ],
     "title": "Finding performance bottlenecks with Pyroscope and Alloy: An example using TON blockchain"
   },
+  "https://grafana.com/blog/grafana-alerting-respond-faster-and-get-situational-awareness-with-alert-enrichment-in-grafana-cloud/": {
+    "category": "Performance",
+    "first_seen": "2026-04-15T11:47:35.813116+00:00",
+    "score": 9,
+    "summary": "Grafana introduces alert enrichment in Grafana Cloud, allowing teams to attach contextual information like logs, dashboards, and AI investigations directly to alerts for faster incident response. This directly enhances the observability stack L'Or\u00e9al uses and significantly improves the developer experience during incident triage and resolution.",
+    "tags": [
+      "observability",
+      "vendor-update"
+    ],
+    "title": "Grafana Alerting: Respond faster and get situational awareness with alert enrichment in Grafana Cloud"
+  },
   "https://grafana.com/blog/grafana-cloud-synthetic-monitoring-all-the-latest-features/": {
     "category": "Performance",
     "first_seen": "2026-04-07T11:47:48.246953+00:00",
@@ -931,6 +955,21 @@
       "observability"
     ],
     "title": "Grafana security release: Critical and high severity security fixes for CVE-2026-27876 and CVE-2026-27880"
+  },
+  "https://grafana.com/blog/grafanacon-2026-in-barcelona-what-not-to-miss/": {
+    "category": "Performance",
+    "first_seen": "2026-04-15T11:47:35.813121+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "LEGO"
+    ],
+    "score": 6,
+    "summary": "Guide to GrafanaCON 2026 conference in Barcelona featuring technical sessions, hands-on labs, and announcements about Grafana 13 and AI developments. While this covers updates to a key tool in the L'Or\u00e9al stack, it's primarily event marketing rather than actionable technical content about platform engineering practices.",
+    "tags": [
+      "vendor-update",
+      "observability"
+    ],
+    "title": "Your guide to GrafanaCON 2026 in Barcelona"
   },
   "https://grafana.com/blog/how-openrouter-and-grafana-cloud-bring-observability-to-llm-powered-applications/": {
     "category": "Performance",
@@ -1462,6 +1501,16 @@
     ],
     "title": "The reality of being a tech lead"
   },
+  "https://leaddev.com/leadership/reality-being-director-engineering?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-15T11:47:35.812902+00:00",
+    "score": 7,
+    "summary": "Article explores the day-to-day reality of director-level engineering leadership, focusing on bridging strategic vision with tactical execution and developing engineering managers. Highly relevant for platform engineering organizational design as it addresses the specific challenges of scaling engineering leadership and building effective processes during the startup-to-enterprise transition.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "The reality of being a director of engineering"
+  },
   "https://leaddev.com/leadership/tech-leads-are-overwhelmed-heres-how-to-take-back-control?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246708+00:00",
@@ -1837,6 +1886,36 @@
     ],
     "title": "Microsoft execs warn agentic AI is hollowing out the junior developer pipeline"
   },
+  "https://thenewstack.io/agentic-ai-observability-auditing/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812859+00:00",
+    "orgs_mentioned": [
+      "HPE OpsRamp"
+    ],
+    "score": 8,
+    "summary": "Discusses how observability platforms are evolving to audit and monitor AI workloads, which is critical for L'Or\u00e9al's observability strategy as AI adoption increases. Highlights the need for AI-specific monitoring approaches and the challenges SRE teams face with autonomous AI agents.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Why observability platforms are becoming AI auditing tools"
+  },
+  "https://thenewstack.io/ai-code-qa-bottleneck/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812841+00:00",
+    "orgs_mentioned": [
+      "Tapforce"
+    ],
+    "score": 6,
+    "summary": "Explores how AI code generation shifts the bottleneck from writing code to quality assurance and validation. Provides insights into operational changes needed when AI can generate 100K lines of code quickly, relevant for AI-augmented development strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "testing",
+      "developer-experience"
+    ],
+    "title": "When AI writes 100K lines of code, QA becomes the whole job"
+  },
   "https://thenewstack.io/ai-coding-tool-stack/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-13T12:00:09.382948+00:00",
@@ -1938,6 +2017,22 @@
     "tags": [],
     "title": "Model Flop Utilization is the metric Aria Networks says will define the AI infrastructure era"
   },
+  "https://thenewstack.io/aws-kubernetes-invisible-simplicity/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812878+00:00",
+    "orgs_mentioned": [
+      "AWS",
+      "CNCF"
+    ],
+    "score": 8,
+    "summary": "AWS Principal PM discusses making Kubernetes invisible and reducing complexity through abstraction, directly addressing a key challenge for early-stage DevOps organizations. The article provides strategic insights on platform engineering approaches and the evolution of cloud-native tooling complexity.",
+    "tags": [
+      "platform-engineering",
+      "kubernetes",
+      "developer-experience"
+    ],
+    "title": "Can you make Kubernetes invisible? Here\u2019s why AWS is on a mission to do it."
+  },
   "https://thenewstack.io/aws-s3-files-filesystem/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395449+00:00",
@@ -2017,6 +2112,70 @@
     ],
     "title": "The TeamPCP attacks are a warning: Your CI/CD pipeline is the new front line"
   },
+  "https://thenewstack.io/claude-code-can-now-do-your-job-overnight/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812868+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 7,
+    "summary": "Introduces Claude Code routines that can automate development tasks on schedules or GitHub events, directly relevant to CI/CD automation. Shows how AI agents can handle continuous deployment workflows, triaging, and documentation updates autonomously.",
+    "tags": [
+      "ci-cd",
+      "ai-augmented-dev",
+      "github"
+    ],
+    "title": "Claude Code can now do your job overnight"
+  },
+  "https://thenewstack.io/claude-code-desktop-redesign/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812864+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "score": 5,
+    "summary": "Details Anthropic's Claude Code desktop app updates including integrated terminal and improved diff viewer. While relevant to AI-augmented development, focuses more on tool features than strategic platform engineering considerations.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Anthropic\u2019s redesigned Claude Code desktop app lets you burn through tokens even faster"
+  },
+  "https://thenewstack.io/claude-mythos-preview-simulation/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812875+00:00",
+    "orgs_mentioned": [
+      "UK AI Security Institute",
+      "Anthropic",
+      "Amazon",
+      "Apple",
+      "Microsoft",
+      "Palo Alto Networks"
+    ],
+    "score": 10,
+    "summary": "Reports that Claude Mythos Preview successfully completed full cyberattack simulations, representing a significant security threat escalation. This is a critical security advisory as the model could potentially be used for autonomous multi-stage attacks on enterprise systems.",
+    "tags": [
+      "security-advisory",
+      "devsecops"
+    ],
+    "title": "Claude Mythos Preview completes full cyberattack simulation for the first time"
+  },
+  "https://thenewstack.io/cloudflare-mesh-agent-networking/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812888+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 7,
+    "summary": "Cloudflare Mesh addresses multi-cloud connectivity and secure networking for AI agents, solving real infrastructure challenges around private networking. This could be relevant for organizations building secure platforms that need to integrate across multiple cloud environments.",
+    "tags": [
+      "platform-engineering",
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "Beyond the VPN: Cloudflare Mesh builds a private network for the age of AI agents"
+  },
   "https://thenewstack.io/coding-agents-cicd-fix/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722600+00:00",
@@ -2066,6 +2225,22 @@
     "summary": "",
     "tags": [],
     "title": "Amazon EKS Auto Mode wants to end Kubernetes toil \u2014 one node at a time"
+  },
+  "https://thenewstack.io/gemini-chrome-saved-prompts/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812882+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "score": 6,
+    "summary": "Google Chrome adds AI prompt management capabilities that could enhance developer productivity by saving and reusing common AI workflows. This represents an incremental improvement in AI-augmented development tooling though not directly related to platform engineering infrastructure.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Google\u2019s Gemini in Chrome now lets you save prompts as \u201cskills\u201d"
   },
   "https://thenewstack.io/hidden-agentic-technical-debt/": {
     "category": "Platform Engineering",
@@ -2128,6 +2303,21 @@
     "summary": "",
     "tags": [],
     "title": "Karpathy says developers have \u2018AI Psychosis.\u2019 Everyone else is next."
+  },
+  "https://thenewstack.io/kumo-ai-foundation-models/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812885+00:00",
+    "orgs_mentioned": [
+      "Kumo",
+      "Stanford"
+    ],
+    "score": 5,
+    "summary": "Kumo introduces a foundation model for relational data that eliminates feature engineering through plain-English queries, potentially relevant for data-driven platform engineering. While innovative, this is more about data science workflow optimization than core platform engineering concerns.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Kumo\u2019s new foundation model replaces months of data science engineering with plain-English queries"
   },
   "https://thenewstack.io/mcp-maintainers-enterprise-roadmap/": {
     "category": "Platform Engineering",
@@ -2267,6 +2457,20 @@
     ],
     "title": "Ramp targets AI\u2019s fastest-growing cost: spend that\u2019s hard to track"
   },
+  "https://thenewstack.io/real-time-sync-engine/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812890+00:00",
+    "orgs_mentioned": [
+      "Rocicorp"
+    ],
+    "score": 6,
+    "summary": "Technical deep-dive on implementing real-time collaboration using Zero sync engine, showing how to solve conflict resolution in collaborative development tools. While focused on application development, the architectural patterns could inform platform engineering tool design.",
+    "tags": [
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "From clobbered drafts to real-time sync"
+  },
   "https://thenewstack.io/replit-revenuecat-help-vibe-coders-monetize/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-10T11:42:57.458632+00:00",
@@ -2296,6 +2500,22 @@
     "summary": "",
     "tags": [],
     "title": "True enterprise sovereignty is more approachable than ever, thanks to K8s-powered cloud-neutral PostgreSQL"
+  },
+  "https://thenewstack.io/spring-creator-java-type-system-agentic-ai-rod-johnson/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-15T11:47:35.812872+00:00",
+    "orgs_mentioned": [
+      "Microsoft",
+      "Azul Systems",
+      "RedMonk"
+    ],
+    "score": 6,
+    "summary": "Presents Embabel, a Java-based agentic AI framework built on Spring Boot, which aligns with L'Or\u00e9al's Spring Boot stack. Demonstrates how enterprise Java environments can leverage AI agents with better type safety and predictability than Python alternatives.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Spring creator wants Java\u2019s type system to tame agentic AI"
   },
   "https://thenewstack.io/the-next-stages-of-ai-conformance-in-the-cloud-native-open-source-world/": {
     "category": "Platform Engineering",
@@ -2861,6 +3081,20 @@
     ],
     "title": "Article: Beyond One-Click: Designing an Enterprise-Grade Observability Extension for Docker"
   },
+  "https://www.infoq.com/articles/lambda-extension-deferred-flush/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-15T11:47:35.812896+00:00",
+    "orgs_mentioned": [
+      "Lead Bank"
+    ],
+    "score": 6,
+    "summary": "Article details using AWS Lambda extensions for post-response telemetry flushing to improve API response times by moving observability data export off the critical path. While specific to AWS Lambda, the pattern of asynchronous telemetry handling and the detailed observability implementation could inform platform engineering approaches for improving developer experience with better performance monitoring.",
+    "tags": [
+      "observability",
+      "performance"
+    ],
+    "title": "Article: Using AWS Lambda Extensions to Run Post-Response Telemetry Flush"
+  },
   "https://www.infoq.com/articles/spring-team-spring-7-boot-4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.382980+00:00",
@@ -2969,6 +3203,21 @@
     "summary": "",
     "tags": [],
     "title": "AWS Launches Sustainability Console with API Access and Scope 1-3 Emissions Reporting"
+  },
+  "https://www.infoq.com/news/2026/04/claude-code-linux-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-15T11:47:35.812893+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 10,
+    "summary": "Claude AI discovered a 23-year-old remotely exploitable Linux kernel vulnerability, demonstrating AI's capability for automated security analysis. This is highly relevant as a security advisory affecting the Linux kernel that underlies Kubernetes infrastructure.",
+    "tags": [
+      "security-advisory",
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "Claude Code Used to Find Remotely Exploitable Linux Kernel Vulnerability Hidden for 23 Years"
   },
   "https://www.infoq.com/news/2026/04/claude-code-source-leak/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3183,6 +3432,16 @@
       "performance"
     ],
     "title": "Pinterest Reduces Spark OOM Failures by 96% Through Auto Memory Retries"
+  },
+  "https://www.infoq.com/news/2026/04/rowhammer-attacks-nvidia/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-15T11:47:35.812898+00:00",
+    "score": 9,
+    "summary": "Security researchers have discovered new Rowhammer attacks targeting NVIDIA GPUs that can achieve full system takeover, particularly dangerous in multi-tenant cloud and AI training environments. This is a critical hardware-level security vulnerability that could impact any organization using NVIDIA GPUs in their infrastructure, requiring immediate awareness and potential mitigation strategies.",
+    "tags": [
+      "security-advisory"
+    ],
+    "title": "New Rowhammer Attacks on NVIDIA GPUs Enable Full System Takeover"
   },
   "https://www.infoq.com/news/2026/04/safari-scrollend-support/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
