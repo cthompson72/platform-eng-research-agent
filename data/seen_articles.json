@@ -1401,6 +1401,21 @@
     ],
     "title": "Choosing a new AI-coding tool? Here\u2019s what to look for"
   },
+  "https://leaddev.com/ai/jetbrains-goes-all-in-on-agents-with-central?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-16T11:52:36.056478+00:00",
+    "orgs_mentioned": [
+      "JetBrains"
+    ],
+    "score": 7,
+    "summary": "JetBrains introduces Central, a unified platform for managing AI agents across development workflows, focusing on governance, cloud infrastructure, and semantic code understanding. While relevant to AI-augmented development strategy, this is more about vendor tooling evaluation than immediate platform engineering implementation for L'Or\u00e9al's current stack.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "vendor-update"
+    ],
+    "title": "JetBrains goes all-in on agents with Central"
+  },
   "https://leaddev.com/ai/shipping-faster-thinking-less-the-ai-code-verification-trap?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-09T11:47:49.347762+00:00",
@@ -2100,6 +2115,20 @@
     "tags": [],
     "title": "How to build an AI-powered private document search app with RAG, ChromaDB, and memory"
   },
+  "https://thenewstack.io/cal-com-codebase-security-ai/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056455+00:00",
+    "orgs_mentioned": [
+      "Cal.com"
+    ],
+    "score": 6,
+    "summary": "Cal.com's decision to move from open-source to closed-source due to AI-driven security concerns represents an important trend in platform engineering security considerations. This highlights the evolving risk landscape that platform engineering teams need to consider when evaluating open-source toolchain components, though it's more strategic context than actionable guidance.",
+    "tags": [
+      "devsecops",
+      "competitive-intel"
+    ],
+    "title": "Cal.com goes private: A security reckoning for open source"
+  },
   "https://thenewstack.io/cicd-pipeline-front-line/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722598+00:00",
@@ -2111,6 +2140,25 @@
       "devsecops"
     ],
     "title": "The TeamPCP attacks are a warning: Your CI/CD pipeline is the new front line"
+  },
+  "https://thenewstack.io/claude-code-and-the-rise-of-personal-software/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056446+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Lovable",
+      "Replit",
+      "Retool",
+      "PointFive"
+    ],
+    "score": 7,
+    "summary": "Examines how AI coding tools like Claude Code are democratizing software development beyond traditional engineering teams. Highly relevant for understanding AI-augmented development impact on platform teams and developer experience transformation.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Claude Code and the rise of personal software"
   },
   "https://thenewstack.io/claude-code-can-now-do-your-job-overnight/": {
     "category": "Platform Engineering",
@@ -2161,6 +2209,20 @@
     ],
     "title": "Claude Mythos Preview completes full cyberattack simulation for the first time"
   },
+  "https://thenewstack.io/cloud-database-complacency-research/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056458+00:00",
+    "orgs_mentioned": [
+      "ScyllaDB",
+      "Futurum Group"
+    ],
+    "score": 4,
+    "summary": "This article discusses cloud database performance and cost concerns, focusing on the 'good enough for now' syndrome where current solutions may not scale for future AI/ML workloads. While databases are infrastructure components, this content is more focused on data platform concerns rather than the CI/CD, observability, and developer experience priorities of platform engineering.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Why \u201cgood enough\u201d cloud databases are becoming a business risk"
+  },
   "https://thenewstack.io/cloudflare-mesh-agent-networking/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-15T11:47:35.812888+00:00",
@@ -2206,6 +2268,23 @@
     "tags": [],
     "title": "Why data governance is the secret to AI agent success"
   },
+  "https://thenewstack.io/data-stack-consolidation-risks/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056449+00:00",
+    "orgs_mentioned": [
+      "IBM",
+      "Confluent",
+      "DataStax"
+    ],
+    "score": 8,
+    "summary": "Analyzes risks of vendor consolidation in data infrastructure, particularly around Kafka and streaming tools, highlighting architectural debt concerns. Very relevant for L'Or\u00e9al's platform strategy and vendor relationship management, especially given potential lock-in risks with current toolchain.",
+    "tags": [
+      "competitive-intel",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "What engineering leaders get wrong about data stack consolidation"
+  },
   "https://thenewstack.io/digital-experience-monitoring-workflow/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722582+00:00",
@@ -2226,6 +2305,23 @@
     "tags": [],
     "title": "Amazon EKS Auto Mode wants to end Kubernetes toil \u2014 one node at a time"
   },
+  "https://thenewstack.io/gemini-app-macos-launch/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056439+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "Apple",
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ],
+    "score": 3,
+    "summary": "Covers Google's Gemini Mac desktop app launch and AI integration features for end-user productivity. Limited relevance to platform engineering concerns, focusing on consumer/desktop AI tools rather than developer tooling or infrastructure.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Google Gemini Mac app debuts to end the clunky hunt for browser tabs"
+  },
   "https://thenewstack.io/gemini-chrome-saved-prompts/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-15T11:47:35.812882+00:00",
@@ -2241,6 +2337,21 @@
       "developer-experience"
     ],
     "title": "Google\u2019s Gemini in Chrome now lets you save prompts as \u201cskills\u201d"
+  },
+  "https://thenewstack.io/google-axion-kubernetes-arm/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056434+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 8,
+    "summary": "Discusses Google's Arm-based Axion processors for Kubernetes workloads, presenting architectural decisions around compute optimization. Relevant for platform teams managing Kubernetes infrastructure, though focuses on Google Cloud rather than current L'Or\u00e9al stack.",
+    "tags": [
+      "kubernetes",
+      "vendor-update",
+      "performance"
+    ],
+    "title": "A year in, Google wants its Axion processors to feel like a scheduling decision"
   },
   "https://thenewstack.io/hidden-agentic-technical-debt/": {
     "category": "Platform Engineering",
@@ -2295,6 +2406,22 @@
       "platform-engineering"
     ],
     "title": "Is observability still an operations problem at your organization?"
+  },
+  "https://thenewstack.io/is-your-internal-platform-ready-to-keep-up-with-ai-accelerated-development/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056409+00:00",
+    "orgs_mentioned": [
+      "Harness"
+    ],
+    "score": 9,
+    "summary": "Directly addresses how AI-accelerated development creates friction in CI/CD pipelines and presents IDP solutions for self-service developer experiences. Highly relevant for L'Or\u00e9al's CI/CD standardization and developer experience priorities, with practical strategies for building scalable developer platforms.",
+    "tags": [
+      "platform-engineering",
+      "developer-experience",
+      "ci-cd",
+      "ai-augmented-dev"
+    ],
+    "title": "Is Your Internal Platform Ready to Keep Up With AI-Accelerated Development?"
   },
   "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/": {
     "category": "Platform Engineering",
@@ -2365,6 +2492,28 @@
     ],
     "title": "Niantic Spatial wants to map the 80% of the economy AI can\u2019t see"
   },
+  "https://thenewstack.io/openai-agents-sdk-sandboxes/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056443+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Temporal",
+      "Blaxel",
+      "Cloudflare",
+      "Daytona",
+      "E2B",
+      "Modal",
+      "Runloop",
+      "Vercel"
+    ],
+    "score": 6,
+    "summary": "Details OpenAI's Agents SDK updates for production agent deployment with sandboxed workspaces and separation of concerns. Moderately relevant for AI-augmented development initiatives, though focuses on agent infrastructure rather than core platform engineering tools.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "OpenAI\u2019s Agents SDK separates the harness from the compute"
+  },
   "https://thenewstack.io/openais-new-100-tier-targets-developers-hitting-codex-and-claude-code-limits/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-10T11:42:57.458628+00:00",
@@ -2401,6 +2550,19 @@
       "ai-augmented-dev"
     ],
     "title": "Why pgEdge thinks MCP (not an API) is the right way for AI agents to talk to databases"
+  },
+  "https://thenewstack.io/postgres-iceberg-cdc-benchmarks/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056452+00:00",
+    "orgs_mentioned": [
+      "Supermetal"
+    ],
+    "score": 2,
+    "summary": "This article focuses on data pipeline performance benchmarking between Supermetal and traditional tools like Flink, Kafka Connect, and Spark for Postgres to Iceberg data movement. While it mentions data infrastructure tooling, it's primarily about data engineering rather than platform engineering concerns relevant to your CI/CD and developer experience priorities.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Postgres to Iceberg in 13 minutes: How Supermetal compares to Flink, Kafka Connect, and Spark"
   },
   "https://thenewstack.io/programming-ai-proving-ground/": {
     "category": "Platform Engineering",
@@ -2484,6 +2646,20 @@
       "ai-augmented-dev"
     ],
     "title": "Replit taps RevenueCat to help vibe-coders make money"
+  },
+  "https://thenewstack.io/securing-ai-agent-systems/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-16T11:52:36.056461+00:00",
+    "orgs_mentioned": [
+      "NIST"
+    ],
+    "score": 7,
+    "summary": "This article addresses critical security considerations for AI agents in software development, highlighting new attack surfaces and risks like prompt injection attacks. Given L'Or\u00e9al's interest in AI-augmented development, understanding these security implications is crucial for platform engineering teams implementing AI coding tools safely.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "Agents are rewriting the rules of security. Here\u2019s what engineering needs to know."
   },
   "https://thenewstack.io/skiplabs-ai-guardrails-skipper/": {
     "category": "Platform Engineering",
@@ -3286,6 +3462,21 @@
     ],
     "title": "Google Brings MCP Support to Colab, Enabling Cloud Execution for AI Agents"
   },
+  "https://www.infoq.com/news/2026/04/cursor-3-agent-first-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-16T11:52:36.056463+00:00",
+    "orgs_mentioned": [
+      "Anysphere",
+      "Cursor"
+    ],
+    "score": 6,
+    "summary": "Cursor 3's shift from IDE-centric to agent-first development interface represents a significant evolution in AI-augmented development tools. This is relevant to L'Or\u00e9al's AI-augmented development strategy, showing how developer tooling is evolving toward autonomous agent orchestration rather than traditional code editing.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Cursor 3 Introduces Agent-First Interface, Moving Beyond the IDE Model"
+  },
   "https://www.infoq.com/news/2026/04/etsy-vitess-sharding-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.383005+00:00",
@@ -3422,6 +3613,23 @@
     ],
     "title": "Module Federation 2.0 Reaches Stable Release with Wider Support outside of Webpack"
   },
+  "https://www.infoq.com/news/2026/04/opentelemetry-declarative-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-16T11:52:36.056466+00:00",
+    "orgs_mentioned": [
+      "OpenTelemetry",
+      "Grafana Labs",
+      "Airbnb"
+    ],
+    "score": 9,
+    "summary": "OpenTelemetry's declarative configuration reaching stability is highly relevant for L'Or\u00e9al's observability strategy, providing a unified way to configure telemetry across multiple languages and services. This standardization effort directly supports observability implementation and could significantly improve the developer experience when instrumenting applications with consistent configuration patterns.",
+    "tags": [
+      "observability",
+      "developer-experience",
+      "vendor-update"
+    ],
+    "title": "OpenTelemetry Declarative Configuration Reaches Stability Milestone"
+  },
   "https://www.infoq.com/news/2026/04/pinterest-spark-oom-reduction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722832+00:00",
@@ -3514,6 +3722,20 @@
     ],
     "title": "Open Source Security Tool Trivy Hit by Supply Chain Attack, Prompting Urgent Industry Response"
   },
+  "https://www.infoq.com/news/2026/04/turboquant-compression-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-16T11:52:36.056469+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 4,
+    "summary": "Google's TurboQuant compression algorithm enables large language models to run on less capable hardware by compressing Key-Value caches by up to 6x with minimal accuracy loss. While interesting for AI infrastructure efficiency, this is primarily a machine learning optimization technique rather than platform engineering tooling.",
+    "tags": [
+      "performance",
+      "ai-augmented-dev"
+    ],
+    "title": "Google\u2019s TurboQuant Compression May Support Faster Inference, Same Accuracy on Less Capable Hardware"
+  },
   "https://www.infoq.com/news/2026/04/uber-hive-decentralized-data/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-10T11:42:57.458663+00:00",
@@ -3527,6 +3749,23 @@
       "performance"
     ],
     "title": "Uber\u2019s Hive Federation Decentralizes 16K Datasets and 10+ PB for Zero-Downtime Analytics at Scale"
+  },
+  "https://www.infoq.com/news/2026/04/zendesk-absorption-capacity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-16T11:52:36.056475+00:00",
+    "orgs_mentioned": [
+      "Zendesk"
+    ],
+    "score": 7,
+    "summary": "Zendesk argues that AI has shifted software delivery bottlenecks from code writing to \"absorption capacity\" - the ability to integrate, verify, and deliver changes effectively. The article provides practical guidance on strengthening CI/CD pipelines, observability, architecture governance, and measuring throughput over output, directly relevant to platform engineering strategy.",
+    "tags": [
+      "ci-cd",
+      "observability",
+      "platform-engineering",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Zendesk Says AI Makes Code Abundant, Shifting the Bottleneck to \u201cAbsorption Capacity\u201d"
   },
   "https://www.infoq.com/podcasts/context-engineering-large-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3636,6 +3875,21 @@
     "summary": "",
     "tags": [],
     "title": "Presentation: Local First \u2013 How To Build Software Which Still Works After the Acquihire"
+  },
+  "https://www.infoq.com/presentations/open-source-dependencies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-16T11:52:36.056472+00:00",
+    "orgs_mentioned": [
+      "Johnson Matthey"
+    ],
+    "score": 8,
+    "summary": "This presentation covers open source dependency risk management with focus on Software Bill of Materials (SBOM), vulnerability prioritization using exploitability data, and bridging DevOps-Security gaps through automation. The content directly aligns with L'Or\u00e9al's use of Snyk for security scanning and addresses critical DevSecOps practices for platform engineering teams.",
+    "tags": [
+      "devsecops",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Presentation: Empower Your Developers: How Open Source Dependencies Risk Management Can Unlock Innovation"
   },
   "https://www.infoq.com/presentations/panel-complexity-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
