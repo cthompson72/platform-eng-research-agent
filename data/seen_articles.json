@@ -388,6 +388,18 @@
     ],
     "title": "AI Testing in 2026: Why Signal, Trust, and Intentional Choices Matter More Than Ever"
   },
+  "https://app14743.cloudwayssites.com/blog/applitools-autonomous-practitest-integration-guide/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-17T11:43:06.613080+00:00",
+    "score": 6,
+    "summary": "Technical guide for integrating visual testing tools (Applitools) with test management systems using AWS Lambda architecture for CI/CD environments. While not directly using the current testing stack, the serverless integration patterns and CI/CD automation concepts are relevant for platform engineering workflows.",
+    "tags": [
+      "ci-cd",
+      "testing",
+      "platform-engineering"
+    ],
+    "title": "Bridge the Visual Gap: How to Integrate Applitools Autonomous with PractiTest"
+  },
   "https://app14743.cloudwayssites.com/blog/applitools-customer-success-blueprint/": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.347989+00:00",
@@ -1433,6 +1445,24 @@
     ],
     "title": "Shipping faster, thinking less? The AI code verification trap"
   },
+  "https://leaddev.com/ai/snap-slashes-1000-jobs-in-ai-driven-efficiency-push?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613075+00:00",
+    "orgs_mentioned": [
+      "Snap",
+      "Meta",
+      "Block",
+      "Amazon",
+      "Oracle"
+    ],
+    "score": 4,
+    "summary": "Snap lays off 1,000 employees citing AI-driven efficiency improvements, though analysts suggest this may be 'AI washing' to mask restructuring. Provides general industry context on AI adoption trends but not directly relevant to platform engineering practices.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "Snap slashes 1,000 jobs in AI-driven efficiency push"
+  },
   "https://leaddev.com/ai/the-ai-skills-gap-is-real-but-its-not-what-you-think?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246695+00:00",
@@ -1975,6 +2005,22 @@
     "tags": [],
     "title": "Sam Altman promised billions for AI safety. Here\u2019s what OpenAI actually spent."
   },
+  "https://thenewstack.io/amazon-aws-mcp-agentic/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613012+00:00",
+    "orgs_mentioned": [
+      "AWS",
+      "Anthropic",
+      "Linux Foundation"
+    ],
+    "score": 7,
+    "summary": "AWS is doubling down on Model Context Protocol (MCP) for connecting AI agents to tools and data, with contributions including Tasks and Elicitations features. This is highly relevant for L'Or\u00e9al's AI-augmented development strategy as MCP becomes the standard for enterprise AI agent integration.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "As agentic AI explodes, Amazon doubles down on MCP"
+  },
   "https://thenewstack.io/anthropic-claude-code-leak/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722590+00:00",
@@ -2000,6 +2046,20 @@
       "developer-experience"
     ],
     "title": "Anthropic\u2019s harness shakeup \u201cjust fragments workflows,\u201d developers warn"
+  },
+  "https://thenewstack.io/anthropic-claude-identity-verification/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613046+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Persona Identities"
+    ],
+    "score": 4,
+    "summary": "Anthropic introduces identity verification for Claude AI platform to prevent abuse and ensure compliance. While related to AI tools, this is more about user access controls rather than platform engineering or developer tooling integration.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Anthropic lays down identity verification on Claude"
   },
   "https://thenewstack.io/anthropic-claude-mythos-cybersecurity/": {
     "category": "Platform Engineering",
@@ -2209,6 +2269,22 @@
     ],
     "title": "Claude Mythos Preview completes full cyberattack simulation for the first time"
   },
+  "https://thenewstack.io/claude-opus-47-launch/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613035+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Intuit",
+      "GitHub",
+      "Notion"
+    ],
+    "score": 6,
+    "summary": "Anthropic releases Claude Opus 4.7 with improved instruction-following, vision capabilities, memory, and finance analysis performance. This upgrade is relevant for AI-augmented development initiatives, particularly for teams using Claude in their development workflows.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Claude Opus 4.7 arrives with better vision, memory, and instruction-following"
+  },
   "https://thenewstack.io/cloud-database-complacency-research/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056458+00:00",
@@ -2297,6 +2373,22 @@
     ],
     "title": "Digital Experience Monitoring belongs in the modern developer workflow"
   },
+  "https://thenewstack.io/dogfooding-and-platforms-spotifys-agentic-first-development/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613040+00:00",
+    "orgs_mentioned": [
+      "Spotify"
+    ],
+    "score": 8,
+    "summary": "Spotify has transitioned to agentic-first development where top developers no longer write code directly, representing a radical shift in engineering roles and processes. This case study is highly valuable for understanding organizational transformation, platform engineering at scale, and the future of development teams in an AI-driven world.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design",
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "Dogfooding and platforms: Spotify\u2019s agentic-first development"
+  },
   "https://thenewstack.io/eks-auto-mode-kubernetes/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395457+00:00",
@@ -2304,6 +2396,23 @@
     "summary": "",
     "tags": [],
     "title": "Amazon EKS Auto Mode wants to end Kubernetes toil \u2014 one node at a time"
+  },
+  "https://thenewstack.io/expo-bets-big-on-react-natives-agentic-future/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613044+00:00",
+    "orgs_mentioned": [
+      "Meta",
+      "Facebook",
+      "Expo",
+      "Georgian"
+    ],
+    "score": 3,
+    "summary": "Article discusses React Native and Expo's mobile development platform with AI integration focus. While touching on developer experience and AI-augmented development, it's primarily about mobile app development which isn't directly relevant to L'Or\u00e9al's platform engineering stack.",
+    "tags": [
+      "developer-experience",
+      "ai-augmented-dev"
+    ],
+    "title": "Expo bets big on React Native\u2019s agentic future"
   },
   "https://thenewstack.io/gemini-app-macos-launch/": {
     "category": "Platform Engineering",
@@ -2383,6 +2492,21 @@
     "summary": "",
     "tags": [],
     "title": "HPA-managed workloads: Why the obvious waste stays"
+  },
+  "https://thenewstack.io/hugging-face-holotab/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613026+00:00",
+    "orgs_mentioned": [
+      "Hugging Face",
+      "Anthropic"
+    ],
+    "score": 6,
+    "summary": "Hugging Face launches HoloTab, a Chrome extension enabling AI agents to navigate web interfaces like humans through computer use rather than APIs. This represents an emerging pattern for AI-augmented workflows that could enhance developer experience and automation capabilities.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Hugging Face pushes into \u201ccomputer use\u201d with HoloTab agent that works through your browser"
   },
   "https://thenewstack.io/in-the-ai-age-java-is-more-relevant-than-ever/": {
     "category": "Platform Engineering",
@@ -2530,6 +2654,21 @@
     ],
     "title": "OpenAI\u2019s new $100 tier targets developers hitting Codex (and Claude Code) limits"
   },
+  "https://thenewstack.io/openais-superapp-takes-shape/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613037+00:00",
+    "orgs_mentioned": [
+      "OpenAI"
+    ],
+    "score": 7,
+    "summary": "OpenAI is building a unified AI superapp by expanding Codex beyond coding to include computer use capabilities and browser integration. This evolution toward comprehensive AI development environments aligns with L'Or\u00e9al's AI-augmented development priorities and platform consolidation goals.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "OpenAI\u2019s superapp is taking shape as Codex goes beyond coding"
+  },
   "https://thenewstack.io/persistent-ai-agents-compared/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722605+00:00",
@@ -2550,6 +2689,21 @@
       "ai-augmented-dev"
     ],
     "title": "Why pgEdge thinks MCP (not an API) is the right way for AI agents to talk to databases"
+  },
+  "https://thenewstack.io/php-web-skills-hiring-age/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-17T11:43:06.613031+00:00",
+    "orgs_mentioned": [
+      "Perforce",
+      "Forrester Research",
+      "Futurum Group"
+    ],
+    "score": 4,
+    "summary": "PHP faces a skills gap as experienced developers retire while few new developers learn the language, creating maintenance challenges for existing applications. While not directly relevant to L'Or\u00e9al's current stack, it highlights broader industry talent and technical debt concerns.",
+    "tags": [
+      "org-design"
+    ],
+    "title": "Who will maintain the web when PHP\u2019s veterans retire?"
   },
   "https://thenewstack.io/postgres-iceberg-cdc-benchmarks/": {
     "category": "Platform Engineering",
@@ -2979,6 +3133,21 @@
     ],
     "title": "[tl;dr sec] #323 - Anthropic Mythos, Security Program Politics, Vulnerability Research is CookedNew model finds thousands of 0-days and writes exploits, lessons and how to be influential from decades "
   },
+  "https://tldrsec.com/p/tldr-sec-324": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-17T11:43:06.613078+00:00",
+    "orgs_mentioned": [
+      "OpenAI"
+    ],
+    "score": 9,
+    "summary": "Security-focused newsletter covering GitHub Actions security best practices and OpenAI's new cybersecurity model, directly relevant to securing CI/CD pipelines. Given the active use of GitHub in the stack, the GitHub Actions security guidance is highly actionable for improving DevSecOps practices.",
+    "tags": [
+      "devsecops",
+      "ci-cd",
+      "security-advisory"
+    ],
+    "title": "[tl;dr sec] #324 - OpenAI's GPT-5.4-Cyber, Solve by Default, GitHub Action SecurityOpenAI's new cyber-focused model and early access program, how to solve instead of defer tasks, securing GitHub Actio"
+  },
   "https://www.cloudbees.com/blog/bee-giving-strengthening-our-culture-by-serving-our-communities": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348035+00:00",
@@ -3257,6 +3426,16 @@
     ],
     "title": "Article: Beyond One-Click: Designing an Enterprise-Grade Observability Extension for Docker"
   },
+  "https://www.infoq.com/articles/lakehouse-sql-identifier-rules/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613054+00:00",
+    "score": 5,
+    "summary": "Technical deep-dive into identifier resolution challenges across different database engines in lakehouse architectures using Apache Iceberg. While technically sophisticated, this focuses on data engineering rather than platform engineering infrastructure and tooling that would be directly applicable to L'Or\u00e9al's current priorities.",
+    "tags": [
+      "platform-engineering"
+    ],
+    "title": "Article: Lakehouse Tower of Babel: Handling Identifier Resolution Rules Across Database Engines"
+  },
   "https://www.infoq.com/articles/lambda-extension-deferred-flush/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-15T11:47:35.812896+00:00",
@@ -3372,6 +3551,34 @@
     ],
     "title": "Aspire 13.2 Released with Expanded CLI, TypeScript AppHost Preview, and Dashboard Improvements"
   },
+  "https://www.infoq.com/news/2026/04/aws-agent-registry-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613057+00:00",
+    "orgs_mentioned": [
+      "AWS"
+    ],
+    "score": 8,
+    "summary": "AWS launches Agent Registry to help enterprises govern AI agent sprawl through centralized discovery and approval workflows. This directly addresses platform engineering concerns around AI tool governance and developer experience, providing patterns for managing AI-augmented development at scale within enterprise environments.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "AWS Launches Agent Registry in Preview to Govern AI Agent Sprawl Across Enterprises"
+  },
+  "https://www.infoq.com/news/2026/04/aws-s3-files/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613060+00:00",
+    "orgs_mentioned": [
+      "AWS"
+    ],
+    "score": 3,
+    "summary": "AWS introduces S3 Files to provide file system access to S3 buckets with NFS-like interfaces and intelligent caching. While interesting for data-heavy workloads, this is not directly relevant to L'Or\u00e9al's current platform engineering priorities or technology stack.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "AWS Introduces S3 Files, Bringing File System Access to S3 Buckets"
+  },
   "https://www.infoq.com/news/2026/04/aws-sustainability-console/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.382988+00:00",
@@ -3394,6 +3601,20 @@
       "devsecops"
     ],
     "title": "Claude Code Used to Find Remotely Exploitable Linux Kernel Vulnerability Hidden for 23 Years"
+  },
+  "https://www.infoq.com/news/2026/04/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613050+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 7,
+    "summary": "Anthropic launches agent-based code review system for Claude that automatically analyzes pull requests using multiple AI reviewers. This directly relates to AI-augmented development and could enhance developer experience in code review workflows, potentially integrating with GitHub-based processes.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Anthropic Introduces Agent-Based Code Review for Claude Code"
   },
   "https://www.infoq.com/news/2026/04/claude-code-source-leak/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3425,6 +3646,20 @@
       "ai-augmented-dev"
     ],
     "title": "Cloudflare and ETH Zurich Outline Approaches for AI-Driven Cache Optimization"
+  },
+  "https://www.infoq.com/news/2026/04/cloudflare-code-mode-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613066+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 6,
+    "summary": "Cloudflare launches Code Mode MCP server that reduces AI agent API interaction costs by 99.9% through code generation instead of traditional tool definitions. Relevant for AI-augmented development initiatives and demonstrates innovative approach to LLM-API integration efficiency.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Cloudflare Launches Code Mode MCP Server to Optimize Token Usage for AI Agents"
   },
   "https://www.infoq.com/news/2026/04/cloudflare-emdash-wordpress/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3549,6 +3784,20 @@
     ],
     "title": "Google Cloud Highlights Ongoing Work on PostgreSQL Core Capabilities"
   },
+  "https://www.infoq.com/news/2026/04/google-gemm4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613063+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 5,
+    "summary": "Google releases Gemma 4 open-weight AI models under Apache 2.0 license with multimodal capabilities and improved benchmarks. Moderately relevant for AI-augmented development strategy but not directly applicable to current platform engineering toolchain.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Google Opens Gemma 4 Under Apache 2.0 with Multimodal and Agentic Capabilities"
+  },
   "https://www.infoq.com/news/2026/04/istio-ai-multicluster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-08T11:46:15.395493+00:00",
@@ -3640,6 +3889,18 @@
       "performance"
     ],
     "title": "Pinterest Reduces Spark OOM Failures by 96% Through Auto Memory Retries"
+  },
+  "https://www.infoq.com/news/2026/04/platform-product-deliver-value/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613072+00:00",
+    "score": 8,
+    "summary": "Platform engineering must adopt product mindset to balance competing priorities and deliver value to internal customers while avoiding bottlenecks. Highly relevant for platform engineering organization design and directly addresses challenges of treating platforms as products rather than just infrastructure.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "developer-experience"
+    ],
+    "title": "Platform as a Product: Delivering Value While Balancing Competing Priorities"
   },
   "https://www.infoq.com/news/2026/04/rowhammer-attacks-nvidia/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3837,6 +4098,19 @@
     ],
     "title": "Presentation: Duolingo's Kubernetes Leap"
   },
+  "https://www.infoq.com/presentations/game-vr-flat-screens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613069+00:00",
+    "orgs_mentioned": [
+      "Lucky VR",
+      "Meta",
+      "Ubisoft"
+    ],
+    "score": 2,
+    "summary": "Technical presentation about porting VR applications to multiple platforms, focusing on input paradigms and cross-platform architecture. Not relevant to L'Or\u00e9al's platform engineering priorities or current technology stack.",
+    "tags": [],
+    "title": "Presentation: From VR to Flat Screens: Bridging the Input and Immersion Gap"
+  },
   "https://www.infoq.com/presentations/graph-neural-networks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-14T11:52:28.897194+00:00",
@@ -3890,6 +4164,21 @@
       "platform-engineering"
     ],
     "title": "Presentation: Empower Your Developers: How Open Source Dependencies Risk Management Can Unlock Innovation"
+  },
+  "https://www.infoq.com/presentations/optimize-performance-cx-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-17T11:43:06.613052+00:00",
+    "orgs_mentioned": [
+      "Medallia"
+    ],
+    "score": 6,
+    "summary": "Staff engineer at Medallia shares strategies for optimizing large-scale frontend platform performance, including migration approaches and modern tooling adoption. Provides valuable insights on platform modernization and developer experience improvements, though focused on frontend rather than platform infrastructure.",
+    "tags": [
+      "performance",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Presentation: Speed at Scale: Optimizing the Largest CX Platform Out There"
   },
   "https://www.infoq.com/presentations/panel-complexity-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
