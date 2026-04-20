@@ -1513,6 +1513,17 @@
     ],
     "title": "Software engineering leaders need a shopkeeper mentality"
   },
+  "https://leaddev.com/career-development/the-end-of-the-non-technical-engineering-manager?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144982+00:00",
+    "score": 8,
+    "summary": "Engineering management roles are evolving due to organizational flattening and AI automation of coordination tasks, requiring managers to stay technically close to the code. This represents a fundamental shift in platform engineering organization design where technical depth becomes essential for engineering leadership.",
+    "tags": [
+      "org-design",
+      "ai-augmented-dev"
+    ],
+    "title": "The end of the non-technical engineering manager"
+  },
   "https://leaddev.com/career-development/the-reality-of-being-a-distinguished-engineer?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246713+00:00",
@@ -1596,6 +1607,17 @@
     "summary": "",
     "tags": [],
     "title": "We ditched our vendor and built our own destiny"
+  },
+  "https://platformengineering.org/blog/3-reasons-it-service-providers-are-needed-in-enterprise-now-more-than-ever": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144900+00:00",
+    "score": 7,
+    "summary": "Article discusses the strategic role of IT service providers in enterprise platform engineering, which is directly relevant to platform org design considerations at L'Or\u00e9al's early DevOps maturity stage. The content addresses foundational platform engineering patterns that align with current organizational development needs.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "3 reasons IT service providers are essential for enterprise platform engineering (now more than ever)"
   },
   "https://platformengineering.org/blog/accelerate-teams-with-platform-engineering-and-policy-as-code": {
     "category": "Platform Engineering",
@@ -1946,6 +1968,25 @@
     ],
     "title": "Why observability platforms are becoming AI auditing tools"
   },
+  "https://thenewstack.io/ai-agent-harness-pricing-split/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144925+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "OpenAI",
+      "Google",
+      "Microsoft",
+      "Sycamore"
+    ],
+    "score": 6,
+    "summary": "Article analyzes the competitive landscape of AI agent harness products from major cloud providers, relevant to L'Or\u00e9al's AI-augmented development strategic priority. The discussion of infrastructure patterns around AI model deployment provides insights for platform engineering teams considering AI tooling integration.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "competitive-intel"
+    ],
+    "title": "Anthropic, OpenAI, Google, and Microsoft agree that the harness is the product. They disagree on the price."
+  },
   "https://thenewstack.io/ai-code-qa-bottleneck/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-15T11:47:35.812841+00:00",
@@ -2032,6 +2073,21 @@
       "ai-augmented-dev"
     ],
     "title": "Anthropic\u2019s rough week: leaked models, exposed source code, and a botched GitHub takedown"
+  },
+  "https://thenewstack.io/anthropic-claude-design-launch/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144937+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Figma"
+    ],
+    "score": 4,
+    "summary": "Anthropic's Claude Design tool launch focuses on design and creative applications rather than platform engineering or developer tooling. While part of the broader AI ecosystem, this consumer-oriented design tool has limited relevance to L'Or\u00e9al's platform engineering and developer experience priorities.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Anthropic launches Claude Design, a Figma and Canva rival built on Claude"
   },
   "https://thenewstack.io/anthropic-claude-harness-restrictions/": {
     "category": "Platform Engineering",
@@ -2397,6 +2453,22 @@
     "tags": [],
     "title": "Amazon EKS Auto Mode wants to end Kubernetes toil \u2014 one node at a time"
   },
+  "https://thenewstack.io/escape-break-fix-trap/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144940+00:00",
+    "orgs_mentioned": [
+      "PagerDuty"
+    ],
+    "score": 8,
+    "summary": "Addresses the critical break-fix trap that platform engineering teams face when AI-accelerated development creates operational complexity. Provides actionable guidance on using AI for intelligent alert filtering and automated incident response workflows, directly relevant for improving operational maturity.",
+    "tags": [
+      "platform-engineering",
+      "observability",
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "3 steps to escaping the \u201cbreak-fix\u201d trap"
+  },
   "https://thenewstack.io/expo-bets-big-on-react-natives-agentic-future/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-17T11:43:06.613044+00:00",
@@ -2447,6 +2519,22 @@
     ],
     "title": "Google\u2019s Gemini in Chrome now lets you save prompts as \u201cskills\u201d"
   },
+  "https://thenewstack.io/google-and-openai-are-making-a-run-at-claudes-desktop-moat-and-anthropic-is-making-it-easy/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144930+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "OpenAI",
+      "Anthropic"
+    ],
+    "score": 5,
+    "summary": "Covers competitive dynamics between AI desktop applications from major tech companies, with some relevance to AI-augmented development strategy. The focus on consumer AI products and desktop applications is less directly applicable to enterprise platform engineering concerns at L'Or\u00e9al.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Google and OpenAI are making a run at Claude\u2019s desktop moat, and Anthropic is making it easy"
+  },
   "https://thenewstack.io/google-axion-kubernetes-arm/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056434+00:00",
@@ -2484,6 +2572,21 @@
       "ci-cd"
     ],
     "title": "There\u2019s a hidden tax on every AI-generated merge request"
+  },
+  "https://thenewstack.io/how-to-prepare-your-company-for-the-era-of-agentic-itops/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144933+00:00",
+    "orgs_mentioned": [
+      "BigPanda"
+    ],
+    "score": 7,
+    "summary": "Discusses agentic AI for IT operations automation, which is relevant to L'Or\u00e9al's early-stage DevOps maturity and observability priorities. The emphasis on connecting data sources and knowledge graphs aligns with improving operational visibility and reducing manual IT operations work.",
+    "tags": [
+      "ai-augmented-dev",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "How to prepare your company for the era of agentic ITops"
   },
   "https://thenewstack.io/hpa-managed-workloads-why-waste-stays/": {
     "category": "Platform Engineering",
@@ -2718,6 +2821,16 @@
     ],
     "title": "Postgres to Iceberg in 13 minutes: How Supermetal compares to Flink, Kafka Connect, and Spark"
   },
+  "https://thenewstack.io/postgres-nvme-s3-storage/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144943+00:00",
+    "score": 5,
+    "summary": "Technical deep-dive into Postgres storage architecture explaining why NVMe drives are critical for transaction commit latency. While relevant for understanding database performance, it's more about infrastructure choices than platform engineering practices.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Why Postgres wants NVMe on the hot path, and S3 everywhere else"
+  },
   "https://thenewstack.io/programming-ai-proving-ground/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722612+00:00",
@@ -2822,6 +2935,21 @@
     "summary": "",
     "tags": [],
     "title": "Where are the guardrails everyone promised for AI?"
+  },
+  "https://thenewstack.io/smartbear-swagger-ai-api-management/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-20T12:00:45.144920+00:00",
+    "orgs_mentioned": [
+      "SmartBear"
+    ],
+    "score": 9,
+    "summary": "SmartBear's Swagger updates directly address API drift detection in CI/CD pipelines, which is highly relevant for L'Or\u00e9al's CI/CD standardization priorities. The shift-left approach to catching API specification divergence before production deployment aligns perfectly with current toolchain improvements using GitHub and CI/CD practices.",
+    "tags": [
+      "vendor-update",
+      "ci-cd",
+      "testing"
+    ],
+    "title": "SmartBear\u2019s Swagger update targets the API drift problem AI coding tools created"
   },
   "https://thenewstack.io/sovereign-postgresql-kubernetes-portability/": {
     "category": "Platform Engineering",
@@ -3415,6 +3543,20 @@
     ],
     "title": "Article: Building Hierarchical Agentic RAG Systems: Multi-Modal Reasoning with Autonomous Error Recovery"
   },
+  "https://www.infoq.com/articles/building-trpc-api-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144949+00:00",
+    "orgs_mentioned": [
+      "Apollo"
+    ],
+    "score": 4,
+    "summary": "Detailed case study of migrating from GraphQL Federation to tRPC showing significant performance improvements and reduced complexity. While the technology choice isn't directly relevant to L'Or\u00e9al's stack, the migration approach and lessons learned have some value.",
+    "tags": [
+      "performance",
+      "developer-experience"
+    ],
+    "title": "Article: Building Production-Ready tRPC APIs: The TypeScript Alternative to Apollo Federation"
+  },
   "https://www.infoq.com/articles/enterprise-grade-observability-extension-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-14T11:52:28.897181+00:00",
@@ -3566,6 +3708,21 @@
     ],
     "title": "AWS Launches Agent Registry in Preview to Govern AI Agent Sprawl Across Enterprises"
   },
+  "https://www.infoq.com/news/2026/04/aws-devops-agent-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144964+00:00",
+    "orgs_mentioned": [
+      "AWS"
+    ],
+    "score": 9,
+    "summary": "AWS DevOps Agent provides AI-powered incident investigation and automated troubleshooting, directly relevant to L'Or\u00e9al's observability and incident response needs. The tool integrates with multiple monitoring platforms including Grafana from L'Or\u00e9al's stack and offers autonomous incident triage capabilities.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "AWS Announces General Availability of DevOps Agent for Automated Incident Investigation"
+  },
   "https://www.infoq.com/news/2026/04/aws-s3-files/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-17T11:43:06.613060+00:00",
@@ -3697,6 +3854,20 @@
     ],
     "title": "Google Brings MCP Support to Colab, Enabling Cloud Execution for AI Agents"
   },
+  "https://www.infoq.com/news/2026/04/cpp-26-reflection-safety-async/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144974+00:00",
+    "orgs_mentioned": [
+      "Apple",
+      "Google"
+    ],
+    "score": 4,
+    "summary": "C++26 standard introduces reflection, memory safety improvements, and new async models for the C++ language. This language-level update is not relevant to L'Or\u00e9al's Java/Spring Boot focused development stack and platform engineering priorities.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "C++26: Reflection, Memory Safety, Contracts, and a New Async Model"
+  },
   "https://www.infoq.com/news/2026/04/cursor-3-agent-first-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-16T11:52:36.056463+00:00",
@@ -3711,6 +3882,37 @@
       "developer-experience"
     ],
     "title": "Cursor 3 Introduces Agent-First Interface, Moving Beyond the IDE Model"
+  },
+  "https://www.infoq.com/news/2026/04/deepmind-aletheia-agentic-math/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144961+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "OpenAI",
+      "DeepMind"
+    ],
+    "score": 5,
+    "summary": "Google's Aletheia demonstrates advanced AI capabilities in autonomous mathematical research using multi-agent frameworks. While showcasing cutting-edge AI, it's not directly applicable to platform engineering or developer tooling at L'Or\u00e9al's current maturity level.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Google\u2019s Aletheia Advances the State of the Art of Fully Autonomous Agentic Math Research"
+  },
+  "https://www.infoq.com/news/2026/04/effect-v4-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144970+00:00",
+    "orgs_mentioned": [
+      "Prisma",
+      "Val Town"
+    ],
+    "score": 4,
+    "summary": "Effect v4 TypeScript framework introduces runtime improvements and smaller bundle sizes for production applications. While technically interesting, this framework is not part of L'Or\u00e9al's current stack and represents a specialized development approach rather than platform engineering tooling.",
+    "tags": [
+      "developer-experience",
+      "performance"
+    ],
+    "title": "Effect v4 Beta: Rewritten Runtime, Smaller Bundles and Unified Package System"
   },
   "https://www.infoq.com/news/2026/04/etsy-vitess-sharding-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3755,6 +3957,19 @@
     "summary": "",
     "tags": [],
     "title": "GitHub Copilot CLI Reaches General Availability"
+  },
+  "https://www.infoq.com/news/2026/04/google-adk-1-0-new-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144955+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 3,
+    "summary": "Google's Agent Development Kit for Java 1.0 release introduces new tools and architecture for building AI agents. Limited relevance as it focuses on a specific Google framework not in L'Or\u00e9al's current toolchain.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Google ADK for Java 1.0 Introduces New App and Plugin Architecture, External Tools Support, and More"
   },
   "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3814,6 +4029,17 @@
     "tags": [],
     "title": "Java News Roundup: JDK 27 Release Schedule, Hibernate, LangChain4j, Keycloak, Helidon, Junie CLI"
   },
+  "https://www.infoq.com/news/2026/04/java-news-roundup-apr13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144958+00:00",
+    "score": 8,
+    "summary": "Java ecosystem updates including Spring Framework CVE resolutions and Micrometer metrics improvements directly impact L'Or\u00e9al's Spring Boot stack. Jakarta EE 12 milestone updates provide visibility into upcoming platform capabilities for Java-based applications.",
+    "tags": [
+      "vendor-update",
+      "security-advisory"
+    ],
+    "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE 12, Spring Framework, Micrometer, Camel, JBang"
+  },
   "https://www.infoq.com/news/2026/04/java-news-roundup-mar30-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246676+00:00",
@@ -3823,6 +4049,21 @@
       "vendor-update"
     ],
     "title": "Java News Roundup: TornadoVM 4.0, Google ADK for Java 1.0, Grails, Tomcat, Log4j, Gradle"
+  },
+  "https://www.infoq.com/news/2026/04/kubernetes-secure-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144979+00:00",
+    "orgs_mentioned": [
+      "CNCF"
+    ],
+    "score": 9,
+    "summary": "CNCF warns that Kubernetes alone cannot secure LLM workloads due to fundamental differences in threat models for AI systems that process untrusted input and make dynamic decisions. This highlights critical security considerations for organizations deploying AI workloads on Kubernetes infrastructure.",
+    "tags": [
+      "security-advisory",
+      "kubernetes",
+      "ai-augmented-dev"
+    ],
+    "title": "CNCF Warns Kubernetes Alone Is Not Enough to Secure LLM Workloads"
   },
   "https://www.infoq.com/news/2026/04/leadership-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3846,6 +4087,21 @@
       "ai-augmented-dev"
     ],
     "title": "Lyft Scales Global Localization Using AI and Human-in-the-Loop Review"
+  },
+  "https://www.infoq.com/news/2026/04/meta-jit-testing-ai-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144976+00:00",
+    "orgs_mentioned": [
+      "Meta"
+    ],
+    "score": 7,
+    "summary": "Meta reports 4x improvement in bug detection using Just-in-Time testing that generates tests during code review instead of maintaining static test suites. This approach is particularly relevant for AI-augmented development environments where traditional test maintenance becomes problematic due to rapid code changes.",
+    "tags": [
+      "ai-augmented-dev",
+      "testing",
+      "ci-cd"
+    ],
+    "title": "Meta Reports 4x Higher Bug Detection with Just-in-Time Testing"
   },
   "https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3901,6 +4157,21 @@
       "developer-experience"
     ],
     "title": "Platform as a Product: Delivering Value While Balancing Competing Priorities"
+  },
+  "https://www.infoq.com/news/2026/04/pulumi-bun-support/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144967+00:00",
+    "orgs_mentioned": [
+      "Pulumi",
+      "Anthropic"
+    ],
+    "score": 7,
+    "summary": "Pulumi's Bun runtime support offers faster infrastructure-as-code execution with 4x startup improvements and native TypeScript support. While not directly in L'Or\u00e9al's Terraform-based stack, this represents relevant IaC tooling evolution for platform engineering teams.",
+    "tags": [
+      "developer-experience",
+      "vendor-update"
+    ],
+    "title": "Pulumi Adds Full Bun Runtime Support"
   },
   "https://www.infoq.com/news/2026/04/rowhammer-attacks-nvidia/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4038,6 +4309,19 @@
       "developer-experience"
     ],
     "title": "Podcast: Context Engineering with Adi Polak"
+  },
+  "https://www.infoq.com/podcasts/engineering-stable-secure-scalable-platforms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144952+00:00",
+    "score": 8,
+    "summary": "Podcast discussing the three pillars of platform engineering (stable, secure, scalable) with focus on managing tradeoffs and resource constraints. Addresses critical platform engineering organizational challenges including how AI acceleration increases risk and the need for faster observability.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "observability",
+      "ai-augmented-dev"
+    ],
+    "title": "Podcast: Engineering Stable, Secure and Scalable Platforms: A Conversation with Matthew Liste"
   },
   "https://www.infoq.com/podcasts/help-avoid-trivy-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4196,6 +4480,20 @@
       "platform-engineering"
     ],
     "title": "Presentation: Panel: Taking Architecture out of the Echo Chamber"
+  },
+  "https://www.infoq.com/presentations/patterns-payment-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-20T12:00:45.144946+00:00",
+    "orgs_mentioned": [
+      "Investec"
+    ],
+    "score": 6,
+    "summary": "Covers event-driven architecture patterns in regulated environments with focus on fault tolerance and eventual consistency. Provides battle-tested principles for managing complex distributed systems that could inform platform engineering approaches.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Presentation: Event-Driven Patterns for Cloud-Native Banking - What Works, What Hurts?"
   },
   "https://www.infoq.com/presentations/platform-engineering-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
