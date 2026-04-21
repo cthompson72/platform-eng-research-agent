@@ -828,6 +828,18 @@
     ],
     "title": "Observe your AI agents: End\u2011to\u2011end tracing with OpenLIT and Grafana Cloud"
   },
+  "https://grafana.com/blog/ai-observability-for-agents-in-grafana-cloud/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946635+00:00",
+    "score": 8,
+    "summary": "New AI Observability solution in Grafana Cloud for monitoring AI agent behavior, evaluating outputs, and correlating AI sessions with traditional telemetry using OpenTelemetry standards. While not immediately applicable to L'Or\u00e9al's current stack, it represents important vendor evolution in AI-native observability patterns.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "ai-augmented-dev"
+    ],
+    "title": "AI Observability in Grafana Cloud: A complete solution for monitoring your agentic workloads"
+  },
   "https://grafana.com/blog/ai-observability-zero-code/": {
     "category": "Performance",
     "first_seen": "2026-04-09T11:47:49.348055+00:00",
@@ -934,6 +946,18 @@
     ],
     "title": "Finding performance bottlenecks with Pyroscope and Alloy: An example using TON blockchain"
   },
+  "https://grafana.com/blog/grafana-13-release-all-the-latest-features/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946630+00:00",
+    "score": 10,
+    "summary": "Detailed breakdown of Grafana 13 features including suggested dashboards that auto-surface pre-built dashboards for data sources, visualization suggestions, and dynamic dashboards for better scalability. These capabilities directly support L'Or\u00e9al's early-stage DevOps maturity by reducing time-to-insight and improving developer experience.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "developer-experience"
+    ],
+    "title": "Grafana 13 release: get value from your data faster, manage operations at scale, and more!"
+  },
   "https://grafana.com/blog/grafana-alerting-respond-faster-and-get-situational-awareness-with-alert-enrichment-in-grafana-cloud/": {
     "category": "Performance",
     "first_seen": "2026-04-15T11:47:35.813116+00:00",
@@ -944,6 +968,21 @@
       "vendor-update"
     ],
     "title": "Grafana Alerting: Respond faster and get situational awareness with alert enrichment in Grafana Cloud"
+  },
+  "https://grafana.com/blog/grafana-assistant-everywhere/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946632+00:00",
+    "orgs_mentioned": [
+      "Cubbio.io"
+    ],
+    "score": 9,
+    "summary": "Grafana Assistant AI agent is now available for OSS and Enterprise users, extending beyond cloud-only access to help with dashboard building, query writing, and incident analysis. This AI-augmented development capability aligns with L'Or\u00e9al's strategic priority for AI-enhanced developer tools while maintaining data security in self-managed environments.",
+    "tags": [
+      "vendor-update",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Grafana Assistant everywhere: Customize and connect to the AI agent to fit your specific needs"
   },
   "https://grafana.com/blog/grafana-cloud-synthetic-monitoring-all-the-latest-features/": {
     "category": "Performance",
@@ -957,6 +996,33 @@
     ],
     "title": "Grafana Cloud Synthetic Monitoring: How to simulate user journeys to ensure the best possible end-user experience"
   },
+  "https://grafana.com/blog/grafana-labs-acquires-logline/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946626+00:00",
+    "score": 9,
+    "summary": "Grafana Labs acquired Logline to improve high-cardinality log searches in Loki, achieving 99.7% reduction in data scanning for needle-in-the-haystack queries. This acquisition enhances Loki's performance for large-scale log analysis, which is crucial for L'Or\u00e9al's observability stack improvements.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "performance"
+    ],
+    "title": "Grafana Labs acquires Logline to accelerate needle-in-the-haystack log queries"
+  },
+  "https://grafana.com/blog/grafana-marketplace-pilot/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946621+00:00",
+    "orgs_mentioned": [
+      "Grafana Labs",
+      "Crest Data"
+    ],
+    "score": 8,
+    "summary": "Grafana announces their new Marketplace for commercial plugins, introducing paid plugins with support guarantees while maintaining free community options. This represents a significant vendor update affecting the Grafana ecosystem and plugin sustainability model used in L'Or\u00e9al's observability stack.",
+    "tags": [
+      "vendor-update",
+      "observability"
+    ],
+    "title": "An early look at the Grafana Marketplace: Expanding the big tent"
+  },
   "https://grafana.com/blog/grafana-security-release-critical-and-high-severity-security-fixes-for-cve-2026-27876-and-cve-2026-27880/": {
     "category": "Performance",
     "first_seen": "2026-04-10T11:42:57.458679+00:00",
@@ -967,6 +1033,18 @@
       "observability"
     ],
     "title": "Grafana security release: Critical and high severity security fixes for CVE-2026-27876 and CVE-2026-27880"
+  },
+  "https://grafana.com/blog/grafanacon-2026-announcements/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946623+00:00",
+    "score": 10,
+    "summary": "Major Grafana 13 release announced with significant updates including suggested dashboards, dynamic dashboards, Git Sync for managing observability as code, and Grafana Assistant now available for OSS and Enterprise users. These features directly address L'Or\u00e9al's observability and developer experience priorities with their active Grafana deployment.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "developer-experience"
+    ],
+    "title": "GrafanaCON 2026 announcements: A guide to all the latest news from Grafana Labs"
   },
   "https://grafana.com/blog/grafanacon-2026-in-barcelona-what-not-to-miss/": {
     "category": "Performance",
@@ -1057,6 +1135,20 @@
       "ci-cd"
     ],
     "title": "How to load test a website: A comprehensive guide"
+  },
+  "https://grafana.com/blog/monitor-databricks-with-grafana-cloud-for-instant-visibility-into-your-workloads/": {
+    "category": "Performance",
+    "first_seen": "2026-04-21T11:54:22.946618+00:00",
+    "orgs_mentioned": [
+      "Grafana Labs"
+    ],
+    "score": 9,
+    "summary": "Grafana Cloud introduces a Databricks integration providing prebuilt dashboards for monitoring workloads, costs, and performance across different team needs. This directly relates to observability strategy and Grafana toolchain expansion for data platform monitoring.",
+    "tags": [
+      "vendor-update",
+      "observability"
+    ],
+    "title": "Monitor Databricks with Grafana Cloud for instant visibility into your workloads"
   },
   "https://grafana.com/blog/new-grafana-k6-features-typescript-support-async-apis-for-browser-and-more/": {
     "category": "Performance",
@@ -1487,6 +1579,17 @@
     ],
     "title": "The architecture gap your AI agent will expose"
   },
+  "https://leaddev.com/ai/the-just-one-more-prompt-era-is-here?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946615+00:00",
+    "score": 4,
+    "summary": "Article discusses the addictive nature of AI-assisted coding and its impact on developer behavior, including extended work hours and potential burnout. While touching on developer experience, it's more about behavioral psychology than practical platform engineering guidance.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "The \u201cjust one more prompt\u201d era is here"
+  },
   "https://leaddev.com/ai/why-ai-isnt-writing-most-of-your-code-yet?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246705+00:00",
@@ -1630,6 +1733,18 @@
       "ci-cd"
     ],
     "title": "Accelerate teams with platform engineering and policy-as-code"
+  },
+  "https://platformengineering.org/blog/alpha-features-in-kubernetes-1-36": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-21T11:54:22.946569+00:00",
+    "score": 9,
+    "summary": "Kubernetes 1.36 alpha features are directly relevant to your K8s infrastructure stack. New alpha capabilities could impact future platform engineering decisions and container orchestration strategies.",
+    "tags": [
+      "kubernetes",
+      "vendor-update",
+      "platform-engineering"
+    ],
+    "title": "Alpha features in Kubernetes 1.36"
   },
   "https://platformengineering.org/blog/aura-building-open-agentic-harness-for-production-AI": {
     "category": "Platform Engineering",
@@ -2719,6 +2834,24 @@
     ],
     "title": "Niantic Spatial wants to map the 80% of the economy AI can\u2019t see"
   },
+  "https://thenewstack.io/open-vsx-managed-registry/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-21T11:54:22.946588+00:00",
+    "orgs_mentioned": [
+      "Eclipse Foundation",
+      "Microsoft",
+      "Amazon",
+      "Google"
+    ],
+    "score": 7,
+    "summary": "Eclipse Foundation's enterprise-grade VS Code Marketplace alternative addresses developer tooling infrastructure and vendor neutrality concerns. This could impact IDE standardization and developer experience strategy for your platform engineering initiatives.",
+    "tags": [
+      "developer-experience",
+      "platform-engineering",
+      "competitive-intel"
+    ],
+    "title": "Eclsipse Foundation offers enterprise-grade open source alternative to Microsoft\u2019s VS Code Marketplace"
+  },
   "https://thenewstack.io/openai-agents-sdk-sandboxes/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056443+00:00",
@@ -2974,6 +3107,22 @@
       "platform-engineering"
     ],
     "title": "Spring creator wants Java\u2019s type system to tame agentic AI"
+  },
+  "https://thenewstack.io/suse-nvidia-ai-factory/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-21T11:54:22.946593+00:00",
+    "orgs_mentioned": [
+      "SUSE",
+      "Nvidia"
+    ],
+    "score": 6,
+    "summary": "SUSE and Nvidia's AI factory platform combines Kubernetes orchestration with AI infrastructure, built on Rancher and K3s. While AI-focused, the underlying platform engineering patterns and K8s integration could inform your AI-augmented development strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "kubernetes",
+      "platform-engineering"
+    ],
+    "title": "SUSE and Nvidia reveal a turnkey AI factory for sovereign enterprise workloads"
   },
   "https://thenewstack.io/the-next-stages-of-ai-conformance-in-the-cloud-native-open-source-world/": {
     "category": "Platform Engineering",
@@ -3592,6 +3741,16 @@
     ],
     "title": "Article: Using AWS Lambda Extensions to Run Post-Response Telemetry Flush"
   },
+  "https://www.infoq.com/articles/redesign-pdf-table-extraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946600+00:00",
+    "score": 4,
+    "summary": "Banking PDF extraction article focuses on Java architecture patterns for document processing. While it demonstrates layered system design, it's not directly relevant to your platform engineering or DevOps toolchain priorities.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Article: Redesigning Banking PDF Table Extraction: A Layered Approach with Java"
+  },
   "https://www.infoq.com/articles/spring-team-spring-7-boot-4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.382980+00:00",
@@ -3831,6 +3990,22 @@
       "competitive-intel"
     ],
     "title": "Cloudflare Introduces EmDash: TypeScript CMS Positioned as WordPress Successor"
+  },
+  "https://www.infoq.com/news/2026/04/cloudflare-project-think/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946604+00:00",
+    "orgs_mentioned": [
+      "Cloudflare",
+      "Google",
+      "AWS"
+    ],
+    "score": 5,
+    "summary": "Cloudflare's Project Think introduces durable runtime primitives for AI agents with interesting platform engineering concepts. The agent infrastructure patterns could inform future AI-augmented development platform design, though not immediately actionable for your current stack.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Cloudflare Introduces Project Think: A Durable Runtime for AI Agents"
   },
   "https://www.infoq.com/news/2026/04/cncf-kusari-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4075,6 +4250,20 @@
     ],
     "title": "Developing Your Leadership Skills toward Principal Engineering"
   },
+  "https://www.infoq.com/news/2026/04/linkedin-cognitive-memory-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946607+00:00",
+    "orgs_mentioned": [
+      "LinkedIn"
+    ],
+    "score": 5,
+    "summary": "LinkedIn describes their Cognitive Memory Agent architecture for stateful AI applications, focusing on memory management across episodic, semantic, and procedural layers. While this covers AI system design patterns, it's more about AI application architecture than platform engineering or developer tooling.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Designing Memory for AI Agents: Inside Linkedin\u2019s Cognitive Memory Agent"
+  },
   "https://www.infoq.com/news/2026/04/lyft-ai-localization-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-14T11:52:28.897191+00:00",
@@ -4158,6 +4347,21 @@
     ],
     "title": "Platform as a Product: Delivering Value While Balancing Competing Priorities"
   },
+  "https://www.infoq.com/news/2026/04/pretext-js-120fps-text-layout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946610+00:00",
+    "orgs_mentioned": [
+      "Midjourney",
+      "Pinterest",
+      "Tumblr"
+    ],
+    "score": 3,
+    "summary": "Pretext.js is a frontend performance library that bypasses DOM reflow to enable high-FPS UI patterns like infinite scrolling and masonry layouts. This is primarily a frontend development tool with limited relevance to platform engineering or the current L'Or\u00e9al tech stack.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Pretext.js Bypasses DOM Layout Reflow, Enabling Advanced UX Patterns at 120 FPS"
+  },
   "https://www.infoq.com/news/2026/04/pulumi-bun-support/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-20T12:00:45.144967+00:00",
@@ -4203,6 +4407,20 @@
     "summary": "",
     "tags": [],
     "title": "Inside Spotify\u2019s 2025 Wrapped Archive: AI Narratives at Scale and the Privacy Trade\u2011Off"
+  },
+  "https://www.infoq.com/news/2026/04/subagents-gemini-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946612+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Google introduces subagents in Gemini CLI for task delegation and parallel AI workflows, enabling developers to create specialized agents with custom configurations. This relates to AI-augmented development patterns and could inform future developer experience improvements with AI tooling.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Subagents in Gemini CLI Enable Task Delegation and Parallel Agent Workflows"
   },
   "https://www.infoq.com/news/2026/04/swift-6-3-android-c-interop/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4425,6 +4643,20 @@
     "summary": "",
     "tags": [],
     "title": "Presentation: Latency: the Race to Zero...Are We There Yet?"
+  },
+  "https://www.infoq.com/presentations/llm-personalization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-21T11:54:22.946597+00:00",
+    "orgs_mentioned": [
+      "DoorDash"
+    ],
+    "score": 5,
+    "summary": "DoorDash's approach to LLM integration for personalization demonstrates ML platform engineering at scale. The hybrid architecture and infrastructure considerations provide insights into AI platform design, though not directly applicable to your current priorities.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Presentation: Dynamic Moments: Weaving LLMs into Deep Personalization at DoorDash"
   },
   "https://www.infoq.com/presentations/local-first-build-software/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4783,6 +5015,16 @@
       "org-design"
     ],
     "title": "When hiring software testers doesn't work (and what to do BEFORE you hire them)"
+  },
+  "https://www.ministryoftesting.com/articles/why-software-testers-should-write-documentation-even-if-no-one-else-reads-it": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-21T11:54:22.946637+00:00",
+    "score": 4,
+    "summary": "General article about the importance of software testers writing documentation even when stakeholders don't read it, focusing on personal reference, accountability, and risk communication. While relevant to testing practices, it doesn't directly address L'Or\u00e9al's platform engineering priorities or tech stack.",
+    "tags": [
+      "testing"
+    ],
+    "title": "Why software testers should write documentation even if no one else reads it"
   },
   "https://www.ministryoftesting.com/articles/writing-custom-cypress-plug-ins-that-solve-common-software-testing-problems": {
     "category": "QA & Testing",
