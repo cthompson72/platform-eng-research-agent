@@ -1183,6 +1183,21 @@
     ],
     "title": "New in Grafana k6: The latest OSS features in v0.49.0 and static IPs in Grafana Cloud k6"
   },
+  "https://grafana.com/blog/o11y-bench-open-benchmark-for-observability-agents/": {
+    "category": "Performance",
+    "first_seen": "2026-04-22T11:52:33.498436+00:00",
+    "orgs_mentioned": [
+      "Grafana"
+    ],
+    "score": 7,
+    "summary": "Grafana open-sources o11y-bench, a benchmark for evaluating AI agents on observability workflows using real Grafana stacks. This is relevant for platform teams using Grafana who want to evaluate AI-assisted observability tools and understand their effectiveness in real incident response scenarios.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "Introducing o11y-bench: an open benchmark for AI agents running observability workflows"
+  },
   "https://grafana.com/blog/observability-in-go-where-to-start-and-what-matters-most/": {
     "category": "Performance",
     "first_seen": "2026-04-10T11:42:57.458684+00:00",
@@ -1223,6 +1238,18 @@
       "ci-cd"
     ],
     "title": "Performance testing with Grafana k6 and GitHub Actions"
+  },
+  "https://grafana.com/blog/pyroscope-2-0-release/": {
+    "category": "Performance",
+    "first_seen": "2026-04-22T11:52:33.498438+00:00",
+    "score": 8,
+    "summary": "Pyroscope 2.0 offers a redesigned continuous profiling database with OpenTelemetry support for cost-effective performance monitoring at scale. This is valuable for platform teams building observability stacks, especially those using Grafana, as continuous profiling helps optimize infrastructure costs and accelerate root cause analysis.",
+    "tags": [
+      "observability",
+      "performance",
+      "vendor-update"
+    ],
+    "title": "Introducing Pyroscope 2.0: faster, more cost-effective continuous profiling at scale"
   },
   "https://grafana.com/blog/query-fair-usage-in-grafana-cloud-what-is-it-and-how-it-affects-your-logs-observability-practice/": {
     "category": "Performance",
@@ -1606,6 +1633,21 @@
     ],
     "title": "Why AI isn\u2019t writing most of your code (yet)"
   },
+  "https://leaddev.com/career-development/coding-boom-making-fundamentals-matter-again?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498425+00:00",
+    "orgs_mentioned": [
+      "GitLab",
+      "Uplevel"
+    ],
+    "score": 6,
+    "summary": "AI coding tools are shifting software engineering priorities toward fundamentals like problem framing, architecture, and communication skills rather than code generation. This trend is relevant for AI-augmented development strategy but focuses more on individual skills than platform engineering organizational design.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "The AI coding boom is making fundamentals matter again"
+  },
   "https://leaddev.com/career-development/software-engineering-leaders-need-a-shopkeeper-mentality?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246703+00:00",
@@ -1702,6 +1744,18 @@
     "summary": "",
     "tags": [],
     "title": "AI made platform engineering strategic again"
+  },
+  "https://leaddev.com/technical-direction/the-operational-debt-your-expertise-is-hiding?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498428+00:00",
+    "score": 7,
+    "summary": "Discusses how operational expertise can mask system problems that overwhelm newer team members, creating operational debt and hero dependency. This directly addresses platform engineering concerns about system reliability, observability design, and creating sustainable operations that don't depend on individual expertise.",
+    "tags": [
+      "observability",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "The operational debt your expertise is hiding"
   },
   "https://leaddev.com/technical-direction/we-ditched-our-vendor-and-built-our-own-destiny?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
@@ -2153,6 +2207,19 @@
     ],
     "title": "Open source maintainers are drowning in AI-generated pull requests. Enterprise teams are next."
   },
+  "https://thenewstack.io/aks-edge-ai-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498394+00:00",
+    "score": 8,
+    "summary": "Microsoft demonstrates agentic operations for Kubernetes with temporary identity-based security for autonomous agents, directly relevant to L'Or\u00e9al's Kubernetes usage. The discussion of AI at the edge, inference engine abstractions, and security models for AI agents aligns with platform engineering and AI-augmented development priorities.",
+    "tags": [
+      "kubernetes",
+      "ai-augmented-dev",
+      "platform-engineering",
+      "devsecops"
+    ],
+    "title": "Why Microsoft is betting on temporary identities to stop autonomous agents from going rogue"
+  },
   "https://thenewstack.io/altman-openai-ai-safety/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395442+00:00",
@@ -2177,6 +2244,17 @@
     ],
     "title": "As agentic AI explodes, Amazon doubles down on MCP"
   },
+  "https://thenewstack.io/anthropic-amazon-aws-investment/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498397+00:00",
+    "score": 5,
+    "summary": "Amazon and Anthropic announce a $100B partnership expanding AI infrastructure and model availability on AWS, representing significant industry consolidation. While this shows the scale of AI infrastructure investment, it has limited direct impact on L'Or\u00e9al's current AWS-less toolchain and platform engineering practices.",
+    "tags": [
+      "competitive-intel",
+      "ai-augmented-dev"
+    ],
+    "title": "Amazon and Anthropic deepen AI ties with a $100B AWS commitment"
+  },
   "https://thenewstack.io/anthropic-claude-code-leak/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722590+00:00",
@@ -2188,6 +2266,17 @@
       "ai-augmented-dev"
     ],
     "title": "Anthropic\u2019s rough week: leaked models, exposed source code, and a botched GitHub takedown"
+  },
+  "https://thenewstack.io/anthropic-claude-code-limits/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498380+00:00",
+    "score": 4,
+    "summary": "Anthropic is testing removal of Claude Code from its cheapest Pro plan due to resource constraints and changing usage patterns. This is general AI vendor news with limited direct relevance to L'Or\u00e9al's platform engineering priorities, though it signals broader AI capacity challenges in the industry.",
+    "tags": [
+      "competitive-intel",
+      "ai-augmented-dev"
+    ],
+    "title": "Anthropic is thinking about removing Claude Code from its cheapest plan"
   },
   "https://thenewstack.io/anthropic-claude-design-launch/": {
     "category": "Platform Engineering",
@@ -2359,6 +2448,16 @@
       "competitive-intel"
     ],
     "title": "Cal.com goes private: A security reckoning for open source"
+  },
+  "https://thenewstack.io/chatgpt-images-20-openai/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498390+00:00",
+    "score": 3,
+    "summary": "OpenAI launches ChatGPT Images 2.0 with reasoning capabilities for image generation, introducing thinking modes and improved consistency. This is primarily focused on image generation rather than platform engineering or development tooling, making it less relevant to L'Or\u00e9al's technical priorities.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "With the launch of ChatGPT Images 2.0, OpenAI now \u201cthinks\u201d before it draws"
   },
   "https://thenewstack.io/cicd-pipeline-front-line/": {
     "category": "Platform Engineering",
@@ -2601,6 +2700,21 @@
     ],
     "title": "Expo bets big on React Native\u2019s agentic future"
   },
+  "https://thenewstack.io/fix-developer-burnout-outages/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498400+00:00",
+    "orgs_mentioned": [
+      "PagerDuty"
+    ],
+    "score": 7,
+    "summary": "Research shows only 37% of developers trust AI for incident response, highlighting the need for better AI adoption strategies in observability workflows. The article provides practical guidance on building developer trust in AI-assisted incident management, which is crucial for reducing alert fatigue and improving observability maturity.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Why only 37% of developers trust AI for incident response"
+  },
   "https://thenewstack.io/gemini-app-macos-launch/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056439+00:00",
@@ -2634,6 +2748,18 @@
     ],
     "title": "Google\u2019s Gemini in Chrome now lets you save prompts as \u201cskills\u201d"
   },
+  "https://thenewstack.io/github-copilot-signups-paused/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498386+00:00",
+    "score": 9,
+    "summary": "GitHub pauses Copilot individual plan sign-ups and tightens usage limits due to increased compute demands from agentic workflows, directly impacting developers using GitHub in L'Or\u00e9al's active toolchain. This vendor update affects developer experience and AI-augmented development capabilities for teams already using GitHub and potentially Copilot.",
+    "tags": [
+      "vendor-update",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "GitHub pauses Copilot sign-ups as AI coding drives up compute demand"
+  },
   "https://thenewstack.io/google-and-openai-are-making-a-run-at-claudes-desktop-moat-and-anthropic-is-making-it-easy/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-20T12:00:45.144930+00:00",
@@ -2664,6 +2790,17 @@
       "performance"
     ],
     "title": "A year in, Google wants its Axion processors to feel like a scheduling decision"
+  },
+  "https://thenewstack.io/groundcover-ai-observability-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-22T11:52:33.498360+00:00",
+    "score": 7,
+    "summary": "Groundcover expands AI observability to monitor agentic AI workflows, addressing visibility gaps in multi-step AI systems that traditional observability tools struggle with. This is relevant for L'Or\u00e9al's observability strategy as AI-augmented development becomes more prevalent, though Groundcover isn't currently in their toolchain.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev"
+    ],
+    "title": "Groundcover eyes visibility gap in agentic AI monitoring by targeting multi-step workflows"
   },
   "https://thenewstack.io/hidden-agentic-technical-debt/": {
     "category": "Platform Engineering",
@@ -3469,6 +3606,19 @@
     ],
     "title": "CloudBees Unify Wins Gold in the 2026 Cybersecurity Excellence Awards, DevSecOps"
   },
+  "https://www.cloudbees.com/blog/devops-agent-kit": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-22T11:52:33.498433+00:00",
+    "score": 8,
+    "summary": "Introduces an open-source DevOps Agent Kit that provides safety checks for AI-generated code before production deployment. Directly addresses the challenge of managing increased commit volume from AI coding agents within existing CI/CD infrastructure, which is highly relevant for early-stage DevOps organizations preparing for AI-augmented development.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "github",
+      "devsecops"
+    ],
+    "title": "Introducing the DevOps Agent Kit"
+  },
   "https://www.cloudbees.com/blog/five-ci-tools-one-control-plane": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348048+00:00",
@@ -3494,6 +3644,21 @@
       "competitive-intel"
     ],
     "title": "The Broken Business Case For Migration"
+  },
+  "https://www.cloudbees.com/blog/how-to-build-devops-agent": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-22T11:52:33.498431+00:00",
+    "orgs_mentioned": [
+      "CloudBees"
+    ],
+    "score": 8,
+    "summary": "Open-source DevOps Agent Kit that integrates multiple CI/CD tools (Jenkins, GitHub Actions, CloudBees) with AI assistants using Model Context Protocol. Highly relevant for CI/CD standardization efforts and AI-augmented development, providing practical tooling for unified pipeline visibility and management.",
+    "tags": [
+      "ci-cd",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "How to Build a DevOps Agent"
   },
   "https://www.cloudbees.com/blog/introducing-the-cloudbees-unify-ai-assistant-context-aware-ai-for-the-modern": {
     "category": "QA & Testing",
@@ -3751,6 +3916,18 @@
     ],
     "title": "Article: Redesigning Banking PDF Table Extraction: A Layered Approach with Java"
   },
+  "https://www.infoq.com/articles/sovereign-fault-domains-cloud-resilience/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498408+00:00",
+    "score": 8,
+    "summary": "Article examines how geopolitical events can cause correlated cloud region failures, challenging traditional multi-AZ high availability assumptions. This is highly relevant for platform engineering resilience planning, especially for global organizations like L'Or\u00e9al that need to consider sovereign fault domains in their infrastructure strategy.",
+    "tags": [
+      "platform-engineering",
+      "observability",
+      "kubernetes"
+    ],
+    "title": "Article: When a Cloud Region Fails: Rethinking High Availability in a Geopolitically Unstable World"
+  },
   "https://www.infoq.com/articles/spring-team-spring-7-boot-4/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-13T12:00:09.382980+00:00",
@@ -3810,6 +3987,20 @@
     "summary": "",
     "tags": [],
     "title": "Anthropic Releases Claude Mythos Preview with Cybersecurity Capabilities but Withholds Public Access"
+  },
+  "https://www.infoq.com/news/2026/04/anthropic-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498417+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "NTT DATA"
+    ],
+    "score": 6,
+    "summary": "Anthropic introduces managed execution layer for AI agent workflows, handling runtime concerns like orchestration and state management. While interesting for AI-augmented development, it's primarily a vendor-specific offering without direct platform engineering applications for L'Or\u00e9al's current priorities.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Anthropic Introduces Managed Agents to Simplify AI Agent Deployment"
   },
   "https://www.infoq.com/news/2026/04/anthropic-paper-llms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -3991,6 +4182,21 @@
     ],
     "title": "Cloudflare Introduces EmDash: TypeScript CMS Positioned as WordPress Successor"
   },
+  "https://www.infoq.com/news/2026/04/cloudflare-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498411+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 6,
+    "summary": "Cloudflare outlines enterprise MCP architecture for AI agent deployments, focusing on centralized governance and security controls. While relevant to AI-augmented development strategies, it's primarily vendor-specific guidance rather than general platform engineering patterns.",
+    "tags": [
+      "ai-augmented-dev",
+      "devsecops",
+      "platform-engineering"
+    ],
+    "title": "Cloudflare Outlines MCP Architecture as Enterprises Confront Security and Governance Risks"
+  },
   "https://www.infoq.com/news/2026/04/cloudflare-project-think/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-21T11:54:22.946604+00:00",
@@ -4006,6 +4212,20 @@
       "platform-engineering"
     ],
     "title": "Cloudflare Introduces Project Think: A Durable Runtime for AI Agents"
+  },
+  "https://www.infoq.com/news/2026/04/cloudflare-sandboxes-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498405+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 5,
+    "summary": "Cloudflare announces general availability of Sandboxes for AI agent workloads with persistent isolated environments and security features. This is primarily about Cloudflare's specific AI infrastructure rather than general platform engineering patterns applicable to L'Or\u00e9al's current stack.",
+    "tags": [
+      "ai-augmented-dev",
+      "security-advisory"
+    ],
+    "title": "Cloudflare Sandboxes Reach General Availability, Giving AI Agents Persistent Isolated Environments"
   },
   "https://www.infoq.com/news/2026/04/cncf-kusari-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4132,6 +4352,21 @@
     "summary": "",
     "tags": [],
     "title": "GitHub Copilot CLI Reaches General Availability"
+  },
+  "https://www.infoq.com/news/2026/04/github-outages-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498422+00:00",
+    "orgs_mentioned": [
+      "GitHub"
+    ],
+    "score": 10,
+    "summary": "GitHub acknowledges recent outages caused by tight service coupling, inadequate load shedding, and scaling limitations that allowed localized failures to cascade platform-wide. This is highly relevant as GitHub is in L'Or\u00e9al's active toolchain, and the architectural lessons about service decoupling and observability directly apply to platform engineering best practices.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses"
   },
   "https://www.infoq.com/news/2026/04/google-adk-1-0-new-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4347,6 +4582,17 @@
     ],
     "title": "Platform as a Product: Delivering Value While Balancing Competing Priorities"
   },
+  "https://www.infoq.com/news/2026/04/pnpm-11-rc-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498414+00:00",
+    "score": 3,
+    "summary": "pnpm 11 RC introduces supply chain security defaults, ESM distribution, and performance improvements for JavaScript package management. This is primarily relevant to frontend teams rather than the platform engineering and infrastructure focus areas at L'Or\u00e9al.",
+    "tags": [
+      "devsecops",
+      "performance"
+    ],
+    "title": "pnpm 11 Release Candidate: ESM Distribution, Supply Chain Defaults and a New Store Format"
+  },
   "https://www.infoq.com/news/2026/04/pretext-js-120fps-text-layout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-21T11:54:22.946610+00:00",
@@ -4399,6 +4645,19 @@
       "vendor-update"
     ],
     "title": "Safari Adds scrollend Event Support, Completing Baseline Browser Coverage"
+  },
+  "https://www.infoq.com/news/2026/04/slack-new-notification-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498420+00:00",
+    "orgs_mentioned": [
+      "Slack"
+    ],
+    "score": 5,
+    "summary": "Slack rebuilt their notification system using unified architecture and simplified preference models, replacing four legacy systems with one. The architectural approach of separating intent from delivery and avoiding large-scale migrations offers general system design insights but isn't directly applicable to platform engineering challenges.",
+    "tags": [
+      "platform-engineering"
+    ],
+    "title": "Slack Rebuilds Notification System, Reports 5X Increase in Settings Engagement"
   },
   "https://www.infoq.com/news/2026/04/spotify-wrapped-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4712,6 +4971,24 @@
       "platform-engineering"
     ],
     "title": "Presentation: Panel: Taking Architecture out of the Echo Chamber"
+  },
+  "https://www.infoq.com/presentations/panel-positive-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-22T11:52:33.498403+00:00",
+    "orgs_mentioned": [
+      "BeZero Carbon",
+      "Monzo",
+      "The New York Times",
+      "BBC",
+      "topi"
+    ],
+    "score": 5,
+    "summary": "Engineering leaders from major tech companies discuss building effective engineering cultures, covering psychological safety and team dynamics. While focused on general culture rather than platform engineering specifics, it offers insights on organizational aspects relevant to platform team management.",
+    "tags": [
+      "org-design",
+      "developer-experience"
+    ],
+    "title": "Presentation: Panel: Building a Culture that Works"
   },
   "https://www.infoq.com/presentations/patterns-payment-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
