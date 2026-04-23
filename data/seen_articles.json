@@ -1547,6 +1547,20 @@
     ],
     "title": "JetBrains goes all-in on agents with Central"
   },
+  "https://leaddev.com/ai/meta-is-watching-workers-clicks-and-keystrokes-to-train-ai?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-23T11:53:21.499418+00:00",
+    "orgs_mentioned": [
+      "Meta"
+    ],
+    "score": 3,
+    "summary": "Meta's controversial approach to training AI models by monitoring employee keystrokes and mouse clicks raises ethical and legal concerns. Limited relevance to platform engineering practices, though touches on AI-augmented development trends and workplace monitoring implications.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Meta is watching workers\u2019 clicks and keystrokes to train AI"
+  },
   "https://leaddev.com/ai/shipping-faster-thinking-less-the-ai-code-verification-trap?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-09T11:47:49.347762+00:00",
@@ -2110,6 +2124,21 @@
     "summary": "",
     "tags": [],
     "title": "Secure What Matters: Scaling Effortless Container Security for the AI Era"
+  },
+  "https://thenewstack.io/accenture-wavemaker-ai-modernization/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499392+00:00",
+    "orgs_mentioned": [
+      "Accenture",
+      "WaveMaker"
+    ],
+    "score": 5,
+    "summary": "Accenture and WaveMaker partner to offer AI-assisted application modernization targeting mid-market companies up to $3B revenue. While not directly applicable to L'Or\u00e9al's scale, the deterministic 2-pass AI code generation approach could inform AI development strategies.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Why Accenture and WaveMaker are betting on agentic AI to close a $3 billion software gap"
   },
   "https://thenewstack.io/agentic-ai-junior-developer-crisis/": {
     "category": "Platform Engineering",
@@ -2791,6 +2820,51 @@
     ],
     "title": "A year in, Google wants its Axion processors to feel like a scheduling decision"
   },
+  "https://thenewstack.io/google-cloud-cat-mouse/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499403+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "Wiz",
+      "Anthropic"
+    ],
+    "score": 9,
+    "summary": "Google launches AI-powered security agents for threat hunting, detection engineering, and context enrichment to match AI-powered attacks. This is critical for L'Or\u00e9al's security strategy as attackers use AI to find zero-day vulnerabilities within hours while traditional defenses lag behind.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Google wants AI defense to be as fast as AI offense"
+  },
+  "https://thenewstack.io/google-gemini-agent-platform/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499400+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 9,
+    "summary": "Google consolidates its enterprise AI offerings under Gemini Enterprise with a comprehensive agent platform built on Model Context Protocol. The platform includes agent governance, simulation environments, and integration with all Google Cloud services - highly relevant for enterprise platform engineering strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "vendor-update"
+    ],
+    "title": "Google finally builds the AI and agent platform it\u2019s been describing for years"
+  },
+  "https://thenewstack.io/google-splits-tpu-line/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499406+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 2,
+    "summary": "Google's announcement of specialized TPU chips for training vs inference workloads represents hardware-level infrastructure evolution. While interesting for understanding AI infrastructure trends, this has minimal relevance to L'Or\u00e9al's current platform engineering priorities and toolchain.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "Google splits its TPU line in two for the agentic era"
+  },
   "https://thenewstack.io/groundcover-ai-observability-agents/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-22T11:52:33.498360+00:00",
@@ -2934,6 +3008,21 @@
       "ai-augmented-dev"
     ],
     "title": "MCP maintainers from Anthropic, AWS, Microsoft, and OpenAI lay out enterprise security roadmap at Dev Summit"
+  },
+  "https://thenewstack.io/mcp-summit-aws-bedrock/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499386+00:00",
+    "orgs_mentioned": [
+      "AWS"
+    ],
+    "score": 8,
+    "summary": "AWS Bedrock team is actively shaping the Model Context Protocol (MCP) standard for connecting AI models to tools and data. This is highly relevant as L'Or\u00e9al may need to integrate AI tools with their existing platform stack and MCP is becoming the industry standard.",
+    "tags": [
+      "ai-augmented-dev",
+      "vendor-update",
+      "platform-engineering"
+    ],
+    "title": "How AWS Bedrock is shaping Model Context Protocol"
   },
   "https://thenewstack.io/meta-open-source-models/": {
     "category": "Platform Engineering",
@@ -3184,6 +3273,21 @@
     ],
     "title": "Replit taps RevenueCat to help vibe-coders make money"
   },
+  "https://thenewstack.io/roo-code-cloud-ides-ai-coding/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499397+00:00",
+    "orgs_mentioned": [
+      "Roo Code"
+    ],
+    "score": 7,
+    "summary": "Roo Code is pivoting from IDE-based AI coding to cloud-based autonomous agents that work across GitHub, Slack, and Linear. This shift toward autonomous agents handling end-to-end development workflows is directly relevant to L'Or\u00e9al's AI-augmented development strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "github"
+    ],
+    "title": "Roo Code pivots to cloud-based agent, says IDEs aren\u2019t the future of coding"
+  },
   "https://thenewstack.io/securing-ai-agent-systems/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056461+00:00",
@@ -3228,6 +3332,21 @@
     "summary": "",
     "tags": [],
     "title": "True enterprise sovereignty is more approachable than ever, thanks to K8s-powered cloud-neutral PostgreSQL"
+  },
+  "https://thenewstack.io/spacex-cursor-ai-deal/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-23T11:53:21.499364+00:00",
+    "orgs_mentioned": [
+      "SpaceX",
+      "Cursor"
+    ],
+    "score": 6,
+    "summary": "SpaceX is partnering with Cursor AI coding tool startup in a $10-60B deal to enhance AI development capabilities. This signals major enterprise investment in AI-augmented development tools, relevant to L'Or\u00e9al's strategic priority of AI-augmented development.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "The SpaceX-Cursor deal is a gutsy Hail Mary that could work"
   },
   "https://thenewstack.io/spring-creator-java-type-system-agentic-ai-rod-johnson/": {
     "category": "Platform Engineering",
@@ -4294,6 +4413,22 @@
     ],
     "title": "Google\u2019s Aletheia Advances the State of the Art of Fully Autonomous Agentic Math Research"
   },
+  "https://www.infoq.com/news/2026/04/dropbox-reduces-git-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-23T11:53:21.499415+00:00",
+    "orgs_mentioned": [
+      "Dropbox",
+      "GitHub"
+    ],
+    "score": 8,
+    "summary": "Dropbox's collaboration with GitHub to optimize monorepo performance, reducing size from 87GB to 20GB and improving developer productivity. Highly relevant case study for CI/CD optimization and developer experience improvements, directly applicable to GitHub-based workflows.",
+    "tags": [
+      "vendor-update",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "Dropbox Collaborates with GitHub to Reduce Monorepo Size from 87GB to 20GB"
+  },
   "https://www.infoq.com/news/2026/04/effect-v4-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-20T12:00:45.144970+00:00",
@@ -4541,6 +4676,17 @@
       "developer-experience"
     ],
     "title": "Module Federation 2.0 Reaches Stable Release with Wider Support outside of Webpack"
+  },
+  "https://www.infoq.com/news/2026/04/observability-telemetry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-23T11:53:21.499409+00:00",
+    "score": 8,
+    "summary": "Comprehensive discussion of modern observability practices using OpenTelemetry for serverless and event-driven architectures. Directly relevant to L'Or\u00e9al's observability strategic priority, covering telemetry consistency, debugging efficiency, and developer productivity improvements that align with current Grafana usage.",
+    "tags": [
+      "observability",
+      "developer-experience"
+    ],
+    "title": "How Observability and Telemetry Can Enhance the Practice of Software Engineering"
   },
   "https://www.infoq.com/news/2026/04/opentelemetry-declarative-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4858,6 +5004,20 @@
       "org-design"
     ],
     "title": "Presentation: Duolingo's Kubernetes Leap"
+  },
+  "https://www.infoq.com/presentations/exchange-systems-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-23T11:53:21.499412+00:00",
+    "orgs_mentioned": [
+      "Coinbase"
+    ],
+    "score": 6,
+    "summary": "Coinbase's approach to building high-reliability financial exchanges with sub-millisecond response times and 24/7 uptime requirements. Valuable insights on distributed systems architecture and reliability patterns, though specific to trading platforms rather than general platform engineering.",
+    "tags": [
+      "performance",
+      "platform-engineering"
+    ],
+    "title": "Presentation: How to Build an Exchange: Sub Millisecond Response Times and 24/7 Uptimes in the Cloud"
   },
   "https://www.infoq.com/presentations/game-vr-flat-screens/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
