@@ -1696,6 +1696,20 @@
     ],
     "title": "The reality of being a distinguished engineer"
   },
+  "https://leaddev.com/career-development/the-reality-of-being-a-staff-engineer?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621381+00:00",
+    "orgs_mentioned": [
+      "Crunchyroll"
+    ],
+    "score": 7,
+    "summary": "Article explores the reality of staff engineering roles, emphasizing horizontal collaboration across teams rather than deep technical work. Highly relevant for platform engineering org design as it describes the cross-team coordination challenges typical in platform roles.",
+    "tags": [
+      "org-design",
+      "platform-engineering"
+    ],
+    "title": "The reality of being a staff engineer"
+  },
   "https://leaddev.com/hiring/3-ways-to-bounce-back-from-sudden-team-cuts?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246710+00:00",
@@ -2105,6 +2119,19 @@
     "tags": [],
     "title": "Governing Security in the Age of Infinite Signal \u2013 From Discovery to Control"
   },
+  "https://snyk.io/blog/future-snyk-secrets/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-24T11:53:06.621359+00:00",
+    "score": 10,
+    "summary": "Critical security advisory about Snyk secrets management evolution addressing AI-generated code and autonomous agents creating new attack vectors. Highly relevant as Snyk is actively used in your security toolchain and the article covers emerging threats to CI/CD pipelines from AI-augmented development workflows.",
+    "tags": [
+      "security-advisory",
+      "devsecops",
+      "ai-augmented-dev",
+      "ci-cd"
+    ],
+    "title": "Hardcoding Security into Every Commit: The Future of Snyk Secrets"
+  },
   "https://snyk.io/blog/litellm-ai-blast-radius/": {
     "category": "DevSecOps",
     "first_seen": "2026-04-06T17:42:15.722640+00:00",
@@ -2124,6 +2151,22 @@
     "summary": "",
     "tags": [],
     "title": "Secure What Matters: Scaling Effortless Container Security for the AI Era"
+  },
+  "https://snyk.io/blog/snyk-covers-jpmorgan-cyber-list/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-24T11:53:06.621362+00:00",
+    "orgs_mentioned": [
+      "JPMorgan"
+    ],
+    "score": 10,
+    "summary": "Vendor-specific content showing how Snyk addresses 8 of 10 cybersecurity actions mandated by JPMorgan's enterprise security directive. Directly relevant as it demonstrates how your existing Snyk toolchain can meet enterprise security requirements for vulnerability management, SBOMs, and CI/CD security scanning.",
+    "tags": [
+      "vendor-update",
+      "devsecops",
+      "security-advisory",
+      "ci-cd"
+    ],
+    "title": "JPMorgan Just Published a Cyber To-Do List and Snyk Covers 8 of the 10 Items. How do you stack up?"
   },
   "https://thenewstack.io/accenture-wavemaker-ai-modernization/": {
     "category": "Platform Engineering",
@@ -2568,6 +2611,20 @@
     ],
     "title": "Claude Mythos Preview completes full cyberattack simulation for the first time"
   },
+  "https://thenewstack.io/claude-opus-47-flaky-performance/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-24T11:53:06.621355+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 4,
+    "summary": "User reports suggest Anthropic's Claude Opus 4.7 may be less capable than its predecessor despite marketing claims of improved performance. This competitive intelligence is relevant for understanding AI model evolution but has limited direct impact on L'Or\u00e9al's current platform engineering priorities.",
+    "tags": [
+      "competitive-intel",
+      "ai-augmented-dev"
+    ],
+    "title": "AI shrinkflation: Why Anthropic\u2019s Claude Opus 4.7 may be less capable than the model it replaced"
+  },
   "https://thenewstack.io/claude-opus-47-launch/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-17T11:43:06.613035+00:00",
@@ -2999,6 +3056,22 @@
     ],
     "title": "Kumo\u2019s new foundation model replaces months of data science engineering with plain-English queries"
   },
+  "https://thenewstack.io/kyverno-cncf-graduation-interview/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-24T11:53:06.621348+00:00",
+    "orgs_mentioned": [
+      "CNCF",
+      "Nirmata"
+    ],
+    "score": 8,
+    "summary": "Kyverno's CNCF graduation validates it as the leading Kubernetes policy engine, crucial for L'Or\u00e9al's Kubernetes governance and security at scale. The recent migration to Common Expression Language (CEL) and growing enterprise adoption for AI workload governance directly supports L'Or\u00e9al's Kubernetes and security strategy.",
+    "tags": [
+      "kubernetes",
+      "devsecops",
+      "platform-engineering"
+    ],
+    "title": "Jim Bugwadia on why finding a Kubernetes problem is only half the battle for Kyverno users"
+  },
   "https://thenewstack.io/mcp-maintainers-enterprise-roadmap/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722566+00:00",
@@ -3099,6 +3172,50 @@
       "platform-engineering"
     ],
     "title": "OpenAI\u2019s Agents SDK separates the harness from the compute"
+  },
+  "https://thenewstack.io/openai-launches-gpt-5-5-calling-it-a-new-class-of-intelligence/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-24T11:53:06.621344+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "score": 6,
+    "summary": "OpenAI's GPT-5.5 claims significant improvements in coding capabilities and engineering workflow automation, particularly for senior-level development tasks. The enhanced model could benefit L'Or\u00e9al's AI-augmented development initiatives with better code quality and reduced token costs.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "OpenAI launches GPT-5.5, calling it \u201ca new class of intelligence\u201d"
+  },
+  "https://thenewstack.io/openai-privacy-filter-pii/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-24T11:53:06.621319+00:00",
+    "orgs_mentioned": [
+      "OpenAI"
+    ],
+    "score": 7,
+    "summary": "OpenAI's Privacy Filter offers a locally-runnable PII detection model that could be valuable for securing AI-augmented development workflows at L'Or\u00e9al. The tool's ability to run on laptops without cloud dependencies addresses data privacy concerns when using LLMs in development processes.",
+    "tags": [
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "OpenAI\u2019s new Privacy Filter runs on your laptop so PII never hits the cloud"
+  },
+  "https://thenewstack.io/openai-shared-workspace-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-24T11:53:06.621338+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Notion"
+    ],
+    "score": 6,
+    "summary": "OpenAI's workspace agents introduce persistent, shared AI assistants that can automate multi-step workflows across teams and tools. This could enhance developer experience by reducing manual handoffs and automating routine tasks like report generation and request triaging.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "OpenAI debuts always-on agents to end the friction of manual team handoffs"
   },
   "https://thenewstack.io/openais-new-100-tier-targets-developers-hitting-codex-and-claude-code-limits/": {
     "category": "Platform Engineering",
@@ -3324,6 +3441,21 @@
       "testing"
     ],
     "title": "SmartBear\u2019s Swagger update targets the API drift problem AI coding tools created"
+  },
+  "https://thenewstack.io/solving-ai-productivity-gap/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-24T11:53:06.621352+00:00",
+    "orgs_mentioned": [
+      "Octopus Deploy"
+    ],
+    "score": 7,
+    "summary": "Research shows only 5% of organizations achieve AI ROI, highlighting the need for proper infrastructure and continuous delivery practices before implementing AI at scale. This validates L'Or\u00e9al's foundational platform engineering focus as a prerequisite for successful AI adoption in development workflows.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "Only 5% of firms are seeing AI ROI.  Our May 7 live event will explain how to change those metrics."
   },
   "https://thenewstack.io/sovereign-postgresql-kubernetes-portability/": {
     "category": "Platform Engineering",
@@ -3681,6 +3813,18 @@
     ],
     "title": "[tl;dr sec] #324 - OpenAI's GPT-5.4-Cyber, Solve by Default, GitHub Action SecurityOpenAI's new cyber-focused model and early access program, how to solve instead of defer tasks, securing GitHub Actio"
   },
+  "https://tldrsec.com/p/tldr-sec-325": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-24T11:53:06.621384+00:00",
+    "score": 9,
+    "summary": "Security-focused newsletter covering GitHub token testing tools, zero-cost security stacks, and CI/CD security frameworks. Relevant for DevSecOps practices and GitHub security, which aligns with your GitHub usage and security concerns.",
+    "tags": [
+      "devsecops",
+      "security-advisory",
+      "ci-cd"
+    ],
+    "title": "[tl;dr sec] #325 - Dissecting Mythos, The $0 Security Stack, GitHub Action Red Team FrameworkReplicating Mythos bugs with public models and more, building a useful security program for free, new post-"
+  },
   "https://www.cloudbees.com/blog/bee-giving-strengthening-our-culture-by-serving-our-communities": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348035+00:00",
@@ -3752,6 +3896,18 @@
       "platform-engineering"
     ],
     "title": "Five CI Tools, One Control Plane: Finally Answer \u201cWhat\u2019s Going On?\u201d"
+  },
+  "https://www.cloudbees.com/blog/flaky-tests": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-24T11:53:06.621387+00:00",
+    "score": 7,
+    "summary": "Explains flaky tests, their causes, and impact on CI/CD pipelines and developer trust. Directly relevant to CI/CD standardization efforts and developer experience improvement initiatives.",
+    "tags": [
+      "testing",
+      "ci-cd",
+      "developer-experience"
+    ],
+    "title": "What are Flaky Tests?"
   },
   "https://www.cloudbees.com/blog/hidden-costs-platform-migration": {
     "category": "QA & Testing",
@@ -4024,6 +4180,17 @@
       "performance"
     ],
     "title": "Article: Using AWS Lambda Extensions to Run Post-Response Telemetry Flush"
+  },
+  "https://www.infoq.com/articles/orchestrating-agentic-multimodal-ai-pipelines-apache-camel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621368+00:00",
+    "score": 6,
+    "summary": "Technical article on orchestrating AI pipelines using Apache Camel for agentic and multimodal AI systems with enterprise integration patterns. Relevant for understanding AI-augmented development infrastructure patterns, though Apache Camel is not in your current toolchain.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Article: Orchestrating Agentic and Multimodal AI Pipelines with Apache Camel"
   },
   "https://www.infoq.com/articles/redesign-pdf-table-extraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4558,6 +4725,21 @@
     ],
     "title": "Google Opens Gemma 4 Under Apache 2.0 with Multimodal and Agentic Capabilities"
   },
+  "https://www.infoq.com/news/2026/04/grafana-loki-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621379+00:00",
+    "orgs_mentioned": [
+      "Grafana Labs"
+    ],
+    "score": 10,
+    "summary": "Grafana Labs announces major architectural changes to Loki using Kafka for better performance and introduces AI observability tools. This is highly relevant as Grafana is in your active toolchain and the architectural patterns around observability scaling are directly applicable.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "Grafana Rearchitects Loki with Kafka and Ships a CLI to Bring Observability Into Coding Agent"
+  },
   "https://www.infoq.com/news/2026/04/istio-ai-multicluster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-08T11:46:15.395493+00:00",
@@ -4769,6 +4951,30 @@
     ],
     "title": "Pulumi Adds Full Bun Runtime Support"
   },
+  "https://www.infoq.com/news/2026/04/react-navigation-8-alpha/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621374+00:00",
+    "score": 3,
+    "summary": "React Navigation 8.0 alpha release with native bottom tabs and TypeScript improvements for React Native mobile applications. Low relevance as this is mobile-specific frontend tooling unrelated to your platform engineering stack focused on backend services and developer infrastructure.",
+    "tags": [
+      "vendor-update",
+      "developer-experience"
+    ],
+    "title": "React Navigation 8.0 Alpha with Native Bottom Tabs, Reworked TypeScript Inference and History"
+  },
+  "https://www.infoq.com/news/2026/04/room-3-kotlin-async-sqlite/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621376+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 3,
+    "summary": "Google releases Room 3.0 as a Kotlin-first persistence library for Android with multiplatform support. This is specific to mobile development and Android persistence, not relevant to L'Or\u00e9al's platform engineering stack.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Google Introduces Room 3.0: A Kotlin-First, Async, Multiplatform Persistence Library"
+  },
   "https://www.infoq.com/news/2026/04/rowhammer-attacks-nvidia/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-15T11:47:35.812898+00:00",
@@ -4905,6 +5111,22 @@
     ],
     "title": "Uber\u2019s Hive Federation Decentralizes 16K Datasets and 10+ PB for Zero-Downtime Analytics at Scale"
   },
+  "https://www.infoq.com/news/2026/04/vault-2-0-ibm-identity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621371+00:00",
+    "orgs_mentioned": [
+      "HashiCorp",
+      "IBM"
+    ],
+    "score": 9,
+    "summary": "Major version update for HashiCorp Vault 2.0 introducing identity federation and IBM lifecycle management with breaking changes. Highly relevant for secrets management strategy as it impacts Terraform workflows and represents significant shift in vendor support model under IBM ownership.",
+    "tags": [
+      "vendor-update",
+      "devsecops",
+      "platform-engineering"
+    ],
+    "title": "HashiCorp Vault 2.0 Marks Shift to IBM Lifecycle with New Identity Federation"
+  },
   "https://www.infoq.com/news/2026/04/zendesk-absorption-capacity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-16T11:52:36.056475+00:00",
@@ -4991,6 +5213,22 @@
     "summary": "",
     "tags": [],
     "title": "Presentation: State of Play: AI Coding Assistants"
+  },
+  "https://www.infoq.com/presentations/deepfakes-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-24T11:53:06.621365+00:00",
+    "orgs_mentioned": [
+      "Google",
+      "Shape Security",
+      "F5"
+    ],
+    "score": 5,
+    "summary": "General thought leadership presentation about AI-generated disinformation and security threats from deepfakes and automated attacks. Moderately relevant for understanding emerging AI security landscape but not directly applicable to platform engineering toolchain or developer workflows.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "Presentation: Deepfakes, Disinformation, and AI Content Are Taking Over the Internet"
   },
   "https://www.infoq.com/presentations/duolingo-eks-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5218,6 +5456,21 @@
     "summary": "",
     "tags": [],
     "title": "How We Built a System for AI Agents to Ship Real Code Across 75+ Repos [Part 1 of 2]"
+  },
+  "https://www.mabl.com/blog/introducing-active-coverage-agentic-software-testing": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-24T11:53:06.621389+00:00",
+    "orgs_mentioned": [
+      "mabl"
+    ],
+    "score": 7,
+    "summary": "Mabl introduces Active Coverage for automated test management that adapts to AI-accelerated development cycles. Moderately relevant as it addresses testing challenges in AI-augmented development environments.",
+    "tags": [
+      "ai-augmented-dev",
+      "testing",
+      "vendor-update"
+    ],
+    "title": "Introducing Active Coverage: Quality That Keeps Pace with Agentic Development"
   },
   "https://www.mabl.com/blog/rebuilding-an-ai-agent-the-right-way-measurement-not-guesswork": {
     "category": "QA & Testing",
