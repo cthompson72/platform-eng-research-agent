@@ -1631,6 +1631,21 @@
     ],
     "title": "The \u201cjust one more prompt\u201d era is here"
   },
+  "https://leaddev.com/ai/tokenmaxxing-and-the-search-for-ai-metrics-that-matter?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190273+00:00",
+    "orgs_mentioned": [
+      "Meta"
+    ],
+    "score": 8,
+    "summary": "The article critiques token usage as a poor metric for measuring AI productivity, comparing it to the flawed 'lines of code' metric and advocating for outcome-based measurement frameworks. This directly addresses AI-augmented development measurement challenges and organizational design considerations that are highly relevant for L'Or\u00e9al's platform engineering strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "org-design"
+    ],
+    "title": "Tokenmaxxing and the search for AI metrics that matter"
+  },
   "https://leaddev.com/ai/why-ai-isnt-writing-most-of-your-code-yet?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246705+00:00",
@@ -2243,6 +2258,22 @@
     ],
     "title": "When AI writes 100K lines of code, QA becomes the whole job"
   },
+  "https://thenewstack.io/ai-codebase-maturity-model/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190213+00:00",
+    "orgs_mentioned": [
+      "CNCF"
+    ],
+    "score": 7,
+    "summary": "Deep dive into achieving 81% PR acceptance rate using AI agents for KubeStellar Console development through structured maturity stages and measurement loops. Provides practical framework for organizations implementing AI-augmented development workflows with proper guardrails and metrics.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "developer-experience",
+      "kubernetes"
+    ],
+    "title": "Beyond prompting: How KubeStellar reached 81% PR acceptance with AI agents"
+  },
   "https://thenewstack.io/ai-coding-tool-stack/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-13T12:00:09.382948+00:00",
@@ -2507,6 +2538,14 @@
     "tags": [],
     "title": "How to build an AI-powered private document search app with RAG, ChromaDB, and memory"
   },
+  "https://thenewstack.io/build-video-search-vespa/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190221+00:00",
+    "score": 3,
+    "summary": "Technical overview of video content processing challenges and opportunities for extracting searchable data from video files. Discusses video format complexities and potential applications across various industries, but not directly relevant to platform engineering practices.",
+    "tags": [],
+    "title": "How to find and unlock the data hidden within videos"
+  },
   "https://thenewstack.io/cal-com-codebase-security-ai/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056455+00:00",
@@ -2542,6 +2581,18 @@
       "devsecops"
     ],
     "title": "The TeamPCP attacks are a warning: Your CI/CD pipeline is the new front line"
+  },
+  "https://thenewstack.io/claude-cloud-native-validation/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190246+00:00",
+    "score": 9,
+    "summary": "Discusses how coding agents need realistic cloud-native environments for validation, directly addressing the gap between AI-augmented development and complex distributed architectures. Critical for implementing AI coding tools effectively in enterprise environments with microservices and Kubernetes deployments.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "kubernetes"
+    ],
+    "title": "Why Claude needs a real environment to validate cloud-native code"
   },
   "https://thenewstack.io/claude-code-and-the-rise-of-personal-software/": {
     "category": "Platform Engineering",
@@ -2692,6 +2743,38 @@
     ],
     "title": "Cursor\u2019s $2 billion bet: The IDE is now a fallback, not the default"
   },
+  "https://thenewstack.io/cursor-chainguard-agentic-ai-secure/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190243+00:00",
+    "orgs_mentioned": [
+      "Cursor",
+      "Chainguard"
+    ],
+    "score": 10,
+    "summary": "Cursor and Chainguard partnership addresses critical supply chain security risks in AI-generated code by providing hardened dependencies and verified artifacts. This directly addresses security concerns for organizations using AI coding agents at scale, highly relevant to L'Or\u00e9al's DevSecOps and platform security strategy.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev",
+      "security-advisory"
+    ],
+    "title": "Cursor and Chainguard partner to lock down the AI agent supply chain"
+  },
+  "https://thenewstack.io/cursors-agents-window-vs-claude-code/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190224+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "score": 6,
+    "summary": "Comparative analysis of Cursor 3's new Agents Window versus Claude Code for debugging tasks, testing both tools on security vulnerabilities and bug fixes. Shows how AI-powered development tools are evolving to compete with standalone coding agents through IDE integration.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "competitive-intel"
+    ],
+    "title": "The debugging wars: Cursor 3 takes aim at Claude Code\u2019s agentic edge"
+  },
   "https://thenewstack.io/data-governance-ai-agents/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-13T12:00:09.382970+00:00",
@@ -2728,6 +2811,21 @@
       "platform-engineering"
     ],
     "title": "Digital Experience Monitoring belongs in the modern developer workflow"
+  },
+  "https://thenewstack.io/disappearing-ai-middle-class/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190207+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "DeepSeek"
+    ],
+    "score": 6,
+    "summary": "Analysis of the AI pricing landscape showing OpenAI doubling prices with GPT-5.5 while DeepSeek releases cheaper open alternatives, creating a bifurcated market. The piece explores strategic implications for organizations routing AI workloads through different model tiers.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "The disappearing AI middle class"
   },
   "https://thenewstack.io/dogfooding-and-platforms-spotifys-agentic-first-development/": {
     "category": "Platform Engineering",
@@ -3033,6 +3131,20 @@
     ],
     "title": "Is Your Internal Platform Ready to Keep Up With AI-Accelerated Development?"
   },
+  "https://thenewstack.io/jaeger-v2-ai-observability/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190227+00:00",
+    "orgs_mentioned": [
+      "CNCF"
+    ],
+    "score": 8,
+    "summary": "Jaeger v2 natively integrates OpenTelemetry and is expanding to support AI agent observability, directly relevant to L'Or\u00e9al's observability strategy with Grafana. The unified metrics, logs, and traces collection model addresses the need for better observability infrastructure as AI workloads become more prevalent.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev"
+    ],
+    "title": "Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap"
+  },
   "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-13T12:00:09.382959+00:00",
@@ -3071,6 +3183,20 @@
       "platform-engineering"
     ],
     "title": "Jim Bugwadia on why finding a Kubernetes problem is only half the battle for Kyverno users"
+  },
+  "https://thenewstack.io/leanstral-formal-verification-code/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190234+00:00",
+    "orgs_mentioned": [
+      "Mistral AI"
+    ],
+    "score": 5,
+    "summary": "Mistral's Leanstral attempts to eliminate human code review through formal verification, representing an extreme approach to AI-augmented development. While mathematically interesting, the reliance on perfect specifications and the experimental nature makes it less immediately relevant to L'Or\u00e9al's practical platform engineering needs.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Mistral\u2019s Leanstral wants to kill off human-in-the-loop code checks, but is it blowing in the wind?"
   },
   "https://thenewstack.io/mcp-maintainers-enterprise-roadmap/": {
     "category": "Platform Engineering",
@@ -3119,6 +3245,17 @@
       "developer-experience"
     ],
     "title": "Microsoft wants to make service mesh invisible"
+  },
+  "https://thenewstack.io/multi-cloud-blind-spots/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190218+00:00",
+    "score": 6,
+    "summary": "Case study of an engineering team discovering they lacked visibility into their actual multi-cloud infrastructure despite having proper IaC practices. Highlights the common challenge of infrastructure drift and the need for comprehensive cloud asset inventory beyond pipeline-managed resources.",
+    "tags": [
+      "platform-engineering",
+      "observability"
+    ],
+    "title": "The one Slack message that proved our elite engineering team was flying blind"
   },
   "https://thenewstack.io/niantic-spatial-scaniverse-world-models/": {
     "category": "Platform Engineering",
@@ -3173,6 +3310,21 @@
     ],
     "title": "OpenAI\u2019s Agents SDK separates the harness from the compute"
   },
+  "https://thenewstack.io/openai-chatgpt-gpt-5-5-security/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190240+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "score": 5,
+    "summary": "OpenAI's GPT-5.5 release shows performance improvements in coding tasks but with trade-offs in cost and speed, relevant for AI-augmented development strategy. The developer community reactions provide practical insights for evaluating AI coding tools, though it's more about model capabilities than platform engineering implementation.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "\u201cMythos-like hacking, open to all\u201d: Industry reacts to OpenAI\u2019s GPT 5.5"
+  },
   "https://thenewstack.io/openai-launches-gpt-5-5-calling-it-a-new-class-of-intelligence/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-24T11:53:06.621344+00:00",
@@ -3217,6 +3369,23 @@
     ],
     "title": "OpenAI debuts always-on agents to end the friction of manual team handoffs"
   },
+  "https://thenewstack.io/openai-workspace-agents-gpt-5-5/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190231+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Anthropic",
+      "Box"
+    ],
+    "score": 6,
+    "summary": "OpenAI's Workspace Agents represents a shift from individual AI experiments to governed shared infrastructure, relevant for platform engineering strategy. The focus on team-based automation with enterprise controls aligns with L'Or\u00e9al's need to move beyond scattered AI tools to structured platform capabilities.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "The real story from OpenAI\u2019s big week is Workspace Agents, not GPT-5.5"
+  },
   "https://thenewstack.io/openais-new-100-tier-targets-developers-hitting-codex-and-claude-code-limits/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-10T11:42:57.458628+00:00",
@@ -3247,6 +3416,21 @@
       "developer-experience"
     ],
     "title": "OpenAI\u2019s superapp is taking shape as Codex goes beyond coding"
+  },
+  "https://thenewstack.io/paper-compute-agent-infrastructure/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190185+00:00",
+    "orgs_mentioned": [
+      "GitHub"
+    ],
+    "score": 8,
+    "summary": "Former GitHub veteran launches Paper Compute to build cloud-native infrastructure for AI agents, introducing open-source tools like Tapes for observability and StereOS for sandboxed execution. This addresses a critical gap in production AI agent infrastructure with proper observability and control mechanisms.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev",
+      "observability"
+    ],
+    "title": "GitHub veteran Brian Douglas launches Paper Compute to fix AI agent infrastructure"
   },
   "https://thenewstack.io/persistent-ai-agents-compared/": {
     "category": "Platform Engineering",
@@ -3529,6 +3713,19 @@
       "ai-augmented-dev"
     ],
     "title": "The next stages of AI conformance in the cloud-native, open-source world"
+  },
+  "https://thenewstack.io/vectors-tensors-ai-search-explained/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-27T12:16:37.190237+00:00",
+    "orgs_mentioned": [
+      "Vespa.ai"
+    ],
+    "score": 4,
+    "summary": "The article discusses the evolution from vectors to tensors for improved AI search capabilities, focusing on future-proofing AI infrastructure. While relevant to AI strategy, it's more about search technology advancement than platform engineering practices directly applicable to L'Or\u00e9al's current toolchain.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "Vectors gave us AI search, tensors are going to make it smarter"
   },
   "https://thenewstack.io/vultr-nvidia-ai-infrastructure/": {
     "category": "Platform Engineering",
@@ -4181,6 +4378,17 @@
     ],
     "title": "Article: Using AWS Lambda Extensions to Run Post-Response Telemetry Flush"
   },
+  "https://www.infoq.com/articles/mcp-java-architectural-strategy-llm-integrations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190248+00:00",
+    "score": 6,
+    "summary": "Covers Model Context Protocol (MCP) for Java-based LLM integrations, introducing architectural patterns for enterprise AI systems. Relevant for standardizing AI tool integration but focuses more on Java-specific implementation than broader platform engineering concerns.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Article: MCP in the Java World: Bringing Architectural Strategy to LLM Integrations"
+  },
   "https://www.infoq.com/articles/orchestrating-agentic-multimodal-ai-pipelines-apache-camel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-24T11:53:06.621368+00:00",
@@ -4344,6 +4552,20 @@
     ],
     "title": "AWS Launches Agent Registry in Preview to Govern AI Agent Sprawl Across Enterprises"
   },
+  "https://www.infoq.com/news/2026/04/aws-deprecates-workmail-apprunne/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190264+00:00",
+    "orgs_mentioned": [
+      "AWS"
+    ],
+    "score": 5,
+    "summary": "AWS is discontinuing WorkMail and moving App Runner to maintenance mode along with several other services, reflecting the vendor's lifecycle management approach. While this affects cloud strategy decisions, it has limited direct impact on L'Or\u00e9al's current platform engineering priorities and toolchain.",
+    "tags": [
+      "vendor-update",
+      "competitive-intel"
+    ],
+    "title": "AWS Ends WorkMail and Moves App Runner to Maintenance Mode"
+  },
   "https://www.infoq.com/news/2026/04/aws-devops-agent-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-20T12:00:45.144964+00:00",
@@ -4379,6 +4601,20 @@
     "summary": "",
     "tags": [],
     "title": "AWS Launches Sustainability Console with API Access and Scope 1-3 Emissions Reporting"
+  },
+  "https://www.infoq.com/news/2026/04/cache-parallelism-cloudflare/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190267+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 5,
+    "summary": "Cloudflare redesigned their edge infrastructure to use high-core CPUs instead of large cache systems, demonstrating hardware-software co-design principles. This showcases performance optimization strategies that could inform platform architecture decisions, though it's not directly applicable to typical enterprise platform engineering challenges.",
+    "tags": [
+      "performance",
+      "competitive-intel"
+    ],
+    "title": "Cloudflare Optimizes Edge Stack for High-Core CPUs instead of Large Cache"
   },
   "https://www.infoq.com/news/2026/04/claude-code-linux-vulnerability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4670,6 +4906,22 @@
     ],
     "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses"
   },
+  "https://www.infoq.com/news/2026/04/gitlab-flatrate-view-ai-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190258+00:00",
+    "orgs_mentioned": [
+      "GitLab"
+    ],
+    "score": 9,
+    "summary": "GitLab introduces flat-rate automated code reviews and AI credits system to address review bottlenecks caused by AI-generated code volume. Highly relevant for CI/CD pipeline optimization and managing developer experience with AI tools.",
+    "tags": [
+      "vendor-update",
+      "ci-cd",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "GitLab Adds Flat-Rate Code Reviews, Free-Tier AI Access, and Spending Caps"
+  },
   "https://www.infoq.com/news/2026/04/google-adk-1-0-new-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-20T12:00:45.144955+00:00",
@@ -4776,6 +5028,23 @@
       "vendor-update"
     ],
     "title": "Java News Roundup: TornadoVM 4.0, Google ADK for Java 1.0, Grails, Tomcat, Log4j, Gradle"
+  },
+  "https://www.infoq.com/news/2026/04/junior-developer-pipeline-crisis/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190255+00:00",
+    "orgs_mentioned": [
+      "Microsoft",
+      "Harvard",
+      "MIT"
+    ],
+    "score": 7,
+    "summary": "Microsoft leaders warn that AI coding tools create productivity gaps between senior and junior developers, potentially disrupting talent pipelines. Important for understanding AI tool impacts on developer experience and organizational design in platform engineering teams.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design",
+      "developer-experience"
+    ],
+    "title": "Microsoft's Russinovich and Hanselman Warn AI Is Hollowing Out the Junior Developer Pipeline"
   },
   "https://www.infoq.com/news/2026/04/kubernetes-secure-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5019,6 +5288,17 @@
     "tags": [],
     "title": "Inside Spotify\u2019s 2025 Wrapped Archive: AI Narratives at Scale and the Privacy Trade\u2011Off"
   },
+  "https://www.infoq.com/news/2026/04/spring-news-roundup-apr20-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190261+00:00",
+    "score": 8,
+    "summary": "Spring framework ecosystem releases multiple release candidates including Spring Boot 4.1.0 with OpenTelemetry support and Spring Security 7.1.0. Directly relevant as Spring Boot is in the active toolchain and observability improvements align with strategic priorities.",
+    "tags": [
+      "vendor-update",
+      "observability"
+    ],
+    "title": "Spring News Roundup: First Release Candidates of Boot, Security, Integration, Modulith, AMQP"
+  },
   "https://www.infoq.com/news/2026/04/subagents-gemini-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-21T11:54:22.946612+00:00",
@@ -5127,6 +5407,21 @@
     ],
     "title": "HashiCorp Vault 2.0 Marks Shift to IBM Lifecycle with New Identity Federation"
   },
+  "https://www.infoq.com/news/2026/04/yelp-cassandra-upgrade/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190270+00:00",
+    "orgs_mentioned": [
+      "Yelp"
+    ],
+    "score": 7,
+    "summary": "Yelp successfully upgraded over 1,000 Cassandra nodes with zero downtime using rolling upgrade strategies, automation, and strict observability practices. This case study provides valuable insights for managing large-scale infrastructure upgrades and demonstrates mature platform engineering practices for stateful systems.",
+    "tags": [
+      "platform-engineering",
+      "observability",
+      "performance"
+    ],
+    "title": "Yelp Achieves Zero-Downtime Upgrade of over 1,000 Cassandra Nodes"
+  },
   "https://www.infoq.com/news/2026/04/zendesk-absorption-capacity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-16T11:52:36.056475+00:00",
@@ -5175,6 +5470,19 @@
     "summary": "",
     "tags": [],
     "title": "Podcast: How SBOMs and Engineering Discipline Can Help You Avoid Trivy\u2019s Compromise"
+  },
+  "https://www.infoq.com/podcasts/java-performance-quest/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-27T12:16:37.190252+00:00",
+    "orgs_mentioned": [
+      "QuestDB"
+    ],
+    "score": 4,
+    "summary": "Technical podcast about Java performance optimization and high-throughput systems at QuestDB. While interesting for performance engineering, not directly relevant to platform engineering or developer experience initiatives.",
+    "tags": [
+      "performance"
+    ],
+    "title": "Podcast: A Java Performance Quest: Taming Unsafe Code, Embracing Idiomatic Style & Debugging the Linux Kernel"
   },
   "https://www.infoq.com/podcasts/tiger-teams-evals-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
