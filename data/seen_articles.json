@@ -362,6 +362,21 @@
     ],
     "title": "Agentic Automation: Preparing QA Leaders for the Next Leap in Testing"
   },
+  "https://app14743.cloudwayssites.com/blog/agentic-sdlc-autonomous-testing/": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-29T12:11:29.667256+00:00",
+    "orgs_mentioned": [
+      "Forrester"
+    ],
+    "score": 7,
+    "summary": "Forrester research shows AI agents are evolving from isolated tools to coordinated workflows across the SDLC, with autonomous testing becoming a strategic core capability. Organizations using autonomous testing platforms achieve 21-30% additional test automation beyond their existing 51-60% baseline, indicating meaningful early adoption in AI-augmented development.",
+    "tags": [
+      "ai-augmented-dev",
+      "testing",
+      "platform-engineering"
+    ],
+    "title": "The Agentic SDLC: Why Autonomous Testing is the New Strategic Core"
+  },
   "https://app14743.cloudwayssites.com/blog/ai-testing-for-regulated-environments/": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348004+00:00",
@@ -957,6 +972,18 @@
     ],
     "title": "Finding performance bottlenecks with Pyroscope and Alloy: An example using TON blockchain"
   },
+  "https://grafana.com/blog/get-observability-in-the-terminal-for-you-and-your-agents-with-the-gcx-cli-tool/": {
+    "category": "Performance",
+    "first_seen": "2026-04-29T12:11:29.667260+00:00",
+    "score": 9,
+    "summary": "Grafana's new gcx CLI tool brings full observability capabilities directly into the terminal and agentic coding environments, addressing the context gap between AI agents and production systems. This vendor update enables faster incident response and allows agents to instrument services, create alerts, and manage SLOs without leaving the command line workflow.",
+    "tags": [
+      "vendor-update",
+      "observability",
+      "ai-augmented-dev"
+    ],
+    "title": "Get observability in the terminal, for you and your agents, with the gcx CLI tool"
+  },
   "https://grafana.com/blog/grafana-13-release-all-the-latest-features/": {
     "category": "Performance",
     "first_seen": "2026-04-21T11:54:22.946630+00:00",
@@ -1106,6 +1133,18 @@
       "observability"
     ],
     "title": "How to manage synthetic monitoring checks as code with Terraform and Grafana Cloud"
+  },
+  "https://grafana.com/blog/introducing-secrets-management-for-grafana-cloud-k6/": {
+    "category": "Performance",
+    "first_seen": "2026-04-29T12:11:29.667258+00:00",
+    "score": 10,
+    "summary": "Grafana Cloud k6 introduces secrets management to securely handle API keys and credentials in performance tests, addressing a critical security gap as testing suites scale. This vendor update directly impacts L'Or\u00e9al's k6 implementation by enabling secure, centralized credential management without hardcoding sensitive values in test scripts.",
+    "tags": [
+      "vendor-update",
+      "performance",
+      "devsecops"
+    ],
+    "title": "Secure performance testing at scale: Introducing secrets management for Grafana Cloud k6"
   },
   "https://grafana.com/blog/kubernetes-monitoring-helm-chart-v4-biggest-update-ever-/": {
     "category": "Performance",
@@ -1554,6 +1593,21 @@
     ],
     "title": "Choosing a new AI-coding tool? Here\u2019s what to look for"
   },
+  "https://leaddev.com/ai/how-anthropics-silence-fueled-a-claude-code-trust-crisis?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667253+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "AMD"
+    ],
+    "score": 5,
+    "summary": "Anthropic's delayed communication about Claude Code performance issues highlights the importance of transparent incident management and real-time user communication during service degradations. The article provides lessons on how engineering leadership should handle product quality issues and user trust during technical incidents.",
+    "tags": [
+      "org-design",
+      "ai-augmented-dev"
+    ],
+    "title": "How Anthropic\u2019s silence fueled a Claude Code trust crisis"
+  },
   "https://leaddev.com/ai/jetbrains-goes-all-in-on-agents-with-central?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-16T11:52:36.056478+00:00",
@@ -1683,6 +1737,22 @@
       "competitive-intel"
     ],
     "title": "Why AI isn\u2019t writing most of your code (yet)"
+  },
+  "https://leaddev.com/ai/your-ai-coding-budget-just-got-a-lot-more-complicated?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667250+00:00",
+    "orgs_mentioned": [
+      "GitHub",
+      "OpenAI",
+      "Meta"
+    ],
+    "score": 6,
+    "summary": "Analysis of rising costs and usage limits in AI coding tools as agentic coding burns more tokens than expected. Directly relevant for budgeting AI-augmented development initiatives and understanding the evolving economics of developer tooling.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Your AI-coding budget just got a lot more complicated"
   },
   "https://leaddev.com/career-development/coding-boom-making-fundamentals-matter-again?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
@@ -2213,6 +2283,19 @@
     "tags": [],
     "title": "Secure What Matters: Scaling Effortless Container Security for the AI Era"
   },
+  "https://snyk.io/blog/snyk-agent-fix-agentic-architecture/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-29T12:11:29.667226+00:00",
+    "score": 10,
+    "summary": "Major Snyk Agent Fix update with new agentic architecture improving security fix accuracy and speed across all Snyk Code languages. Direct security enhancement for L'Or\u00e9al's Snyk deployment with measurable improvements in vulnerability remediation workflow.",
+    "tags": [
+      "security-advisory",
+      "vendor-update",
+      "devsecops",
+      "ai-augmented-dev"
+    ],
+    "title": "Introducing the New Agentic Architecture for Snyk Agent Fix: Faster, Smarter, and More Secure"
+  },
   "https://snyk.io/blog/snyk-covers-jpmorgan-cyber-list/": {
     "category": "DevSecOps",
     "first_seen": "2026-04-24T11:53:06.621362+00:00",
@@ -2561,6 +2644,22 @@
       "kubernetes"
     ],
     "title": "Why Broadcom gave Velero to the CNCF Sandbox \u2014 and what it means for Kubernetes data protection"
+  },
+  "https://thenewstack.io/broadcom-vcf-kubernetes-platform/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667203+00:00",
+    "orgs_mentioned": [
+      "Broadcom",
+      "VMware"
+    ],
+    "score": 9,
+    "summary": "Broadcom discusses VMware Cloud Foundation's evolution into a modern app substrate with Kubernetes as the fundamental control plane, addressing the trend of enterprises moving workloads back to private cloud. This directly addresses platform engineering challenges around hybrid infrastructure and the shift toward on-premises Kubernetes platforms.",
+    "tags": [
+      "platform-engineering",
+      "kubernetes",
+      "vendor-update"
+    ],
+    "title": "Why Broadcom is betting on a private cloud comeback"
   },
   "https://thenewstack.io/build-mcp-server-tutorial/": {
     "category": "Platform Engineering",
@@ -3054,6 +3153,21 @@
     ],
     "title": "Google wants AI defense to be as fast as AI offense"
   },
+  "https://thenewstack.io/google-doesnt-care/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667190+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 6,
+    "summary": "Google Cloud's director discusses the pragmatic approach of supporting any AI coding tools developers prefer while focusing on being the best platform to run their code. The article highlights platform thinking and the balance between offering comprehensive services versus being \"selectively ruthless\" about focus areas.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "competitive-intel"
+    ],
+    "title": "\u201cDeveloper loyalty is at zero right now\u201d: Google doesn\u2019t care which AI coding tool you use"
+  },
   "https://thenewstack.io/google-gemini-agent-platform/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-23T11:53:21.499400+00:00",
@@ -3207,6 +3321,21 @@
     ],
     "title": "Jaeger adopts OpenTelemetry at its core to solve the AI agent observability gap"
   },
+  "https://thenewstack.io/json-schema-ai-reliability/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667212+00:00",
+    "orgs_mentioned": [
+      "Anthropic",
+      "Google"
+    ],
+    "score": 7,
+    "summary": "JSON Schema's growing importance in the API ecosystem is explored, particularly for establishing shared meaning around structured data in distributed systems. This is highly relevant for platform teams building internal developer platforms and standardizing data contracts across microservices.",
+    "tags": [
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "Why JSON Schema matters more than ever in the age of generative AI"
+  },
   "https://thenewstack.io/karpathy-says-developers-have-ai-psychosis-everyone-else-is-next/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-13T12:00:09.382959+00:00",
@@ -3259,6 +3388,21 @@
       "developer-experience"
     ],
     "title": "Mistral\u2019s Leanstral wants to kill off human-in-the-loop code checks, but is it blowing in the wind?"
+  },
+  "https://thenewstack.io/lovelace-ai-context-engine-elemental-andrew-moore/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667224+00:00",
+    "orgs_mentioned": [
+      "Google Cloud",
+      "Carnegie Mellon University"
+    ],
+    "score": 4,
+    "summary": "Lovelace AI launches enterprise context engine for investigative AI workloads requiring analysis of millions of documents. Represents emerging AI infrastructure patterns but not directly relevant to L'Or\u00e9al's current platform engineering priorities or toolchain.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "Lovelace emerges from stealth with context engine that claims 1000x AI investigative power"
   },
   "https://thenewstack.io/mcp-maintainers-enterprise-roadmap/": {
     "category": "Platform Engineering",
@@ -3318,6 +3462,20 @@
       "observability"
     ],
     "title": "The one Slack message that proved our elite engineering team was flying blind"
+  },
+  "https://thenewstack.io/netbox-labs-network-intent/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667218+00:00",
+    "orgs_mentioned": [
+      "NetBox Labs"
+    ],
+    "score": 7,
+    "summary": "NetBox Labs discusses the evolution from \"system of record\" to \"system of control\" for network infrastructure management, emphasizing intent-driven configuration and drift detection. This mirrors platform engineering principles of declarative infrastructure and maintaining desired state across complex systems.",
+    "tags": [
+      "platform-engineering",
+      "observability"
+    ],
+    "title": "From system of record to system of control: How NetBox Labs is making network engineers \u201cmasters of intent.\u201d"
   },
   "https://thenewstack.io/niantic-spatial-scaniverse-world-models/": {
     "category": "Platform Engineering",
@@ -3698,6 +3856,20 @@
     ],
     "title": "Roo Code pivots to cloud-based agent, says IDEs aren\u2019t the future of coding"
   },
+  "https://thenewstack.io/sas-viya-mcp-governance/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667209+00:00",
+    "orgs_mentioned": [
+      "SAS"
+    ],
+    "score": 6,
+    "summary": "SAS opens its analytics platform to external AI agents through the Model Context Protocol, positioning itself as a governed backend for AI operations. While not directly platform engineering, it demonstrates patterns for exposing internal capabilities to external agents with proper governance.",
+    "tags": [
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "SAS opens its analytics engine to Claude, Copilot and any AI agent with Viya MCP Server"
+  },
   "https://thenewstack.io/securing-ai-agent-systems/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-16T11:52:36.056461+00:00",
@@ -3723,6 +3895,21 @@
       "devsecops"
     ],
     "title": "Can your operations handle your security ambitions?"
+  },
+  "https://thenewstack.io/sentrys-seer-agent-debug/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667215+00:00",
+    "orgs_mentioned": [
+      "Sentry"
+    ],
+    "score": 9,
+    "summary": "Sentry launches Seer Agent, a natural-language debugging tool that lets developers investigate production issues across their full observability stack. This represents a significant advancement in developer experience for debugging and observability, directly relevant to L'Or\u00e9al's observability strategic priority.",
+    "tags": [
+      "observability",
+      "developer-experience",
+      "vendor-update"
+    ],
+    "title": "Sentry\u2019s Seer Agent lets developers debug production issues in natural language"
   },
   "https://thenewstack.io/skiplabs-ai-guardrails-skipper/": {
     "category": "Platform Engineering",
@@ -3816,6 +4003,17 @@
       "platform-engineering"
     ],
     "title": "SUSE and Nvidia reveal a turnkey AI factory for sovereign enterprise workloads"
+  },
+  "https://thenewstack.io/terraform-state-infrastructure-drift/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-29T12:11:29.667221+00:00",
+    "score": 8,
+    "summary": "Detailed analysis of Terraform state drift problems that cause production incidents when manual changes bypass IaC workflows. Critical for L'Or\u00e9al's Terraform adoption as it addresses fundamental state management and drift detection challenges in early-stage platform engineering.",
+    "tags": [
+      "platform-engineering",
+      "ci-cd"
+    ],
+    "title": "Why Terraform is green when your cloud is broken"
   },
   "https://thenewstack.io/the-next-stages-of-ai-conformance-in-the-cloud-native-open-source-world/": {
     "category": "Platform Engineering",
@@ -4624,6 +4822,20 @@
     ],
     "title": "AAIF's MCP Dev Summit: Gateways, gRPC, and Observability Signal Protocol Hardening"
   },
+  "https://www.infoq.com/news/2026/04/agents-cli-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667248+00:00",
+    "orgs_mentioned": [
+      "Google Cloud"
+    ],
+    "score": 5,
+    "summary": "Google Cloud launches CLI tools for streamlining AI agent development lifecycle from prototyping to production. While relevant for AI-augmented development, this focuses on Google Cloud services rather than current toolchain integration needs.",
+    "tags": [
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Google Cloud Introduces Agents CLI to Streamline AI Agent Development Lifecycle"
+  },
   "https://www.infoq.com/news/2026/04/ai-coding-language-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722842+00:00",
@@ -4755,6 +4967,22 @@
       "vendor-update"
     ],
     "title": "AWS Announces General Availability of DevOps Agent for Automated Incident Investigation"
+  },
+  "https://www.infoq.com/news/2026/04/aws-interconnect-multicloud-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667237+00:00",
+    "orgs_mentioned": [
+      "AWS",
+      "Google Cloud",
+      "Microsoft",
+      "Oracle"
+    ],
+    "score": 3,
+    "summary": "AWS launches multicloud connectivity service for direct Layer 3 connections between cloud providers, starting with Google Cloud. While relevant for multicloud architectures, this focuses on AWS infrastructure rather than L'Or\u00e9al's current Kubernetes-based platform stack.",
+    "tags": [
+      "competitive-intel"
+    ],
+    "title": "AWS Interconnect Reaches General Availability with Managed Multicloud and Last-Mile Connectivity"
   },
   "https://www.infoq.com/news/2026/04/aws-s3-files/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -4923,6 +5151,20 @@
       "security-advisory"
     ],
     "title": "Cloudflare Sandboxes Reach General Availability, Giving AI Agents Persistent Isolated Environments"
+  },
+  "https://www.infoq.com/news/2026/04/cloudwatch-opentelemetry-metrics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667242+00:00",
+    "orgs_mentioned": [
+      "AWS"
+    ],
+    "score": 8,
+    "summary": "AWS CloudWatch adds OpenTelemetry metrics support with high-cardinality storage and PromQL querying capabilities. While L'Or\u00e9al uses Grafana for observability, this represents important standardization around OpenTelemetry that could influence observability strategy discussions.",
+    "tags": [
+      "observability",
+      "vendor-update"
+    ],
+    "title": "Amazon CloudWatch Introduces OpenTelemetry Metrics Support in Preview"
   },
   "https://www.infoq.com/news/2026/04/cncf-kusari-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5095,6 +5337,23 @@
       "platform-engineering"
     ],
     "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses"
+  },
+  "https://www.infoq.com/news/2026/04/github-stacked-prs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667240+00:00",
+    "orgs_mentioned": [
+      "GitHub",
+      "Meta",
+      "Google"
+    ],
+    "score": 9,
+    "summary": "GitHub introduces native stacked pull requests to break large PRs into reviewable chunks, addressing a core developer experience pain point. This directly improves code review workflows and CI/CD processes, highly relevant for standardizing development practices across L'Or\u00e9al's GitHub-based toolchain.",
+    "tags": [
+      "vendor-update",
+      "developer-experience",
+      "ci-cd"
+    ],
+    "title": "GitHub Targets Large Merge Problem with Stacked PRs"
   },
   "https://www.infoq.com/news/2026/04/gitlab-flatrate-view-ai-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5333,6 +5592,20 @@
     ],
     "title": "Meta Reports 4x Higher Bug Detection with Just-in-Time Testing"
   },
+  "https://www.infoq.com/news/2026/04/mistral-ai-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667232+00:00",
+    "orgs_mentioned": [
+      "Mistral AI"
+    ],
+    "score": 5,
+    "summary": "Mistral AI launches Workflows for orchestrating enterprise AI processes with human-in-the-loop capabilities and fault tolerance. General AI orchestration tooling that could inform future AI-augmented development initiatives but not immediately actionable.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Mistral AI Introduces Workflows for Orchestrating Enterprise AI Processes"
+  },
   "https://www.infoq.com/news/2026/04/module-federation-2-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246690+00:00",
@@ -5468,6 +5741,22 @@
     ],
     "title": "Pulumi Adds Full Bun Runtime Support"
   },
+  "https://www.infoq.com/news/2026/04/qconai-boston-2026-schedule-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667234+00:00",
+    "orgs_mentioned": [
+      "LinkedIn",
+      "Redis",
+      "Apple"
+    ],
+    "score": 5,
+    "summary": "QCon AI Boston 2026 conference schedule covering production AI agents, inference costs, and AI in software development lifecycle. Educational content on AI integration patterns but more strategic thought leadership than immediately actionable platform engineering guidance.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "QCon AI Boston 2026 Schedule: Agents in Production, Inference Cost, and AI in the SDLC"
+  },
   "https://www.infoq.com/news/2026/04/qconsf-2026-tracks-announced/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-28T12:21:15.543242+00:00",
@@ -5533,6 +5822,34 @@
       "vendor-update"
     ],
     "title": "Safari Adds scrollend Event Support, Completing Baseline Browser Coverage"
+  },
+  "https://www.infoq.com/news/2026/04/sauce-labs-ai-test-creation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667229+00:00",
+    "orgs_mentioned": [
+      "Sauce Labs"
+    ],
+    "score": 6,
+    "summary": "Sauce Labs introduces AI-driven test authoring to address the DevOps velocity gap where testing lags behind accelerated development cycles. Relevant to L'Or\u00e9al's CI/CD standardization goals as testing automation is critical for platform maturity.",
+    "tags": [
+      "testing",
+      "ci-cd",
+      "ai-augmented-dev"
+    ],
+    "title": "Sauce Labs Launches AI Agent to Automate Test Creation and Close the DevOps \u201cVelocity Gap\u201d"
+  },
+  "https://www.infoq.com/news/2026/04/slack-agent-context-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-29T12:11:29.667245+00:00",
+    "orgs_mentioned": [
+      "Slack"
+    ],
+    "score": 5,
+    "summary": "Slack describes their approach to managing context in long-running AI agent systems using structured memory and validation patterns. Interesting for AI-augmented development strategy but not directly applicable to current platform engineering priorities.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "How Slack Manages Context in Long-running Multi-agent Systems"
   },
   "https://www.infoq.com/news/2026/04/slack-new-notification-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -6092,6 +6409,21 @@
     "summary": "",
     "tags": [],
     "title": "How We Built a System for AI Agents to Ship Real Code Across 75+ Repos [Part 1 of 2]"
+  },
+  "https://www.mabl.com/blog/how-we-built-a-system-for-ai-agents-to-ship-real-code-across-75-repos-part-2": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-29T12:11:29.667263+00:00",
+    "orgs_mentioned": [
+      "mabl"
+    ],
+    "score": 7,
+    "summary": "Mabl demonstrates a production system where AI agents autonomously ship code across 75+ repositories using a four-phase process with confidence-based gating and comprehensive guardrails. The system enables non-developers to complete technical tasks while maintaining code quality through automated validation gates and structured review processes.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "How We Built a System for AI Agents to Ship Real Code Across 75+ Repos [Part 2 of 2]"
   },
   "https://www.mabl.com/blog/introducing-active-coverage-agentic-software-testing": {
     "category": "QA & Testing",
