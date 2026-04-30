@@ -213,6 +213,20 @@
     "tags": [],
     "title": "The Way of TDD"
   },
+  "http://testing.googleblog.com/2026/04/one-map-key-one-lookup.html": {
+    "category": "QA & Testing",
+    "first_seen": "2026-04-30T12:09:12.182602+00:00",
+    "orgs_mentioned": [
+      "Google"
+    ],
+    "score": 4,
+    "summary": "Google tech article explains how to avoid redundant map lookups in code by using single-operation patterns instead of separate existence checks and value retrieval. While a useful performance optimization technique, this is basic programming guidance rather than platform engineering strategy.",
+    "tags": [
+      "performance",
+      "developer-experience"
+    ],
+    "title": "One Map Key, One Lookup"
+  },
   "http://www.brendangregg.com/blog//2024-07-22/no-more-blue-fridays.html": {
     "category": "Performance",
     "first_seen": "2026-04-10T11:42:57.458714+00:00",
@@ -741,6 +755,17 @@
       "testing"
     ],
     "title": "Gatling doubles its availability with a new JavaScript SDK"
+  },
+  "https://gatling.io/blog/generate-data-in-your-gatling-simulation": {
+    "category": "Performance",
+    "first_seen": "2026-04-30T12:09:12.182605+00:00",
+    "score": 7,
+    "summary": "This article covers data generation techniques for Gatling load testing simulations, which is highly relevant given L'Or\u00e9al's use of k6 for performance testing. Understanding data generation patterns can improve load testing practices and potentially inform performance testing standardization across the platform engineering organization.",
+    "tags": [
+      "performance",
+      "testing"
+    ],
+    "title": "Generate data in your Gatling simulation"
   },
   "https://gatling.io/blog/performance-testing-ci-cd": {
     "category": "Performance",
@@ -1827,6 +1852,21 @@
     ],
     "title": "3 ways to bounce back from sudden team cuts"
   },
+  "https://leaddev.com/leadership/6-software-engineering-buzzwords-you-need-to-stop-using?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182599+00:00",
+    "orgs_mentioned": [
+      "Black Duck",
+      "Mimecast"
+    ],
+    "score": 5,
+    "summary": "Article critiques six overused software engineering buzzwords including 'AI-powered' and '10x engineer', advocating for more precise technical communication. While general thought leadership, it offers practical guidance for platform engineering teams communicating with business stakeholders about AI initiatives.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "6 software engineering buzzwords you need to stop using"
+  },
   "https://leaddev.com/leadership/being-tech-lead-doesnt-mean-having-all-answers?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-07T11:47:48.246698+00:00",
@@ -2184,6 +2224,22 @@
     ],
     "title": "The 5 Principles of Snyk\u2019s Developer Experience"
   },
+  "https://snyk.io/blog/atlassian-integration-intelligent-remediation-jira/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-30T12:09:12.182563+00:00",
+    "orgs_mentioned": [
+      "Snyk",
+      "Atlassian"
+    ],
+    "score": 9,
+    "summary": "Snyk and Atlassian announce integration for autonomous security remediation that bridges Jira tickets with AI-powered code fixes in development environments. This directly relates to L'Or\u00e9al's ServiceNow and potential Jira usage, plus their interest in AI-augmented development workflows.",
+    "tags": [
+      "vendor-update",
+      "ai-augmented-dev",
+      "devsecops"
+    ],
+    "title": "Bridging the Gap to Autonomous Fixes: Snyk and Atlassian Unveil Intelligent Remediation for Jira"
+  },
   "https://snyk.io/blog/axios-npm-package-compromised-supply-chain-attack-delivers-cross-platform/": {
     "category": "DevSecOps",
     "first_seen": "2026-04-06T17:42:15.722648+00:00",
@@ -2206,6 +2262,21 @@
       "ai-augmented-dev"
     ],
     "title": "Building AI Security with Our Customers: 5 Lessons from Evo\u2019s Design Partner Program"
+  },
+  "https://snyk.io/blog/bun-based-stealer-hits-sap-cap-js-mbt-npm-packages/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-30T12:09:12.182558+00:00",
+    "orgs_mentioned": [
+      "SAP",
+      "Snyk"
+    ],
+    "score": 10,
+    "summary": "Critical security advisory about malicious npm packages in the SAP development ecosystem that deploy credential stealers via compromised mbt and @cap-js packages. This is a high-priority security incident affecting the JavaScript/Node.js supply chain that L'Or\u00e9al's development teams should be aware of for supply chain security.",
+    "tags": [
+      "security-advisory",
+      "devsecops"
+    ],
+    "title": "\"A Mini Shai-Hulud Has Appeared\": Bun-Based Stealer Hits SAP @cap-js and mbt npm Packages"
   },
   "https://snyk.io/blog/defense-ai-red-teaming/": {
     "category": "DevSecOps",
@@ -2311,6 +2382,17 @@
       "ci-cd"
     ],
     "title": "JPMorgan Just Published a Cyber To-Do List and Snyk Covers 8 of the 10 Items. How do you stack up?"
+  },
+  "https://snyk.io/blog/thymeleaf-injection/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-04-30T12:09:12.182560+00:00",
+    "score": 9,
+    "summary": "Security advisory for CVE-2026-40478 in Thymeleaf template engine affecting Spring Boot applications with CVSS 9.1 score. Since L'Or\u00e9al uses Spring Boot in their stack, this vulnerability analysis and mitigation guidance is directly relevant for their security posture.",
+    "tags": [
+      "security-advisory",
+      "devsecops"
+    ],
+    "title": "Don't Panic: The Thymeleaf Template Injection That Only Hurts If You Let It (CVE-2026-40478)"
   },
   "https://thenewstack.io/accenture-wavemaker-ai-modernization/": {
     "category": "Platform Engineering",
@@ -2475,6 +2557,37 @@
       "platform-engineering"
     ],
     "title": "As agentic AI explodes, Amazon doubles down on MCP"
+  },
+  "https://thenewstack.io/anaconda-ai-outerbounds-python-metaflow/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182537+00:00",
+    "orgs_mentioned": [
+      "Netflix",
+      "Anaconda",
+      "Outerbounds"
+    ],
+    "score": 7,
+    "summary": "Anaconda's acquisition of Outerbounds addresses critical AI-generated code quality issues, with AI code producing 1.7x more bugs than human code. This directly impacts AI-augmented development governance and code quality standards for platform engineering teams.",
+    "tags": [
+      "ai-augmented-dev",
+      "devsecops",
+      "platform-engineering"
+    ],
+    "title": "Anaconda acquires Outerbounds to rein in the buggy code AI agents keep shipping"
+  },
+  "https://thenewstack.io/anthropic-agents-managed-aws-claude/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182542+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 6,
+    "summary": "Anthropic's Claude Managed Agents provides infrastructure APIs for production AI agents with built-in security sandboxing and session management. This is relevant for understanding AI infrastructure patterns but focuses on Anthropic's specific platform rather than general platform engineering practices.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "Anthropic wants to be the AWS of agentic AI"
   },
   "https://thenewstack.io/anthropic-amazon-aws-investment/": {
     "category": "Platform Engineering",
@@ -3253,6 +3366,21 @@
     "tags": [],
     "title": "HPA-managed workloads: Why the obvious waste stays"
   },
+  "https://thenewstack.io/hpe-agentic-ops-copilot/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182555+00:00",
+    "orgs_mentioned": [
+      "HPE"
+    ],
+    "score": 7,
+    "summary": "HPE discusses moving from reactive operations to AI-driven autonomous remediation through closed-loop operations models with agentic AI. The article addresses platform engineering strategy for managing hybrid cloud complexity and Day 2 operations, which is relevant for L'Or\u00e9al's early-stage DevOps maturity.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev",
+      "observability"
+    ],
+    "title": "How HPE is closing the loop on cloud and AI sprawl with agentic AI"
+  },
   "https://thenewstack.io/hugging-face-holotab/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-17T11:43:06.613026+00:00",
@@ -3544,6 +3672,23 @@
     ],
     "title": "OpenAI\u2019s Agents SDK separates the harness from the compute"
   },
+  "https://thenewstack.io/openai-bedrock-trainium-silicon/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182545+00:00",
+    "orgs_mentioned": [
+      "AWS",
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ],
+    "score": 5,
+    "summary": "AWS brings OpenAI models to Bedrock while securing major AI lab commitments to their Trainium chips over the next decade. This represents significant competitive intelligence about cloud AI infrastructure but has limited direct impact on current platform engineering practices.",
+    "tags": [
+      "competitive-intel",
+      "ai-augmented-dev"
+    ],
+    "title": "AWS lands OpenAI on Bedrock, but Trainium is the real story"
+  },
   "https://thenewstack.io/openai-chatgpt-gpt-5-5-security/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-27T12:16:37.190240+00:00",
@@ -3718,6 +3863,18 @@
       "org-design"
     ],
     "title": "Who will maintain the web when PHP\u2019s veterans retire?"
+  },
+  "https://thenewstack.io/platform-engineering-ai-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182552+00:00",
+    "score": 8,
+    "summary": "Analyzes how AI transforms platform engineering roles as developers build their own agents, creating 'agent sprawl' challenges. This directly addresses platform engineering organizational design and governance concerns in the AI era, highly relevant for strategic planning.",
+    "tags": [
+      "platform-engineering",
+      "org-design",
+      "ai-augmented-dev"
+    ],
+    "title": "How AI transforms your role as a platform engineer"
   },
   "https://thenewstack.io/postgres-ai-ground-truth/": {
     "category": "Platform Engineering",
@@ -3988,6 +4145,21 @@
     ],
     "title": "Spring creator wants Java\u2019s type system to tame agentic AI"
   },
+  "https://thenewstack.io/strands-agents-tool-design/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182517+00:00",
+    "orgs_mentioned": [
+      "AWS",
+      "Netflix"
+    ],
+    "score": 6,
+    "summary": "AWS Strands Agents framework demonstrates techniques to reduce AI token usage by 96% through intent-based tools and semantic search. This is relevant for AI-augmented development cost optimization but focuses on AWS-specific tooling not currently in the stack.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "Cut AI token usage by 96%? Here\u2019s how AWS Strands Agents does it."
+  },
   "https://thenewstack.io/suse-nvidia-ai-factory/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-21T11:54:22.946593+00:00",
@@ -4098,6 +4270,21 @@
       "ai-augmented-dev"
     ],
     "title": "SUSE Rancher and Vultr want to break AI infrastructure free from the hyperscalers"
+  },
+  "https://thenewstack.io/warp-open-source-client/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-04-30T12:09:12.182548+00:00",
+    "orgs_mentioned": [
+      "Warp",
+      "OpenAI"
+    ],
+    "score": 6,
+    "summary": "Warp open-sources their Rust-based agentic development environment under AGPL, transitioning from closed to open development with AI agent workflows. This demonstrates an interesting approach to AI-augmented developer tools but represents a specific tool rather than broader platform engineering patterns.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Warp\u2019s gamble: Going open source to take on closed-source rivals"
   },
   "https://thenewstack.io/why-ai-feels-sluggish/": {
     "category": "Platform Engineering",
@@ -4716,6 +4903,17 @@
     ],
     "title": "Article: Building Production-Ready tRPC APIs: The TypeScript Alternative to Apollo Federation"
   },
+  "https://www.infoq.com/articles/dpop-key-storage-unsolved-problem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182583+00:00",
+    "score": 8,
+    "summary": "The DPoP storage paradox reveals critical security gaps in browser-based proof-of-possession implementations despite following specifications. Understanding these OAuth 2.0 security challenges is essential for secure platform design, especially relevant given L'Or\u00e9al's need for robust authentication patterns.",
+    "tags": [
+      "security-advisory",
+      "platform-engineering"
+    ],
+    "title": "Article: The DPoP Storage Paradox: Why Browser-Based Proof-of-Possession Remains an Unsolved Problem"
+  },
   "https://www.infoq.com/articles/enterprise-grade-observability-extension-docker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-14T11:52:28.897181+00:00",
@@ -4860,6 +5058,21 @@
       "performance"
     ],
     "title": "Airbnb Migrates High-Volume Metrics Pipeline to OpenTelemetry"
+  },
+  "https://www.infoq.com/news/2026/04/angular-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182591+00:00",
+    "orgs_mentioned": [
+      "VoidZero",
+      "Microsoft"
+    ],
+    "score": 3,
+    "summary": "VoidZero released an experimental Rust-based Angular compiler that delivers 6-20x faster build performance compared to Angular CLI. While impressive for Angular teams, this is not relevant to L'Or\u00e9al's Spring Boot-focused stack and early-stage DevOps maturity.",
+    "tags": [
+      "performance",
+      "competitive-intel"
+    ],
+    "title": "VoidZero\u2019s Experimental Oxc Angular Compiler with Up to 20x Faster Build Performance"
   },
   "https://www.infoq.com/news/2026/04/anthropic-claude-mythos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5063,6 +5276,20 @@
     ],
     "title": "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File"
   },
+  "https://www.infoq.com/news/2026/04/cloudflare-agent-memory-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182569+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 5,
+    "summary": "Cloudflare announces Agent Memory service for AI agents to maintain persistent memory across sessions and avoid context rot issues. While AI-related, this is primarily about Cloudflare's specific service offering rather than general AI-augmented development practices relevant to L'Or\u00e9al's platform engineering.",
+    "tags": [
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Cloudflare Announces Agent Memory, a Managed Persistent Memory Service for AI Agents"
+  },
   "https://www.infoq.com/news/2026/04/cloudflare-ai-caching-strategies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-09T11:47:49.347758+00:00",
@@ -5217,6 +5444,21 @@
     ],
     "title": "Cursor 3 Introduces Agent-First Interface, Moving Beyond the IDE Model"
   },
+  "https://www.infoq.com/news/2026/04/dbmaestro-mcp-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182589+00:00",
+    "orgs_mentioned": [
+      "DBmaestro"
+    ],
+    "score": 7,
+    "summary": "DBmaestro launched an MCP server that enables natural language control of database DevOps pipelines through AI agents while maintaining enterprise governance and RBAC. This demonstrates practical AI-augmented database automation that could be relevant for L'Or\u00e9al's CI/CD standardization efforts, particularly for database deployment pipelines.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "platform-engineering"
+    ],
+    "title": "DBmaestro MCP Server Puts Natural Language in Control of Database Pipelines"
+  },
   "https://www.infoq.com/news/2026/04/deepmind-aletheia-agentic-math/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-20T12:00:45.144961+00:00",
@@ -5233,6 +5475,19 @@
     ],
     "title": "Google\u2019s Aletheia Advances the State of the Art of Fully Autonomous Agentic Math Research"
   },
+  "https://www.infoq.com/news/2026/04/dotnet-11-preview-3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182594+00:00",
+    "orgs_mentioned": [
+      "Microsoft"
+    ],
+    "score": 3,
+    "summary": "Microsoft released .NET 11 Preview 3 with runtime improvements, SDK enhancements, and ASP.NET Core updates including Zstandard compression and Blazor virtualization improvements. This .NET-focused update has minimal relevance to L'Or\u00e9al's Java/Spring Boot technology stack.",
+    "tags": [
+      "vendor-update"
+    ],
+    "title": "Microsoft Releases .NET 11 Preview 3 with Updates Across Runtime, SDK, MAUI, and ASP.NET Core"
+  },
   "https://www.infoq.com/news/2026/04/dropbox-reduces-git-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-23T11:53:21.499415+00:00",
@@ -5248,6 +5503,20 @@
       "developer-experience"
     ],
     "title": "Dropbox Collaborates with GitHub to Reduce Monorepo Size from 87GB to 20GB"
+  },
+  "https://www.infoq.com/news/2026/04/dropbox-tiered-compaction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182577+00:00",
+    "orgs_mentioned": [
+      "Dropbox"
+    ],
+    "score": 6,
+    "summary": "Dropbox's storage compaction redesign shows how to address fragmentation issues in immutable blob stores through intelligent volume prioritization. The approach to managing cleanup work without straining system resources offers lessons for optimizing storage efficiency in large-scale platform infrastructure.",
+    "tags": [
+      "platform-engineering",
+      "performance"
+    ],
+    "title": "Dropbox Redesigns Compaction to Reclaim Space from Underfilled Storage Volumes"
   },
   "https://www.infoq.com/news/2026/04/effect-v4-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5577,6 +5846,17 @@
     ],
     "title": "Lyft Scales Global Localization Using AI and Human-in-the-Loop Review"
   },
+  "https://www.infoq.com/news/2026/04/measure-platform-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182566+00:00",
+    "score": 8,
+    "summary": "Detailed discussion on measuring platform engineering impact through holistic stakeholder perspectives beyond just developer KPIs, emphasizing socio-technical approaches. This directly addresses L'Or\u00e9al's platform engineering organizational design priorities and measurement strategies for their early-stage maturity.",
+    "tags": [
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Driving and Measuring the Impact of Platform Engineering"
+  },
   "https://www.infoq.com/news/2026/04/meta-jit-testing-ai-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-20T12:00:45.144976+00:00",
@@ -5591,6 +5871,21 @@
       "ci-cd"
     ],
     "title": "Meta Reports 4x Higher Bug Detection with Just-in-Time Testing"
+  },
+  "https://www.infoq.com/news/2026/04/meta-quantum-crypto-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182572+00:00",
+    "orgs_mentioned": [
+      "Meta"
+    ],
+    "score": 7,
+    "summary": "Meta's post-quantum cryptography migration strategy provides a valuable maturity model and prioritization framework for large-scale infrastructure security transformations. The systematic approach to inventory management and external dependency handling offers insights for L'Or\u00e9al's own security modernization efforts.",
+    "tags": [
+      "security-advisory",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Meta's Approach to Migrating their Systems to Post-Quantum Cryptography"
   },
   "https://www.infoq.com/news/2026/04/mistral-ai-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5620,6 +5915,23 @@
       "developer-experience"
     ],
     "title": "Module Federation 2.0 Reaches Stable Release with Wider Support outside of Webpack"
+  },
+  "https://www.infoq.com/news/2026/04/netflix-live-human-ops-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182586+00:00",
+    "orgs_mentioned": [
+      "Netflix",
+      "Disney",
+      "YouTube"
+    ],
+    "score": 7,
+    "summary": "Netflix's \"human infrastructure\" approach for live operations demonstrates how to blend automated systems with structured human oversight for real-time platforms. The telemetry hot path and Live Operations Centre concepts provide valuable patterns for scaling observability and incident response in high-stakes environments.",
+    "tags": [
+      "observability",
+      "platform-engineering",
+      "org-design"
+    ],
+    "title": "Netflix Scales \"Human Infrastructure\" to Manage Global Live Operations"
   },
   "https://www.infoq.com/news/2026/04/npmx-browser-alpha/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -6005,6 +6317,21 @@
     ],
     "title": "HashiCorp Vault 2.0 Marks Shift to IBM Lifecycle with New Identity Federation"
   },
+  "https://www.infoq.com/news/2026/04/vercel-open-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182580+00:00",
+    "orgs_mentioned": [
+      "Vercel"
+    ],
+    "score": 8,
+    "summary": "Vercel's Open Agents provides an open-source framework for background AI coding workflows with separated agent and sandbox architectures. This directly aligns with AI-augmented development priorities and offers practical insights for implementing durable workflows in development platforms.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Vercel Releases Open Agents to Support Background AI Coding Workflows"
+  },
   "https://www.infoq.com/news/2026/04/yelp-cassandra-upgrade/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-27T12:16:37.190270+00:00",
@@ -6112,6 +6439,18 @@
     ],
     "title": "Presentation: Building a Future-Proof Observability Platform to Empower Engineers"
   },
+  "https://www.infoq.com/presentations/ai-autonomy-continuum/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182597+00:00",
+    "score": 7,
+    "summary": "Tracy Bannon presents a framework for 'Minimum Viable Governance' when implementing AI agents in software development, using architectural decision records and proper delegation to prevent 'Architectural Amnesia'. This directly addresses governance concerns for AI-augmented development initiatives that align with L'Or\u00e9al's strategic priorities.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design",
+      "platform-engineering"
+    ],
+    "title": "Presentation: Agents, Architecture, & Amnesia: Becoming AI-Native Without Losing Our Minds"
+  },
   "https://www.infoq.com/presentations/ai-coding-agents-copilot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-10T11:42:57.458668+00:00",
@@ -6167,6 +6506,21 @@
       "ai-augmented-dev"
     ],
     "title": "Presentation: Deepfakes, Disinformation, and AI Content Are Taking Over the Internet"
+  },
+  "https://www.infoq.com/presentations/docdb-online-database/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-04-30T12:09:12.182575+00:00",
+    "orgs_mentioned": [
+      "Stripe"
+    ],
+    "score": 7,
+    "summary": "Stripe's DocDB architecture demonstrates advanced zero-downtime data movement patterns that enable 5 million QPS with 5.5 nines reliability. The horizontal sharding and migration strategies provide valuable reference architecture for scaling critical platform infrastructure while maintaining strict consistency requirements.",
+    "tags": [
+      "platform-engineering",
+      "performance",
+      "competitive-intel"
+    ],
+    "title": "Presentation: Stripe\u2019s Docdb: How Zero-Downtime Data Movement Powers Trillion-Dollar Payment Processing"
   },
   "https://www.infoq.com/presentations/duolingo-eks-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
