@@ -1124,6 +1124,21 @@
     ],
     "title": "Your guide to GrafanaCON 2026 in Barcelona"
   },
+  "https://grafana.com/blog/how-grafana-assistant-learns-your-infrastructure-before-you-even-ask/": {
+    "category": "Performance",
+    "first_seen": "2026-05-01T11:51:28.737566+00:00",
+    "orgs_mentioned": [
+      "Grafana"
+    ],
+    "score": 9,
+    "summary": "Grafana Assistant builds persistent knowledge bases of infrastructure to accelerate incident response and troubleshooting. This directly aligns with L'Or\u00e9al's observability priorities and existing Grafana stack, offering AI-enhanced operational efficiency.",
+    "tags": [
+      "observability",
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "Faster fixes, less context sharing: how Grafana Assistant learns your infrastructure before you even ask"
+  },
   "https://grafana.com/blog/how-openrouter-and-grafana-cloud-bring-observability-to-llm-powered-applications/": {
     "category": "Performance",
     "first_seen": "2026-04-09T11:47:49.348057+00:00",
@@ -1633,6 +1648,20 @@
     ],
     "title": "How Anthropic\u2019s silence fueled a Claude Code trust crisis"
   },
+  "https://leaddev.com/ai/how-cloudflare-rebuilt-next-js-in-a-weekend?utm_source=leaddev&utm_medium=RSS": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737560+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 6,
+    "summary": "Cloudflare rebuilt Next.js in a weekend using AI agents for $1,100, demonstrating how AI can enable rapid component replacement and custom-tailored solutions. This showcases AI-augmented development capabilities that could transform build-vs-buy decisions in platform engineering.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering"
+    ],
+    "title": "How Cloudflare rebuilt Next.js in a weekend"
+  },
   "https://leaddev.com/ai/jetbrains-goes-all-in-on-agents-with-central?utm_source=leaddev&utm_medium=RSS": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-16T11:52:36.056478+00:00",
@@ -2090,6 +2119,23 @@
     ],
     "title": "Observability isn't enough to tell if your platform is healthy"
   },
+  "https://platformengineering.org/blog/operationalizing-ai-coding-agents-a-focused-look-at-financial-services-and-government": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-01T11:51:28.737480+00:00",
+    "orgs_mentioned": [
+      "Flo Health Inc",
+      "Mezmo",
+      "Cloudsmith"
+    ],
+    "score": 7,
+    "summary": "Discusses AI coding agents in financial services and government sectors, focusing on reliability and security considerations for production AI platforms. Highly relevant as L'Or\u00e9al explores AI-augmented development, though the domain-specific focus reduces direct applicability.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "devsecops"
+    ],
+    "title": "AI coding agents: A focused look at financial services and government"
+  },
   "https://platformengineering.org/blog/platform-engineering-makes-a-difference-here-s-how-to-prove-it": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722546+00:00",
@@ -2309,6 +2355,21 @@
       "ci-cd"
     ],
     "title": "Hardcoding Security into Every Commit: The Future of Snyk Secrets"
+  },
+  "https://snyk.io/blog/lightning-pypi-compromise-bun-based-credential-stealer/": {
+    "category": "DevSecOps",
+    "first_seen": "2026-05-01T11:51:28.737542+00:00",
+    "orgs_mentioned": [
+      "Snyk",
+      "SAP"
+    ],
+    "score": 10,
+    "summary": "Critical security advisory affecting the lightning PyPI package with a CVSS 9.3 score, demonstrating a sophisticated supply chain attack using Bun-based credential stealers. This directly impacts Python-based ML workloads and highlights the importance of supply chain security scanning tools like Snyk which is in L'Or\u00e9al's active toolchain.",
+    "tags": [
+      "security-advisory",
+      "devsecops"
+    ],
+    "title": "lightning PyPI Compromise: A Bun-Based Credential Stealer in Python"
   },
   "https://snyk.io/blog/litellm-ai-blast-radius/": {
     "category": "DevSecOps",
@@ -2688,6 +2749,21 @@
       "observability"
     ],
     "title": "Anthropic takes Claude Cowork out of preview and straight into the enterprise"
+  },
+  "https://thenewstack.io/anthropics-claude-security-beta/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-01T11:51:28.737531+00:00",
+    "orgs_mentioned": [
+      "Anthropic"
+    ],
+    "score": 8,
+    "summary": "Anthropic's Claude Security tool for automated codebase vulnerability scanning becomes generally available, offering parallel agent-based security analysis. Highly relevant for DevSecOps integration and security toolchain enhancement, complementing existing Snyk and SonarQube investments.",
+    "tags": [
+      "devsecops",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Anthropic\u2019s Claude Security emerges from closed preview to scan your codebases for vulnerabilities"
   },
   "https://thenewstack.io/aria-networks-ai-network/": {
     "category": "Platform Engineering",
@@ -3557,6 +3633,21 @@
     ],
     "title": "How AWS Bedrock is shaping Model Context Protocol"
   },
+  "https://thenewstack.io/meta-abandons-llama-spark/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-01T11:51:28.737535+00:00",
+    "orgs_mentioned": [
+      "Meta",
+      "Scale AI"
+    ],
+    "score": 5,
+    "summary": "Meta shifts from open-source Llama to proprietary Muse Spark, impacting organizations using Llama models for AI development. Moderate relevance as competitive intelligence for AI strategy, but limited direct impact on platform engineering practices.",
+    "tags": [
+      "competitive-intel",
+      "ai-augmented-dev"
+    ],
+    "title": "Meta abandons open-source Llama for proprietary Muse Spark"
+  },
   "https://thenewstack.io/meta-open-source-models/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-08T11:46:15.395427+00:00",
@@ -3671,6 +3762,25 @@
       "platform-engineering"
     ],
     "title": "OpenAI\u2019s Agents SDK separates the harness from the compute"
+  },
+  "https://thenewstack.io/openai-aws-bedrock-integration/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-01T11:51:28.737527+00:00",
+    "orgs_mentioned": [
+      "OpenAI",
+      "Microsoft",
+      "AWS",
+      "CoreWeave",
+      "Oracle",
+      "Google Cloud"
+    ],
+    "score": 4,
+    "summary": "Covers strategic partnership changes between OpenAI, Microsoft, and AWS, focusing on business implications rather than technical implementation. Limited relevance to platform engineering practices, though provides competitive intelligence on cloud provider AI offerings.",
+    "tags": [
+      "competitive-intel",
+      "ai-augmented-dev"
+    ],
+    "title": "The OpenAI-Microsoft reset, decoded: Why AWS may come out ahead"
   },
   "https://thenewstack.io/openai-bedrock-trainium-silicon/": {
     "category": "Platform Engineering",
@@ -3915,6 +4025,19 @@
     ],
     "title": "Why Postgres wants NVMe on the hot path, and S3 everywhere else"
   },
+  "https://thenewstack.io/production-ready-ai-platforms/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-01T11:51:28.737521+00:00",
+    "score": 8,
+    "summary": "Provides comprehensive checklist for productionizing AI systems, treating them as platform engineering problems requiring shared infrastructure, observability, and governance. Directly addresses L'Or\u00e9al's AI-augmented development priorities with practical implementation guidance for moving from prototype to production.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "observability",
+      "developer-experience"
+    ],
+    "title": "A nine-point checklist for shipping production-ready AI"
+  },
   "https://thenewstack.io/programming-ai-proving-ground/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-06T17:42:15.722612+00:00",
@@ -3941,6 +4064,22 @@
       "devsecops"
     ],
     "title": "PyTorch Foundation Expands AI Stack with Safetensors, ExecuTorch, and Helion"
+  },
+  "https://thenewstack.io/quickbase-pave-vibe-coding/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-01T11:51:28.737538+00:00",
+    "orgs_mentioned": [
+      "Quickbase",
+      "Stanford University"
+    ],
+    "score": 7,
+    "summary": "Quickbase launches Pave to address the '80% problem' in AI-generated code, focusing on production-ready applications with built-in governance and DevOps controls. Relevant to AI-augmented development strategy, offering solutions for moving AI prototypes to production environments.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "developer-experience"
+    ],
+    "title": "Quickbase\u2019s Pave targets vibe coding\u2019s notorious 80% problem"
   },
   "https://thenewstack.io/rag-pipeline-hybrid-search/": {
     "category": "Platform Engineering",
@@ -4559,6 +4698,17 @@
     ],
     "title": "[tl;dr sec] #325 - Dissecting Mythos, The $0 Security Stack, GitHub Action Red Team FrameworkReplicating Mythos bugs with public models and more, building a useful security program for free, new post-"
   },
+  "https://tldrsec.com/p/tldr-sec-326": {
+    "category": "DevSecOps",
+    "first_seen": "2026-05-01T11:51:28.737564+00:00",
+    "score": 10,
+    "summary": "Security newsletter covering AI auto-exploitation of vulnerabilities, GitHub RCE, and autonomous cloud hacking agents. The GitHub RCE is particularly critical given L'Or\u00e9al's active use of GitHub in their toolchain.",
+    "tags": [
+      "security-advisory",
+      "devsecops"
+    ],
+    "title": "[tl;dr sec] #326 - AI Auto Exploiting Vulnerabilities, GitHub RCE, Autonomous Cloud Hacking AgentAutomatically creating PoCs for vulnerabilities, git push \u2192 code execution on github.com, how well can "
+  },
   "https://www.cloudbees.com/blog/bee-giving-strengthening-our-culture-by-serving-our-communities": {
     "category": "QA & Testing",
     "first_seen": "2026-04-09T11:47:49.348035+00:00",
@@ -4757,6 +4907,23 @@
       "platform-engineering"
     ],
     "title": "Why Releasing Software as an Application Beats Deploying Components"
+  },
+  "https://www.cncf.io/case-studies/adobe/": {
+    "category": "Competitive Intelligence",
+    "first_seen": "2026-05-01T11:51:28.737569+00:00",
+    "orgs_mentioned": [
+      "Adobe"
+    ],
+    "score": 8,
+    "summary": "Adobe's enterprise-scale migration from legacy CaaS to GitOps-based Flex platform using Kubernetes and Argo ecosystem for 10,400+ pipelines. This case study provides valuable insights for L'Or\u00e9al's CI/CD standardization efforts and platform engineering organizational design.",
+    "tags": [
+      "competitive-intel",
+      "ci-cd",
+      "platform-engineering",
+      "kubernetes",
+      "org-design"
+    ],
+    "title": "CNCF Case Study: Adobe"
   },
   "https://www.cncf.io/case-studies/cloudchipr/": {
     "category": "Competitive Intelligence",
@@ -4980,6 +5147,20 @@
       "performance"
     ],
     "title": "Article: Redesigning Banking PDF Table Extraction: A Layered Approach with Java"
+  },
+  "https://www.infoq.com/articles/securing-autonomous-ai-agents-kubernetes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737550+00:00",
+    "score": 9,
+    "summary": "Detailed guide on securing autonomous AI agents on Kubernetes, covering trust boundaries, secrets management, and observability patterns for a new workload category. This is highly relevant for platform engineering teams implementing AI-augmented workflows on Kubernetes with proper security controls and graduated trust models.",
+    "tags": [
+      "kubernetes",
+      "security-advisory",
+      "ai-augmented-dev",
+      "observability",
+      "platform-engineering"
+    ],
+    "title": "Article: Securing Autonomous AI Agents on Kubernetes: Trust Boundaries, Secrets, and Observability for a New Category of Cloud Workload"
   },
   "https://www.infoq.com/articles/sovereign-fault-domains-cloud-resilience/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -5916,6 +6097,17 @@
     ],
     "title": "Module Federation 2.0 Reaches Stable Release with Wider Support outside of Webpack"
   },
+  "https://www.infoq.com/news/2026/04/nestjs-12-roadmap-esm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737558+00:00",
+    "score": 4,
+    "summary": "NestJS v12 introduces full ESM migration and modernized toolchain with Vitest, oxlint, and Rspack replacing traditional tools. While not directly relevant to L'Or\u00e9al's Spring Boot stack, the toolchain modernization patterns could inform developer experience improvements.",
+    "tags": [
+      "developer-experience",
+      "testing"
+    ],
+    "title": "NestJS v12 Roadmap: Full ESM Migration, Standard Schema Validation and Modernised Toolchain"
+  },
   "https://www.infoq.com/news/2026/04/netflix-live-human-ops-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-30T12:09:12.182586+00:00",
@@ -5942,6 +6134,21 @@
       "developer-experience"
     ],
     "title": "npmx Reaches Alpha: Community Driven Alternative Browser for the npm Registry"
+  },
+  "https://www.infoq.com/news/2026/04/nvidia-ising-quantum/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737555+00:00",
+    "orgs_mentioned": [
+      "NVIDIA",
+      "IBM",
+      "Google"
+    ],
+    "score": 3,
+    "summary": "NVIDIA launches open-source Ising models for quantum computing calibration and error correction using machine learning. While technically interesting, quantum computing is not relevant to L'Or\u00e9al's current platform engineering priorities or technology stack.",
+    "tags": [
+      "ai-augmented-dev"
+    ],
+    "title": "NVIDIA Launches Ising Open Models for Quantum Computing"
   },
   "https://www.infoq.com/news/2026/04/observability-telemetry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -6364,6 +6571,39 @@
     ],
     "title": "Zendesk Says AI Makes Code Abundant, Shifting the Bottleneck to \u201cAbsorption Capacity\u201d"
   },
+  "https://www.infoq.com/news/2026/05/broadcom-velero-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737552+00:00",
+    "orgs_mentioned": [
+      "Broadcom",
+      "VMware",
+      "CNCF",
+      "Heptio"
+    ],
+    "score": 8,
+    "summary": "Broadcom donates Velero Kubernetes backup tool to CNCF, shifting it from vendor control to community governance. This vendor update affects disaster recovery strategies for Kubernetes platforms and signals important governance changes for a widely-used backup solution.",
+    "tags": [
+      "vendor-update",
+      "kubernetes",
+      "competitive-intel"
+    ],
+    "title": "Broadcom Donates Velero to CNCF, Shifting Kubernetes Backup to Community Governance"
+  },
+  "https://www.infoq.com/news/2026/05/vitest-4-1-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737547+00:00",
+    "orgs_mentioned": [
+      "VoidZero"
+    ],
+    "score": 7,
+    "summary": "Vitest 4.1 introduces test tags, native Node.js execution, and AI agent reporter features that improve JavaScript testing workflows. The test organization patterns and AI integration capabilities are relevant for developer experience improvements, though not directly aligned with L'Or\u00e9al's Spring Boot focus.",
+    "tags": [
+      "testing",
+      "developer-experience",
+      "ai-augmented-dev"
+    ],
+    "title": "Vitest 4.1: Test Tags, Native Node.js Execution and AI Agent Reporter"
+  },
   "https://www.infoq.com/podcasts/context-engineering-large-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-04-06T17:42:15.722840+00:00",
@@ -6473,6 +6713,20 @@
     "summary": "",
     "tags": [],
     "title": "Presentation: State of Play: AI Coding Assistants"
+  },
+  "https://www.infoq.com/presentations/ai-products/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-01T11:51:28.737544+00:00",
+    "orgs_mentioned": [
+      "Hidden Door"
+    ],
+    "score": 5,
+    "summary": "High-level AI product development presentation discussing the shift from discrete to probabilistic engineering mindsets and architecture challenges. While relevant to AI strategy, it lacks specific platform engineering patterns or toolchain guidance for early-stage DevOps organizations.",
+    "tags": [
+      "ai-augmented-dev",
+      "org-design"
+    ],
+    "title": "Presentation: The Next Generation of AI Products"
   },
   "https://www.infoq.com/presentations/ai-sre-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
