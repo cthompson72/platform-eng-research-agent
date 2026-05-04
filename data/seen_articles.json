@@ -3093,6 +3093,22 @@
     ],
     "title": "Cursor and Chainguard partner to lock down the AI agent supply chain"
   },
+  "https://thenewstack.io/cursor-sdk-harness/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006528+00:00",
+    "orgs_mentioned": [
+      "Cursor",
+      "SpaceX"
+    ],
+    "score": 7,
+    "summary": "Cursor positions itself as focusing on the AI harness rather than the model itself, releasing an SDK for building model-agnostic agents on their platform. The company claims agent usage has grown 15x with a third of internal pull requests created by cloud-based agents, indicating a shift toward agent-driven development workflows.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Cursor\u2019s $60 billion bet is on the harness, not the model"
+  },
   "https://thenewstack.io/cursors-agents-window-vs-claude-code/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-27T12:16:37.190224+00:00",
@@ -3160,6 +3176,23 @@
       "competitive-intel"
     ],
     "title": "The disappearing AI middle class"
+  },
+  "https://thenewstack.io/does-ai-demand-kubernetes/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006514+00:00",
+    "orgs_mentioned": [
+      "CNCF",
+      "SlashData"
+    ],
+    "score": 8,
+    "summary": "CNCF research shows 82% production Kubernetes usage for AI inference, highlighting platform engineering's critical role in AI scaling. The focus on internal developer platforms, guardrails, and operator experience directly aligns with L'Or\u00e9al's platform engineering priorities.",
+    "tags": [
+      "kubernetes",
+      "platform-engineering",
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Fresh data has us asking, does AI demand Kubernetes?"
   },
   "https://thenewstack.io/dogfooding-and-platforms-spotifys-agentic-first-development/": {
     "category": "Platform Engineering",
@@ -3472,6 +3505,37 @@
     ],
     "title": "Hugging Face pushes into \u201ccomputer use\u201d with HoloTab agent that works through your browser"
   },
+  "https://thenewstack.io/ibm-bob-agentic-coding/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006503+00:00",
+    "orgs_mentioned": [
+      "IBM",
+      "Microsoft"
+    ],
+    "score": 7,
+    "summary": "IBM's Neel Sundaresan discusses developer productivity patterns and AI coding tool evolution, including IBM Bob's 80,000 internal users. Insights on reducing development friction and improving developer experience are directly applicable to platform engineering initiatives.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience"
+    ],
+    "title": "Most AI coding is \u201clike taking your Ferrari to buy milk\u201d: IBM\u2019s Neel Sundaresan"
+  },
+  "https://thenewstack.io/ibm-bob-agentic-development/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006521+00:00",
+    "orgs_mentioned": [
+      "IBM"
+    ],
+    "score": 8,
+    "summary": "IBM's internal AI-assisted development platform Bob scaled to 80,000 developers with 45% productivity gains, focusing on governance and enterprise compliance. The platform provides role-based specialized agents across the full SDLC with built-in security controls and audit trails, directly relevant to enterprise platform engineering strategy.",
+    "tags": [
+      "ai-augmented-dev",
+      "platform-engineering",
+      "developer-experience",
+      "devsecops"
+    ],
+    "title": "IBM Bob hits 80,000 developers with 45% productivity gains"
+  },
   "https://thenewstack.io/in-the-ai-age-java-is-more-relevant-than-ever/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-09T11:47:49.347735+00:00",
@@ -3482,6 +3546,24 @@
       "performance"
     ],
     "title": "In the AI Age, Java is More Relevant Than Ever"
+  },
+  "https://thenewstack.io/incredibuild-ai-agents-sandbox-coding/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006510+00:00",
+    "orgs_mentioned": [
+      "Incredibuild",
+      "Microsoft",
+      "Take-Two",
+      "Nintendo"
+    ],
+    "score": 8,
+    "summary": "Incredibuild's Islo addresses critical security and governance issues with AI coding agents running on developer machines. The persistent, isolated cloud environments with scoped credentials directly address developer experience and security concerns for AI-augmented development.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "devsecops"
+    ],
+    "title": "AI agents are running wild on developer machines. Incredibuild has a fix."
   },
   "https://thenewstack.io/is-observability-still-an-operations-problem-at-your-organization/": {
     "category": "Platform Engineering",
@@ -3671,6 +3753,21 @@
     ],
     "title": "Microsoft wants to make service mesh invisible"
   },
+  "https://thenewstack.io/mistral-vibe-cloud-agents/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006524+00:00",
+    "orgs_mentioned": [
+      "Mistral AI"
+    ],
+    "score": 7,
+    "summary": "Mistral launches cloud-based coding agents with Vibe that can work independently in sandboxed environments, allowing developers to hand off tasks and continue remotely. The platform enables starting sessions locally and teleporting them to the cloud mid-task, relevant for AI-augmented development workflows.",
+    "tags": [
+      "ai-augmented-dev",
+      "developer-experience",
+      "platform-engineering"
+    ],
+    "title": "Mistral, Europe\u2019s answer to OpenAI and Anthropic, pushes its coding agents to the cloud"
+  },
   "https://thenewstack.io/multi-cloud-blind-spots/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-27T12:16:37.190218+00:00",
@@ -3708,6 +3805,21 @@
       "ai-augmented-dev"
     ],
     "title": "Niantic Spatial wants to map the 80% of the economy AI can\u2019t see"
+  },
+  "https://thenewstack.io/open-mainframe-enterprise-modernization/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006498+00:00",
+    "orgs_mentioned": [
+      "IBM",
+      "Linux Foundation"
+    ],
+    "score": 4,
+    "summary": "Article discusses mainframe modernization as essential for AI initiatives, focusing on cultural change and the Open Mainframe Project. Limited relevance to modern platform engineering stacks, though organizational change patterns may apply.",
+    "tags": [
+      "org-design",
+      "competitive-intel"
+    ],
+    "title": "Mainframe modernization is no longer optional for the AI-driven enterprise"
   },
   "https://thenewstack.io/open-source-digital-autonomy/": {
     "category": "Platform Engineering",
@@ -3922,6 +4034,17 @@
       "developer-experience"
     ],
     "title": "OpenAI\u2019s superapp is taking shape as Codex goes beyond coding"
+  },
+  "https://thenewstack.io/opensearch-ai-data-layer/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006507+00:00",
+    "score": 6,
+    "summary": "OpenSearch 3.5/3.6 introduce significant AI capabilities including Better Binary Quantization and hybrid search for AI applications. Relevant for teams considering search infrastructure consolidation, though not directly related to L'Or\u00e9al's current stack.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance"
+    ],
+    "title": "Inside OpenSearch\u2019s bid to become the default AI data layer"
   },
   "https://thenewstack.io/paper-compute-agent-infrastructure/": {
     "category": "Platform Engineering",
@@ -4152,6 +4275,20 @@
     ],
     "title": "Roo Code pivots to cloud-based agent, says IDEs aren\u2019t the future of coding"
   },
+  "https://thenewstack.io/sas-innovate-agentic-ai-governance/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006479+00:00",
+    "orgs_mentioned": [
+      "SAS"
+    ],
+    "score": 5,
+    "summary": "SAS showcases an agnostic AI approach that avoids vendor lock-in, focusing on domain-specific solutions rather than AI technology itself. The multi-LLM strategy and technology neutrality principles could inform platform engineering approaches to AI tooling integration.",
+    "tags": [
+      "ai-augmented-dev",
+      "competitive-intel"
+    ],
+    "title": "\u201cTo us, it\u2019s just a tool\u201d: How SAS is selling AI to the Fortune 500"
+  },
   "https://thenewstack.io/sas-viya-mcp-governance/": {
     "category": "Platform Engineering",
     "first_seen": "2026-04-29T12:11:29.667209+00:00",
@@ -4298,6 +4435,21 @@
       "performance"
     ],
     "title": "Cut AI token usage by 96%? Here\u2019s how AWS Strands Agents does it."
+  },
+  "https://thenewstack.io/suse-ai-infrastructure-kubernetes/": {
+    "category": "Platform Engineering",
+    "first_seen": "2026-05-04T12:18:33.006517+00:00",
+    "orgs_mentioned": [
+      "SUSE"
+    ],
+    "score": 6,
+    "summary": "SUSE positions itself as an AI-native infrastructure platform, unifying AI services, containers, and VMs with Rancher Prime for Kubernetes orchestration. Features an AI agent called Liz integrated into the platform for automated operational tasks, which could inform platform engineering AI strategy.",
+    "tags": [
+      "platform-engineering",
+      "ai-augmented-dev",
+      "kubernetes"
+    ],
+    "title": "How SUSE positions itself as the infrastructure layer for the AI era"
   },
   "https://thenewstack.io/suse-nvidia-ai-factory/": {
     "category": "Platform Engineering",
@@ -5126,6 +5278,17 @@
       "platform-engineering"
     ],
     "title": "Article: MCP in the Java World: Bringing Architectural Strategy to LLM Integrations"
+  },
+  "https://www.infoq.com/articles/micro-batch-streaming-lessons-learned/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006531+00:00",
+    "score": 6,
+    "summary": "Technical deep-dive on migrating from batch to micro-batch streaming for a delta index pipeline using Spark Structured Streaming. Provides practical lessons on eliminating scheduling delays and improving operational predictability without requiring full record-level streaming.",
+    "tags": [
+      "platform-engineering",
+      "performance"
+    ],
+    "title": "Article: From Batch to Micro-Batch Streaming: Lessons Learned the Hard Way in a Delta Index Pipeline"
   },
   "https://www.infoq.com/articles/orchestrating-agentic-multimodal-ai-pipelines-apache-camel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
@@ -6589,6 +6752,104 @@
     ],
     "title": "Broadcom Donates Velero to CNCF, Shifting Kubernetes Backup to Community Governance"
   },
+  "https://www.infoq.com/news/2026/05/clawrunr/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006551+00:00",
+    "orgs_mentioned": [
+      "JobRunr"
+    ],
+    "score": 6,
+    "summary": "JobRunr introduces ClawRunr, an open-source Java AI agent built on Spring Boot and Spring AI for task automation. Demonstrates practical AI integration patterns with Java stack components but focused on agent development rather than platform engineering.",
+    "tags": [
+      "ai-augmented-dev",
+      "vendor-update"
+    ],
+    "title": "JobRunr Introduces ClawRunr, an Open-Source Java AI Agent"
+  },
+  "https://www.infoq.com/news/2026/05/cloudflare-llm-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006545+00:00",
+    "orgs_mentioned": [
+      "Cloudflare"
+    ],
+    "score": 5,
+    "summary": "Cloudflare describes their infrastructure approach for running LLMs with custom inference engines and hardware optimization. General infrastructure patterns that could inform AI platform strategy but not directly applicable to current toolchain.",
+    "tags": [
+      "platform-engineering",
+      "performance",
+      "ai-augmented-dev"
+    ],
+    "title": "Cloudflare Builds High-Performance Infrastructure for Running LLMs"
+  },
+  "https://www.infoq.com/news/2026/05/confluent-kafka-header-schema-id/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006554+00:00",
+    "orgs_mentioned": [
+      "Confluent"
+    ],
+    "score": 7,
+    "summary": "Confluent introduces schema ID storage in Kafka headers instead of payloads to improve data governance and schema evolution. Relevant for event-driven architectures and could inform messaging patterns in platform design, though Kafka isn't in current stack.",
+    "tags": [
+      "platform-engineering",
+      "vendor-update"
+    ],
+    "title": "Confluent Moves Schema IDs to Kafka Headers to Simplify Schema Governance"
+  },
+  "https://www.infoq.com/news/2026/05/doordash-copilot-swift-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006538+00:00",
+    "orgs_mentioned": [
+      "DoorDash"
+    ],
+    "score": 7,
+    "summary": "DoorDash demonstrates AI-augmented development by using GitHub Copilot to migrate iOS test suites, achieving 4-7x performance improvements. Shows practical application of AI tooling integrated with CI/CD pipelines for large-scale test modernization.",
+    "tags": [
+      "ai-augmented-dev",
+      "ci-cd",
+      "testing",
+      "performance"
+    ],
+    "title": "DoorDash Used Copilot to Convert Its XCTest-Based iOS Test Suite to Swift Testing"
+  },
+  "https://www.infoq.com/news/2026/05/ducklake-sql-catalog/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006548+00:00",
+    "orgs_mentioned": [
+      "DuckDB Labs"
+    ],
+    "score": 4,
+    "summary": "DuckDB Labs releases DuckLake 1.0, a data lake format that stores metadata in SQL databases instead of object storage files. Interesting data platform approach but not directly relevant to current platform engineering priorities or toolchain.",
+    "tags": [
+      "platform-engineering"
+    ],
+    "title": "DuckLake 1.0: Data Lake Format with SQL Catalog Metadata"
+  },
+  "https://www.infoq.com/news/2026/05/java-news-roundup-apr27-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006541+00:00",
+    "score": 7,
+    "summary": "Java ecosystem updates including Spring AI milestones and OpenJDK JEPs for JDK 27, relevant for Spring Boot applications in the stack. Provides insight into upcoming Java language features and AI integration capabilities for development teams.",
+    "tags": [
+      "vendor-update",
+      "ai-augmented-dev"
+    ],
+    "title": "Java News Roundup: OpenJDK JEPs, GlassFish, Spring AI, JReleaser, A2A Java SDK, Google ADK, Gradle"
+  },
+  "https://www.infoq.com/news/2026/05/meta-ai-agents-hyperscale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006557+00:00",
+    "orgs_mentioned": [
+      "Meta"
+    ],
+    "score": 7,
+    "summary": "Meta has deployed AI agents that automatically detect and resolve performance issues across their global infrastructure, combining LLM-based agents with structured tooling to scale engineering expertise. This approach represents a shift from reactive performance management to continuous automated optimization, which is highly relevant for platform engineering teams looking to reduce operational overhead and improve resource utilization.",
+    "tags": [
+      "ai-augmented-dev",
+      "performance",
+      "platform-engineering"
+    ],
+    "title": "Meta Deploys Unified AI Agents to Automate Performance Optimization at Hyperscale"
+  },
   "https://www.infoq.com/news/2026/05/vitest-4-1-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
     "first_seen": "2026-05-01T11:51:28.737547+00:00",
@@ -6648,6 +6909,16 @@
       "performance"
     ],
     "title": "Podcast: A Java Performance Quest: Taming Unsafe Code, Embracing Idiomatic Style & Debugging the Linux Kernel"
+  },
+  "https://www.infoq.com/podcasts/leveraging-quarkus-build-static-sites/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
+    "category": "Engineering Leadership",
+    "first_seen": "2026-05-04T12:18:33.006535+00:00",
+    "score": 4,
+    "summary": "Discussion of Roq, a static site generator built on Quarkus that converts markdown files to HTML pages. While showcasing Java/Quarkus developer experience improvements, it's not directly relevant to platform engineering infrastructure concerns.",
+    "tags": [
+      "developer-experience"
+    ],
+    "title": "Podcast: Roq: Leveraging Quarkus to Build Static Sites at the Speed of Go"
   },
   "https://www.infoq.com/podcasts/tiger-teams-evals-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global": {
     "category": "Engineering Leadership",
